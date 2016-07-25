@@ -51,6 +51,9 @@ $(function(){
 	})
 	function password(){
 		if ($("#password").val()!="") {
+			$(".old_password").css({
+				display:"none"
+			})
 			if ($("#new_password").val()!=$("#password").val()) {
 				$(".correct_icon").css({
 					display:"inline-block"
