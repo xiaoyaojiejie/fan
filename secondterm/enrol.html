@@ -74,7 +74,7 @@
 						</div>
 						<div class="bank22">
 							<h2>信用卡直接支付</h2>
-							<ul class="ul2">
+							<ul>
 								<li>
 									<a href="###">
 										<img src="../img/secondterm/active/enrol1.png">
@@ -151,35 +151,52 @@
 				<div class="conter_confirm">
 					<p>确认订单</p>
 					<table>
-						<tr>
-							<td colspan="4"></td>
-							<td></td>
-							<td></td>
-							<td></td>
+						<tr class="tr1">
+							<td colspan="4">商品名称</td>
+							<td>售价</td>
+							<td>数量</td>
+							<td>定金</td>
 						</tr>
-						<tr>
-							<td rowspan="2"></td>
-							<td rowspan="2"></td>
-							<td rowspan="2"></td>
-							<td rowspan="2"></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td></td>
+						<tr class="tr2">
+							<td colspan="4" class="td1">4个月IOS高新就业班</td>
+							<td>￥18900</td>
+							<td>1</td>
+							<td>￥99.9</td>
 						</tr>
 					</table>
 				</div>
 			</div>
-			<div class="left_footer"></div>
+			<div class="left_footer">
+				<button id="fbtn">确认下单，付定金</button>
+			</div>
 		</div>
 
 		<!-- 右边小块 -->
-		<div class="enrol_right"></div>
+		<div class="enrol_right">
+			<p class="p1">请放心购买</p>
+			<p class="p2">采用支付宝和网上银行支付，最大限度保障用户交易安全</p>
+			<p class="p3">为了方便支付，Windows用户建议使用IE浏览器。</p>
+		</div>
 
 	</div>
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("h2").on("click",function() {
+				$(this).next().toggle();
+				$(this).toggleClass("open");
+			})
+		})
+	</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+

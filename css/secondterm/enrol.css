@@ -6,12 +6,10 @@ body {
 }
 .enrol {
 	width: 1224px;
-	height: 1068px;
 	margin:30px auto;
 }
 .enrol .enrol_left {
 	width: 916px;
-	height: 100%;
 	background-color: #fff;
 	float: left;
 }
@@ -23,7 +21,6 @@ body {
 }
 .enrol_left .left_conter {
 	width: 856px;
-	height: 984px;
 	margin:0 auto;
 }
 .conter_header {
@@ -35,20 +32,18 @@ body {
 }
 .conter_bank {
 	width: 100%;
-	height: 634px;
 	border: 1px solid #e8e8e8;
 	box-sizing: border-box;
 	overflow: hidden;
 }
 .conter_confirm {
 	width: 100%;
-	height: 268px;
-	/*background-color: orange;*/
 }
 .left_footer {
+	position: relative;
 	width: 100%;
 	height: 84px;
-	background-color: red;
+	background-color: #fafafa;
 	border: 1px solid #e8e8e8;
 	box-sizing: border-box;
 }
@@ -76,10 +71,9 @@ body {
 }
 .conter_bank .bank1 {
 	width: 816px;
-	height: 528px;
+	padding-bottom: 40px;
 	border-bottom: 1px dashed #e8e8e8;
 	margin: 0 auto ;
-	/*background-color: yellow;*/
 }
 .bank1 .bank11 h2,.bank22 h2,.bank33 h2{
 	position: relative;
@@ -87,7 +81,17 @@ body {
 	color: #666;
 	text-indent: 1.8rem;
 }
-.bank11 h2:before,.bank22 h2:before,.bank33 h2:before {
+.bank11 h2:before,.bank22 h2:before,.bank33 h2:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/enrol1.png) no-repeat;
+	background-position: 6px 6px;
+}
+h2.open:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -99,8 +103,9 @@ body {
 }
 .bank1 div ul {
 	width: 110%;
-	margin-top: 18px;
+	padding-top: 18px;
 	box-sizing: border-box;
+	display: none;
 }
 .bank1 div ul li {
 	width: 150px;
@@ -108,15 +113,9 @@ body {
 	border: 1px solid #e8e8e8;
 	display: inline-block;
 	margin-right: 10px;
-	/*margin-bottom: 16px;*/
-}
-.bank1 div ul li img {
-	width: 123px;
-	height: 26px;
-	margin:13px;
 }
 .bank1 div {
-	margin-top: 30px;
+	padding-top: 30px;
 }
 .bank1 .bank33>ul li a .img1 {
 	width: 98px;
@@ -128,13 +127,33 @@ body {
 	height: 33px;
 	margin:12px 10px;
 }
+.bank1 div ul li:nth-of-type(1) {
+	margin-bottom: 10px;
+}
+.bank1 div ul li:nth-of-type(2) {
+	margin-bottom: 10px;
+}
+.bank1 div ul li:nth-of-type(3) {
+	margin-bottom: 10px;
+}
+.bank1 div ul li:nth-of-type(4) {
+	margin-bottom: 10px;
+}
+.bank1 div ul li:nth-of-type(5) {
+	margin-bottom: 10px;
+}
+.bank1 div ul li img {
+	width: 123px;
+	height: 26px;
+	margin:13px;
+}
 .conter_bank .bank2 {
 	width: 816px;
-	height: 76px;
+	height: 80px;
 	margin:0 auto;
 }
 .conter_bank .bank2>p {
-	line-height: 76px;
+	line-height: 80px;
 	font-size: 1.6rem;
 	color: #666;
 }
@@ -143,10 +162,11 @@ body {
 }
 .conter_confirm {
 	overflow: hidden;
+	padding: 44px 0;
 }
 .conter_confirm>p {
 	position: relative;
-	margin:42px 0 28px 0;
+	margin-bottom: 28px;
 	font-size: 1.8rem;
 	color: #333;
 	text-indent: 2rem;
@@ -166,12 +186,85 @@ table {
 	border: none;
 }
 tr,td {
-	/*border: 1px solid #e8e8e8;*/
-	border: 1px solid #333;
+	border: 1px solid #e8e8e8;
 }
 td {
 	width: 122px;
 	height: 36px;
+	text-align: center;
+}
+td.td1 {
+	width: 488px;
+	height: 72px;
+}
+tr.tr1 {
+	background-color: #f5f5f5;
+	color: #999;
+	font-size: 1.4rem;
+}
+tr.tr2 {
+	color: #333;
+	font-size: 1.4rem;
+}
+#fbtn {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	width: 180px;
+	height: 42px;
+	background-color: #ea9b65;
+	border: 1px solid #5d5d5d;
+	color: #fff;
+	font-size: 1.8rem;
+	font-family: "STFangsong";
+	font-weight: bold;
+}
+.enrol_right>p {
+	margin-right: 14px;
+	color: #333;
+}
+.enrol_right>.p1 {
+	position: relative;
+	font-size: 1.6rem;
+	margin-top: 18px;
+	margin-left: 14px;
+	text-indent: 2.4rem;
+}
+.enrol_right>.p1:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 24px;
+	height: 24px;
+	background: url(../../img/secondterm/enrol.png) no-repeat;
+	background-position: -32px 2px;
+}
+.enrol_right>.p2,.enrol_right>.p3 {
+	position: relative;
+	font-size: 1.4rem;
+	margin-top: 34px;
+	margin-left: 56px;
+}
+.enrol_right>.p2:before {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 0;
+	width: 36px;
+	height: 42px;
+	background: url(../../img/secondterm/enrol.png) no-repeat;
+	background-position: -170px 4px;
+}
+.enrol_right>.p3:before {
+	content: '';
+	position: absolute;
+	left: -40px;
+	top: 0;
+	width: 36px;
+	height: 42px;
+	background: url(../../img/secondterm/enrol.png) no-repeat;
+	background-position: -136px 8px;
 }
 
 
