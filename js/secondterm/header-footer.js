@@ -9,12 +9,12 @@
 		if (flag == true) {
 			locate.style.borderBottomColor = "white";
 			locate.style.zIndex = 200;
-			locate.style.backgroundPosition = "36px -610px";
+			locate.style.backgroundPosition = "36px -582px";
 			selectlocate.style.display = "block";
 			flag = false;
 		}else {
 			locate.style.borderBottomColor = "#e0e0e0";
-			locate.style.backgroundPosition = "36px -593px";
+			locate.style.backgroundPosition = "36px -565px";
 			selectlocate.style.display = "none";
 			flag = true;
 		}
@@ -25,7 +25,7 @@
 		liList[i].onclick = function() {
 			locate.innerHTML = this.innerText;
 			locate.style.borderBottomColor = "#e0e0e0";
-			locate.style.backgroundPosition = "36px -593px";
+			locate.style.backgroundPosition = "36px -565px";
 			selectlocate.style.display = "none";
 			flag = true;
 		}
