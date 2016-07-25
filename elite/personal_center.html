@@ -13,7 +13,7 @@
 				<div class="header_and_name">
 					<div class="header"><img src="../img/elite/no_header.png"/></div>
 					<p>速度决定一切</p>
-					<input type="file" image class="modify" id="modify"/>
+					<input type="file" class="modify" id="modify" accept="image/*"/>
 					<a href="javascript:void(0)" class="simulation_modify">修改</a>
 				</div>
 				<div class="learning_situation">
@@ -173,9 +173,9 @@
 					<div class="reset_password">
 						<div class="fill_password">
 							<p>请重设你的账号密码</p>
-							<span class="password_text">当前密码：</span><input type="password" id="password" /><span class="old_password error_icon"></span><span class="old_password">请输入当前密码</span><br />
-							<span class="new_password_text">新密码：</span><input type="password" id="new_password" /><span class="password_prompt">密码长度在6~32个字符之间</span><span class="correct_icon"></span><span class="error_icon new_password_prompt"></span><span class="new_password_prompt">不能与原密码相同</span><br />
-							<span class="repeat_password_text">再次确认密码：</span><input type="password" id="repeat_password" /><span class="error_icon repeat_password_prompt"></span><span class="repeat_password_prompt">密码输入不一致</span><br />
+							<label><span class="password_text">当前密码：</span><input type="password" id="password" /><span class="old_password error_icon"></span><span class="old_password">请输入当前密码</span></label><br />
+							<label><span class="new_password_text">新密码：</span><input type="password" id="new_password" /><span class="password_prompt">密码长度在6~32个字符之间</span><span class="correct_icon"></span><span class="error_icon new_password_prompt"></span><span class="new_password_prompt">不能与原密码相同</span></label><br />
+							<label><span class="repeat_password_text">再次确认密码：</span><input type="password" id="repeat_password" /><span class="error_icon repeat_password_prompt"></span><span class="repeat_password_prompt">密码输入不一致</span></label><br />
 							<a href="javascript:void(0)">提交</a>
 						</div>
 					</div>
@@ -201,11 +201,11 @@
 					<div class="students">
 						<div class="students_information">
 							<p>在校生信息</p>
-							<span>姓名：</span><input type="text" /><br />
-							<span>所在学校：</span><input type="text" /><br />
-							<span>所在系别：</span><input type="text" /><br />
-							<span>所在专业：</span><input type="text" /><br />
-							<span>所在班级：</span><input type="text" /><br />
+							<label><span>姓名：</span><input type="text" /></label><br />
+							<label><span>所在学校：</span><input type="text" /></label><br />
+							<label><span>所在系别：</span><input type="text" /></label><br />
+							<label><span>所在专业：</span><input type="text" /></label><br />
+							<label><span>所在班级：</span><input type="text" /></label><br />
 							<a href="javascript:void(0)">提交并保存</a>
 						</div>
 					</div>

@@ -1,4 +1,8 @@
 $(function(){
+	
+	$(".simulation_modify").on("click",function(){
+		$("#modify").click()
+	})
 	for (var i = 0;i < $("#menu li").length;i++) {//左边菜单栏tab切换
 		$("#menu li").on("click",function(){
 			$(this).addClass("menu_active").siblings().removeClass("menu_active");

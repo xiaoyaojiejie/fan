@@ -435,7 +435,7 @@
 	font-size: 1.4rem;
 	color: #666;
 }
-.fill_password>input{
+.fill_password input{
 	width: 300px;
 	height: 35px;
 	border: 1px solid #e0e0e0;
@@ -567,7 +567,7 @@
 	color: black;
 	margin-bottom: 55px;
 }
-.students_information>input{
+.students_information input{
 	width: 305px;
 	height: 35px;
 	border: 1px solid #e0e0e0;
@@ -577,10 +577,10 @@
 	box-sizing: border-box;
 	padding-left: 10px;
 }
-.students_information>span{
+.students_information span{
 	font-size: 1.4rem;
 }
-.students_information>span:nth-of-type(1){
+.students_information label:nth-of-type(1) span{
 	display: inline-block;
 	text-indent: 2.4rem;
 }
