@@ -1,0 +1,598 @@
+.content{
+	width: 100%;
+	background-color: #f5f5f5;
+	font-family: "微软雅黑";
+}
+/**************个人中心灰色变白按钮公共样式开始**********************/
+.course_btn_box{
+	width: 1037px;
+	height: 50px;
+	background-color: #fafafa;
+}
+.course_btn{
+	float: left;
+	text-align: center;
+	line-height: 49px;
+	width: 144px;
+	height: 49px;
+	color: #333;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+.Androad_course_btn{
+	border-left: 1px solid #e8e8e8;
+}
+.course_btn_active{
+	background-color: white;
+	border-bottom: none;
+	border-right: 1px solid #e8e8e8;
+}
+.course_btn_box>div{
+	float: left;
+	width: 747px;
+	height: 49px;
+	border-bottom: 1px solid #e8e8e8;
+}
+/**************个人中心灰色变白按钮公共样式结束**********************/
+
+
+/**************头像与学习情况开始**********************/
+
+.header_and_learning_situation{
+	width: 1224px;
+	height: 175px;
+	background-color: white;
+	margin: 0 auto;
+	/*margin-top: 30px;*/
+}
+.header_and_name{
+	float: left;
+	width: 171px;
+	height: 175px;
+	border-right: 1px solid #e8e8e8;
+	text-align: center;
+	overflow: hidden;
+}
+.header{
+	width: 85px;
+	height: 85px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.modify{
+	display: none;
+}
+.header_and_name>p{
+	font-size: 1.4rem;
+	line-height: 26px;
+}
+.simulation_modify{
+	width: 38px;
+	display: block;
+	color: #808080;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+.learning_situation{
+	margin-left: 19px;
+	float: left;
+	width: 963px;
+}
+.learning_situation>p:nth-child(1){
+	font-size: 1.4rem;
+	color: #a9a9a9;
+	line-height: 45px;
+}
+.learning_situation>ul>li{
+	font-size: 1.4rem;
+	line-height: 35px;
+}
+.learning_situation>ul>li>span{
+	float: right;
+	color: #666;
+}
+.learning_situation>ul>li>span:nth-of-type(1){
+	float: left;
+	color: black;
+}
+.learning_situation>ul>li>div{
+	float: right;
+	width: 55px;
+	height: 4px;
+	background-color: #ccc;
+	margin: 17px 157px 0 20px;
+}
+.learning_situation>ul>li:nth-child(3)>div{
+	margin-left: 13px;
+}
+.learning_situation>ul>li>div>div{
+	height: 4px;
+	background-color: #29b572;
+}
+.learning_situation>ul>li:nth-child(1)>div>div{
+	width: 45%;
+}
+.learning_situation>ul>li:nth-child(2)>div>div{
+	width: 20%;
+}
+.learning_situation>ul>li:nth-child(3)>div>div{
+	width: 100%;
+}
+/**************头像与学习情况结束**********************/
+
+.main{
+	width: 1224px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+/**************左边菜单栏开始**********************/
+.sidebar_left{
+	float: left;
+	width: 172px;
+	background-color: white;
+	font-size: 1.4rem;
+}
+.sidebar_left>ul>li{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 18px;
+}
+.menu_active{
+	background-color: #fafafa;
+	border-left: 2px solid #29b572;
+}
+/**************左边菜单栏结束**********************/
+.main_body>div{
+	float: left;
+	display: none;
+	margin-left: 15px;
+}
+
+/**************我的学习曲线开始**********************/
+.main_body .learning_curve{
+	display: block;
+	width: 1037px;
+	height: 1155px;
+}
+.learning_curve_top{
+	width: 1037px;
+	height: 710px;
+}
+
+.learning_curve_top .course_btn_box {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+.learning_curve_top .course_btn_box a{
+	float: left;
+	text-align: center;
+	line-height: 44px;
+	width: 144px;
+	height: 44px;
+	color: #333;
+	font-size: 1.6rem;
+}
+.learning_curve_top .course_btn_box .course_btn_active{
+	border-top: 5px solid #29B572;
+}
+.learning_curve_top .course_graph>div {
+	display: none;
+	background-color: white;
+	box-sizing: ;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.learning_curve_top .course_graph>div>p{
+	font-size: 1.6rem;
+	text-indent: 30px;
+	margin-top: 50px;
+	margin-bottom: 14px;
+}
+.learning_curve_top .course_graph>div>img{
+	width: 94%;
+	margin:  0 auto;
+}
+.learning_curve_top .course_graph .ios_graph{
+	display: block;
+}
+
+.learning_curve_bottom{
+	width: 1037px;
+	height: 425px;
+	margin-top: 10px;
+}
+
+/*.learning_curve_bottom .course_btn_box{
+	width: 1037px;
+	height: 50px;
+	background-color: #fafafa;
+}
+.learning_curve_bottom .course_btn_box .course_btn{
+	float: left;
+	text-align: center;
+	line-height: 49px;
+	width: 144px;
+	height: 49px;
+	color: #333;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+.learning_curve_bottom .course_btn_box .Androad_course_btn{
+	border-left: 1px solid #e8e8e8;
+}
+.learning_curve_bottom .course_btn_box .course_btn_active{
+	background-color: white;
+	border-bottom: none;
+	border-right: 1px solid #e8e8e8;
+}
+.learning_curve_bottom .course_btn_box>div{
+	float: left;
+	width: 747px;
+	height: 49px;
+	border-bottom: 1px solid #e8e8e8;
+}*/
+.learning_curve_bottom .record{
+	width: 100%;
+	height: 375px;
+	background-color: white;
+	text-align: center;
+	font-size: 1.6rem;
+	overflow: hidden;
+}
+.learning_curve_bottom .record div{
+	margin-top: 155px;
+	display: none;
+	color: #999;
+}
+.learning_curve_bottom .record .ios_record{
+	display: block;
+}
+.learning_curve_bottom .record div p a{
+	color: #69c594;
+}
+/**************我的学习曲线结束**********************/
+.main_body .my_class{
+	width: 1037px;
+	height: 930px;
+}
+.my_class_top{
+	width: 1037px;
+	height: 490px;
+}
+
+.my_class_top .course_btn_box {
+	width: 100%;
+	height: 50px;
+	background-color: #fafafa;
+}
+.my_class_top .course_btn_box .course_btn{
+	float: left;
+	text-align: center;
+	line-height: 49px;
+	width: 144px;
+	height: 49px;
+	color: #333;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+.my_class_top .course_btn_box .course_btn_active{
+	background-color: white;
+	border-bottom: none;
+	border-right: 1px solid #e8e8e8;
+}
+.my_class_top .course_btn_box .Androad_course_btn{
+	border-left: 1px solid #e8e8e8;
+}
+.my_class_top .course_btn_box div{
+	float: left;
+	width: 747px;
+	height: 49px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.my_class_top .histogram_graph>div {
+	display: none;
+	background-color: white;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.my_class_top .histogram_graph>div>p{
+	font-size: 1.6rem;
+	text-indent: 30px;
+	margin-top: 32px;
+	margin-bottom: 14px;
+}
+.my_class_top .histogram_graph>div>img{
+	width: 94%;
+	margin:  0 auto;
+}
+.my_class_top .histogram_graph .ios_graph{
+	display: block;
+}
+
+.my_class_bottom{
+	width: 1037px;
+	height: 425px;
+	margin-top: 10px;
+}
+
+/*.my_class_bottom .course_btn_box{
+	width: 1037px;
+	height: 50px;
+	background-color: #fafafa;
+}
+.my_class_bottom .course_btn_box .course_btn{
+	float: left;
+	text-align: center;
+	line-height: 49px;
+	width: 144px;
+	height: 49px;
+	color: #333;
+	font-size: 1.6rem;
+	border-bottom: 1px solid #e8e8e8;
+}
+.my_class_bottom .course_btn_box .Androad_course_btn{
+	border-left: 1px solid #e8e8e8;
+}
+.my_class_bottom .course_btn_box .course_btn_active{
+	background-color: white;
+	border-bottom: none;
+	border-right: 1px solid #e8e8e8;
+}
+.my_class_bottom .course_btn_box>div{
+	float: left;
+	width: 747px;
+	height: 49px;
+	border-bottom: 1px solid #e8e8e8;
+}*/
+.my_class_bottom .record{
+	width: 100%;
+	height: 375px;
+	background-color: white;
+	text-align: center;
+	font-size: 1.6rem;
+	overflow: hidden;
+}
+.my_class_bottom .record div{
+	margin-top: 155px;
+	display: none;
+	color: #999;
+}
+.my_class_bottom .record .ios_record{
+	display: block;
+}
+.my_class_bottom .record div p a{
+	color: #69c594;
+}
+
+/**************我所在的班级结束**********************/
+
+/**************我的作业开始**********************/
+.ios_homework_title{
+	width: 1037px;
+	height: 780px;
+	background-color: white;
+}
+.ios_homework_title div{
+	width: 100%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 20px 0 20px 30px;
+	font-size: 1.4rem;
+}
+.ios_homework_title div p{
+	line-height: 40px;
+	text-indent: 15px;
+}
+.ios_homework_title div p:nth-child(1){
+	color: #999;
+	border-bottom: 1px solid #ededed;
+	text-indent: 0;
+}
+
+.Androad_homework_title{
+	display: none;
+	width: 1037px;
+	height: 780px;
+	background-color: white;
+}
+.Androad_homework_title div{
+	width: 100%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 20px 0 20px 30px;
+	font-size: 1.4rem;
+}
+.Androad_homework_title div p{
+	line-height: 40px;
+	text-indent: 15px;
+}
+.Androad_homework_title div p:nth-child(1){
+	color: #999;
+	border-bottom: 1px solid #ededed;
+	text-indent: 0;
+}
+/**************我的作业结束**********************/
+
+
+
+/**************账号设置开始**********************/
+.reset_password{
+	width: 1037px;
+	height: 490px;
+	background-color: white;
+}
+.fill_password{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 115px;
+}
+.fill_password>p{
+	margin-left: 120px;
+	font-size: 1.4rem;
+	color: #666;
+}
+.fill_password>input{
+	width: 300px;
+	height: 35px;
+	border: 1px solid #e0e0e0;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.password_text{
+	display: inline-block;
+	text-indent: 2.4rem;
+	font-size: 1.4rem;
+}
+.new_password_text{
+	display: inline-block;
+	text-indent: 3.5rem;
+	font-size: 1.4rem;
+}
+.repeat_password_text{
+	display: inline-block;
+	font-size: 1.4rem;
+}
+.password_prompt{
+	color: #999;
+	margin-left: 5px;
+	font-size: 1.2rem;
+}
+.fill_password>a{
+	display: block;
+	width: 135px;
+	font-size: 1.4rem;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	background-color: #29B572;
+	margin-left: 118px;
+	margin-top: 30px;
+}
+.error_icon{
+	width: 16px;
+	height: 16px;
+	background: url(../../img/elite/icon_center.png) no-repeat;
+	background-size: 300% 100%;
+	background-position: -16px 2px;
+}
+.old_password{
+	display: none;
+}
+.correct_icon{
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: url(../../img/elite/icon_center.png) no-repeat;
+	background-size: 300% 100%;
+	background-position: -32px 2px;
+}
+.new_password_prompt,.repeat_password_prompt{
+	display: none;
+}
+/**************账号设置结束**********************/
+
+
+/**************优惠码开始**********************/
+.promo_code_box{
+	width: 1037px;
+	height: 380px;
+	background-color: white;
+	margin-bottom: 230px;
+}
+.promo_code_box>p{
+	color: #999;
+	text-indent: 10px;
+	line-height: 50px;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #f2f2f2;
+}
+.promo_code{
+	width: 885px;
+	margin: 0 auto;
+}
+.promo_code>div{
+	border:1px solid;
+	width: 433px;
+	height: 195px;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+}
+.promo_code>div:nth-child(1){
+	color: #29B572;
+	float: left;
+}
+.promo_code>div:nth-child(2){
+	color: #c7c7c7;
+	float: right;
+}
+.promo_code>div>p:nth-child(1){
+	font-size: 6.4rem;
+	margin-top: 15px;
+}
+.promo_code>div>p:nth-child(1)>span{
+	font-size: 1.8rem;
+}
+.promo_code>div>p:nth-child(4){
+	margin-top: 23px;
+	color: white;
+	line-height: 25px;
+}
+.promo_code>div:nth-child(1)>p:nth-child(4){
+	background-color: #29B572;
+}
+.promo_code>div:nth-child(2)>p:nth-child(4){
+	background-color: #c7c7c7;
+}
+/**************优惠码结束**********************/
+
+
+/**************我是在校生开始**********************/
+.students{
+	width: 1037px;
+	height: 570px;
+	background-color: white;
+}
+.students_information{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+.students_information>p{
+	font-size: 2.2rem;
+	color: black;
+	margin-bottom: 55px;
+}
+.students_information>input{
+	width: 305px;
+	height: 35px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	font-size: 1.4rem;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.students_information>span{
+	font-size: 1.4rem;
+}
+.students_information>span:nth-of-type(1){
+	display: inline-block;
+	text-indent: 2.4rem;
+}
+.students_information>a{
+	width: 130px;
+	display: block;
+	font-size: 1.4rem;
+	color: white;
+	background-color: #29B572;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+/**************我是在校生结束**********************/

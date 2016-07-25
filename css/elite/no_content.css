@@ -1,0 +1,43 @@
+.learning_situation>p:nth-child(2){
+	color: #999;
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 35px;
+}
+.learning_situation>p>span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../../img/elite/icon_center.png) no-repeat;
+	background-size: 350% 100%;
+	background-position: 2%;
+	vertical-align: middle;
+}
+.learning_situation>p>a{
+	color: #29B572;
+}
+.homework_title{
+	text-align: center;
+}
+.homework_title p{
+	color: #999;
+}
+.homework_title a{
+	color: #29B572;
+}
+.ios_homework_title,.Androad_homework_title{
+	height: 430px;
+	margin-bottom: 410px;
+	overflow: hidden;
+}
+.ios_homework_title div p:nth-child(1),.Androad_homework_title div p:nth-child(1){
+	border: none;
+	margin: 0;
+	line-height: 20px;
+}
+.ios_record{
+	margin-top: 140px;
+}
+.Androad_record{
+	margin-top: 140px;
+}
