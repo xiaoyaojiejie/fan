@@ -30,8 +30,8 @@ header nav {
 	left: 230px;
 	padding-left: 10px;
 	background: url(../img/secondterm/spirit2.png) no-repeat;
-	background-position:36px -593px;
-	background-size: 25%;
+	background-position:36px -565px;
+	/*background-size: 25%;*/
 }
 .selectlocate {
 	position: absolute;
