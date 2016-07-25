@@ -1,7 +1,8 @@
-window.onload = function() {
+//window.onload = function() {
 	var locate = document.getElementById("locate");
 	var selectlocate = document.querySelector(".selectlocate");
 	var liList = document.querySelectorAll(".selectlocate li");
+	var tabAList = document.querySelectorAll(".tab a");
 	
 	var flag = true;
 	locate.addEventListener("click",function() {
@@ -29,4 +30,4 @@ window.onload = function() {
 			flag = true;
 		}
 	}
-}
+//}

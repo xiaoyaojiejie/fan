@@ -1,6 +1,673 @@
 @charset "utf-8";
-
-section {
-	height: 300px;
+body {
 	background-color: #f5f5f5;
 }
+section {
+	width: 1224px;
+	margin: 0 auto;
+	height: 2500px;
+	background-color: #f5f5f5;
+}
+/*轮播图*/
+.info {
+	height: 350px;
+	margin-top: 30px;
+}
+.wrapper {
+	position: relative;
+	width: 980px;
+	height: 350px;
+	overflow: hidden;
+}
+.container {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 3920px;
+	height: 350px;
+}
+.container img {
+	float: left;
+	width: 980px;
+	height: 100%;
+	-webkit-user-select: none;
+}
+#pagination {
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+	text-align: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+}
+#pagination span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	background-color: #b8d5c2;
+	cursor: pointer;
+}
+#pagination span:nth-child(3) {
+	margin: 0;
+}
+#pagination .active {
+	background-color: #27aa5e;
+}
+/*轮播图右边登录等*/
+.welcome {
+	position: relative;
+	top: -350px;
+	left: 980px;
+	width: 244px;
+	height: 100%;
+	background-color: #fff;
+}
+.person {
+	height: 110px;
+	border-bottom: 1px solid #e8e8e8;
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.person img {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.person p {
+	font-size: 1.4rem;
+	color: #666666;
+	line-height: 20px;
+}
+.person p:nth-of-type(1) {
+	margin-top: 20px;
+}
+.show {
+	margin-top: 15px;
+}	
+.show a {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	font-size: 1.4rem;
+	color: #29b572;
+	text-align: center;
+	line-height: 20px;
+}
+.show a:nth-child(1) {
+	margin-right: 10px;
+}
+.show a:hover {
+	background-color: #29b572;
+	color: #fff;
+}
+.show .selected {
+	background-color: #29b572;
+	color: #fff;
+}
+.rudiment {
+	height: 40px;
+	line-height: 40px;
+	width: 90%;
+	margin: 0 auto;
+}
+.rudiment p:nth-child(1) {
+	float: left;
+	font-size: 1.4rem;
+	color: #333;
+}
+.rudiment p:nth-child(2) {
+	float: right;
+	font-size: 1.2rem;
+}
+.rudiment span {
+	display: inline-block;
+	width: 6px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../../img/secondterm/rightarrow.png) no-repeat;
+	background-size: 90%;
+	background-position: 50%
+}
+.rudiment a {
+	color: #666;
+}
+.detail {
+	width: 90%;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	height: 150px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e8e8e8;
+}
+.detail li {
+	float: left;
+	width: 70px;
+	height: 60px;
+}
+.detail li:nth-child(1),.detail li:nth-child(3) {
+	margin-right: 55px;
+}
+.detail a {
+	display: block;
+	font-size: 1.2rem;
+	color: #808080;
+}
+.detail span {
+	display: block;
+	margin: 0 auto;
+	width: 36px;
+	height: 30px;
+	background: url(../../img/secondterm/spirit1.png) no-repeat;
+}
+.detail .one {
+	background-position: 0 0;
+}
+.detail .two {
+	background-position: 0 -34px;
+}
+.detail .three {
+	background-position: 0 -74px;
+}
+.detail .four {
+	background-position: 0 -111px;
+}
+.detail a:hover {
+	color: #29b572;
+}
+.detail .theory:hover .one{
+	background-position: 0 -149px;
+}
+.detail .cattle:hover .two {
+	background-position: 0 -183px;
+}
+.detail .test:hover .three {
+	background-position: 0 -223px;
+}
+.detail .practice:hover .four {
+	background-position: 0 -260px;
+}
+.allure {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 25px;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+.allure li {
+	float: left;
+}
+.allure li:nth-child(2) {
+	margin: 0 40px;
+}
+.allure a {
+	display: inline-block;
+	font-size: 1.4rem;
+	color: #666;
+	text-decoration: underline;
+}
+.allure a:hover {
+	color: #29b572;	
+}
+/*优势介绍*/
+.advantage {
+	width: 1224px;
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 23px;
+	background-color: #fff;
+}
+.advantage li {
+	position: relative;
+	display: inline-block;
+	width: 19.7%;
+	height: 140px;
+}
+.advantage li > span {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 10px auto 20px;
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: url(../../img/secondterm/spirit3.png) no-repeat;
+	background-position: 0 0;	
+}
+.advantage .second {
+	background-position: 0 -68px;
+}
+.advantage .third {
+	background-position: 0 -136px;
+}
+.advantage .fourth {
+	background-position: 0 -204px;
+}
+.advantage .fifth {
+	background-position: 0 -272px;
+}
+.advantage .tell {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0 auto 90px;
+	width: 130px;
+	height: 90px;
+	padding-right: 20px;	
+	border-right: 1px solid #e8e8e8;
+}
+.advantage li:nth-child(5) > .tell {
+	border: 0;
+}
+.tell span {
+	font-size: 1.4rem;
+	color: #666;
+	font-weight: bold;
+}
+.tell p {
+	font-size: 1.2rem;
+	color: #999999;
+}
+/*精英吧在线课程*/
+.online > p {
+	font-size: 2.4rem;
+	color: #333333;
+	height: 48px;
+	line-height: 48px;
+}
+.online ul {
+	position: relative;
+	width: 1184px;
+	height: 145px;
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 23px;
+}
+.online > ul >li {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 231px;
+	height: 145px;
+	box-sizing: border-box;
+}
+.online li:nth-child(2) {
+	left: 258px;
+}
+.online li:nth-child(3) {
+	left: 496px;
+}
+.online li:nth-child(4) {
+	left: 734px;
+}
+.online li:nth-child(5) {
+	left: 972px;
+}
+.online a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+}
+.online .ios {
+	background: url(../../img/secondterm/ios.png) no-repeat;
+}
+.online .android {
+	background: url(../../img/secondterm/android.png);
+}
+.online .u3d {
+	background: url(../../img/secondterm/unity3d.png);
+}
+.online .h5 {
+	background: url(../../img/secondterm/h5.png);
+}
+.online .more {
+	background: url(../../img/secondterm/moreproject.png);
+}
+/*线下课程、入驻学校*/
+.offline {
+	margin-bottom: 23px;
+}
+.offline > p,.school > p {
+	font-size: 2.4rem;
+	color: #333333;
+	height: 48px;
+	line-height: 48px;
+}
+.school {
+	margin-bottom: 23px;
+}
+.offline > a,.school > a {
+	display: block;
+	width: 1224px;
+	height: 185px;
+	background: url(../../img/secondterm/offlineproject.png) no-repeat;
+}
+.school > a {
+	background: url(../../img/secondterm/school.png);
+}
+/*不一样的学习方式*/
+.different {
+	width: 1224px;
+	margin-bottom: 23px;
+}
+.different > p {
+	font-size: 2.4rem;
+	color: #333333;
+	height: 48px;
+	line-height: 48px;
+}
+.different ul {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	background-color: #fff;
+}
+.sli li {
+	position: absolute;
+	width: 25%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	text-align: justify;
+	padding: 30px 0 40px 0;
+	box-sizing: border-box;
+}
+.sli li:nth-child(2){
+	left: 25%;
+}
+.sli li:nth-child(3){
+	left: 50%;
+}
+.sli li:nth-child(4){
+	left: 75%;
+}
+.sli li > span {
+	display: block;
+	width: 165px;
+	height: 165px;
+	border-radius: 50%;
+	background: url(../../img/secondterm/learntogether.png) no-repeat;
+	margin: 0 auto 30px auto;
+}
+.sli li > .front {
+	background: url(../../img/secondterm/teach.png) no-repeat;
+}
+.sli li > .face {
+	background: url(../../img/secondterm/learnprize.png) no-repeat;
+}
+.sli li > .side {
+	background: url(../../img/secondterm/question.png) no-repeat;
+}
+.sli div > p:nth-child(1) {
+	font-size: 1.6rem;
+	color: #333333;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.sli div > p:nth-child(2) {
+	width: 200px;
+	margin: 0 auto;
+	font-size: 1.3rem;
+	color: #999999;
+}
+/*注册学习用户*/
+.signstudy {
+	width: 1224px;
+	margin-bottom: 23px;
+}
+.signstudy > p {
+	display: inline-block;
+	font-size: 2.4rem;
+	height: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	color: #333333;
+	margin-right: 20px;
+}
+.signstudy > p > span {
+	color: #ea9b65;
+}
+.signstudy > span {
+	font-size: 2.2rem;
+	color: #666666;
+}
+.well {
+	width: 100%;
+	height: 410px;
+	padding: 0 15px 40px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.showboard {
+	position: relative;
+	width: 98%;
+	height: 410px;
+	margin: 0 auto;
+}
+.showboard li {
+	position: absolute;
+	top: 40px;
+	width: 200px;	
+	height: 330px;
+	background: url(../../img/secondterm/frame.png) no-repeat;
+	overflow: hidden;
+	text-align: center;
+}
+.showboard li:nth-child(2) {
+	left: 20%;
+}
+.showboard li:nth-child(3) {
+	left: 40%;
+}
+.showboard li:nth-child(4) {
+	left: 60%;
+}
+.showboard li:nth-child(5) {
+	left: 80%;
+}
+.showboard img {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.sum {
+	font-size: 1.4rem;
+	color: #333333;
+	margin-bottom: 30px;
+}
+.showboard .prize {
+	font-size: 1.4rem;
+	color: #333333;
+}
+.showboard .count {
+	font-size: 2.4rem;
+	color: #333333;
+}
+/*合作机构*/
+.company p {
+	font-size: 2.4rem;
+	color: #333333;
+	height: 48px;
+	line-height: 48px;
+}
+.com {
+	position: relative;
+	width: 1224px;
+	padding: 0 35px;
+	box-sizing: border-box;
+	height: 150px;
+	background-color: #fff;
+	overflow: hidden;
+	z-index: 3;
+}
+.com > a {
+	position: absolute;
+	width: 10px;
+	height: 20px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.com > a:nth-child(1) {
+	left: 5px;
+	background: url(../../img/secondterm/leftarrow.png) no-repeat;
+}
+.com > a:nth-child(2) {
+	right: 5px;
+	background: url(../../img/secondterm/rightarrow.png) no-repeat;
+}
+.seen {
+	width: 1154px;
+	height: 50px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.long {
+	width: 1700px;
+	height: 100%;
+}
+.long li {
+	float: left;
+	width: 153px;
+	height: 50px;
+	margin-right: 12px;
+}
+.long li a {
+	display: block;
+	height: 50px;
+}
+.icon1 {
+	background: url(../../img/secondterm/baidu.png) no-repeat;
+}
+.icon2 {
+	background: url(../../img/secondterm/cctv.png) no-repeat;
+}
+.icon3 {
+	background: url(../../img/secondterm/sina.png) no-repeat;
+}
+.icon4 {
+	background: url(../../img/secondterm/chinaunicom.png) no-repeat;
+}
+.icon5 {
+	background: url(../../img/secondterm/soufang.png) no-repeat;
+}
+.icon6 {
+	background: url(../../img/secondterm/pingan.png) no-repeat;
+}
+.icon7 {
+	background: url(../../img/secondterm/zhongxin.png) no-repeat;
+}
+.icon8 {
+	background: url(../../img/secondterm/cyzone.png) no-repeat;
+}
+.icon9 {
+	background: url(../../img/secondterm/letv.png) no-repeat;
+}
+.icon10 {
+	background: url(../../img/secondterm/ironblood.png) no-repeat;
+}
+/*侧边栏*/
+aside {
+	position: fixed;
+	bottom: 0;
+	right: 200px;
+}
+aside ul {
+	width: 60px;
+	height: 300px;
+	text-align: center;
+	border: 1px solid #dedede;
+}
+aside li {
+	height: 80px;
+	border-bottom: 1px solid #ededed;
+	background-color: #fff;
+}
+aside ul > li:nth-child(4) {
+	border: 0;
+	background-color:  #29b572;
+}
+aside a {
+	display: block;
+	font-size: 1.2rem;
+	color: #29b572;
+	line-height: 130px;
+}
+.img1 {
+	background: url(../../img/secondterm/weixin.png) no-repeat;
+	background-size: 50%;
+	background-position: 50% 20%;
+}
+.img2 {
+	background: url(../../img/secondterm/wenjuandiaocha.png) no-repeat;
+	background-size: 40%;
+	background-position: 50% 20%;
+}
+.img3 {
+	background: url(../../img/secondterm/zaixianliuyan.png) no-repeat;
+	background-size: 45%;
+	background-position: 50% 20%;
+}
+#weixinpublic {
+	position: absolute;
+	bottom: 220px;
+	right: 70px;
+	width: 100px;
+	height: 100px;
+	display: none;
+}
+.img1:hover #weixinpublic {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
