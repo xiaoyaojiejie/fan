@@ -1,0 +1,318 @@
+.bg{
+	width: 100%;
+	height: 744px;
+	font-family: "微软雅黑";
+}
+/*8******************头部导航栏开始*@**********/
+nav{
+	width: 100%;
+	height: 90px;
+	background-color: white;
+}
+nav>div{
+	width: 1224px;
+	height: 100%;
+	margin: 0 auto;
+}
+nav>div>a{
+	float: left;
+	width: 215px;
+	height: 100%;
+	background: url(../../img/secondterm/logo.png) no-repeat;
+	background-size: 100% 45px;
+	background-position-y: 50%;
+}
+nav>div>ul{
+	float: right;
+}
+nav>div>ul>li{
+	float: left;
+	font-size: 1.4rem;
+}
+nav>div>ul>li>a{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	color: #666;
+}
+nav>div>ul>li>a:hover{
+	color: #29B572;
+}
+nav>div>ul>li:nth-child(5)>a{
+	text-align: right;
+}
+/***************头部导航栏结束*****************/
+.content{
+	width: 100%;
+	height: 600px;
+	background: url(../../img/elite/login_bg.png) no-repeat center;
+	overflow: hidden;
+}
+.login_box_position{
+	width: 1224px;
+	height: 455px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+.login_box{
+	float: right;
+	width: 325px;
+	background: linear-gradient(top,#e9f3ed,#f5faf2);
+	background:-webkit-linear-gradient(top,#e9f3ed,#f5faf2);
+	background:-moz-linear-gradient(top,#e9f3ed,#f5faf2);
+}
+.btn_box{
+	width: 100%;
+	height: 48px;
+}
+.btn_box .a_btn{
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-bottom: 1px solid #cfcfcf;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	font-size: 1.6rem;
+}
+.btn_box .a_btn_active{
+	border-bottom: 2px solid #29B572;
+}
+.input_box{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 25px 0;
+}
+/***************登陆账号样式开始*****************/
+.login{
+	display: block;
+	width: 100%;
+}
+.login form>div{
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	padding:8px 8px 8px 30px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	background: url(../../img/elite/login_icon.png) no-repeat;
+	background-color: white;
+}
+.login form>div:nth-of-type(1){
+	background-position: 3% -9%;
+	
+}
+.login form>div:nth-of-type(2){
+	background-position: 3% 70%;
+	
+}
+.login form>div:nth-of-type(3){
+	width: 100%;
+	height: 35px;
+	border: none;
+	background-color: transparent;
+	background: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.login form>div>input,.login form>div:nth-of-type(3)>div>input{
+	width: 100%;
+	border: none;
+	border-left: 1px solid #ccc;
+	font-size: 1.4rem;
+	text-indent: 10px;
+}
+.login form>div:nth-of-type(3)>div{
+	float: left;
+	width: 160px;
+	padding:8px 8px 8px 30px;
+	border: 1px solid #ccc;
+	background: url(../../img/elite/login_icon.png) no-repeat;
+	background-position: 4% 30%;
+	background-color: white;
+}
+.login form>div:nth-of-type(3)>a{
+	float: left;
+    width: 70px;
+    height: 37px;
+    margin-left: 5px;
+}
+.login form>div:nth-of-type(3)>a>img{
+	width: 100%;
+    height: 100%;
+}
+.login form>div:nth-of-type(3)>span{
+	display: none;
+	float: left;
+    width: 70px;
+    height: 35px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #ccc;
+    color: white;
+    font-size: 1.3rem;
+}
+.login form>.checkbox{
+	width: 16px;
+	height: 16px;
+	background-color: white;
+	vertical-align: middle;
+	margin-right: 5px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+.login form>.checkbox_active{
+	background: url(../../img/elite/icon_center.png) no-repeat;
+	background-position: 94% 58%;
+}
+.login form>span{
+	color: #999;
+}
+.login form>a{
+	color: #999;
+	float: right;
+}
+.login form>.submit{
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: #29B572;
+	font-size: 1.6rem;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 50px;	
+}
+.login form>p{
+	display: none;
+	color: red;
+	text-indent: 20px;
+	margin-top: 10px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-size: 14px;
+	background-position: 0px -133px;
+	
+}
+/***************登陆账号结束*****************/
+/****************注册账号样式开始*****************/
+.registered{
+	display: none;
+}
+.registered form>div{
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	padding:8px 8px 8px 30px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	background: url(../../img/elite/login_icon.png) no-repeat;
+	background-color: white;
+}
+.registered form>div:nth-of-type(1){
+	background-position: 3% -10%;
+}
+.registered form>div:nth-of-type(3){
+	background-position: 3% 70%;
+}
+.registered form>div:nth-of-type(4){
+	background-position: 3% 109%;
+}
+.registered form>div>input{
+	width: 100%;
+	border: none;
+	border-left: 1px solid #ccc;
+	text-indent: 10px;
+	font-size: 1.4rem;
+}
+.registered form>div:nth-of-type(2){
+	background: none;
+	padding: 0;
+	border: 0;
+}
+.registered form>div:nth-of-type(2)>div{
+	float: left;
+	width: 160px;
+	box-sizing: border-box;
+	padding:8px 8px 8px 30px;
+	border: 1px solid #ccc;
+	background: url(../../img/elite/login_icon.png) no-repeat;
+	background-color: white;
+	background-position: 4% 30%;
+}
+.registered form>div:nth-of-type(2)>div>input{
+	width: 100%;
+	border: none;
+	border-left: 1px solid #ccc;
+	text-indent: 10px;
+	font-size: 1.4rem;
+}
+.registered form>div:nth-of-type(2)>a{
+	display: block;
+	float: right;
+	width: 102px;
+	height: 35px;
+	border: 1px solid #29B572;
+	line-height: 35px;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #29B572;
+	background-color: white;
+}
+.registered form>div:nth-of-type(2)>span{
+	display: none;
+	float: right;
+	width: 102px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 1.4rem;
+	color: white;
+	background-color: #ccc;
+}
+.registered form label input{
+	width: 16px;
+	height: 16px;
+	background-color: white;
+	vertical-align: middle;
+	margin-right: 5px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+.registered form label .checkbox_active{
+	background: url(../../img/elite/icon_center.png) no-repeat;
+	background-position: 94% 58%;
+}
+.registered form label a{
+	display: inline-block;
+	color: #999;
+	margin-top: 10px;
+}
+.registered form>input{
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: #29B572;
+	font-size: 1.6rem;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 50px;	
+}
+.registered form p{
+	display: none;
+	color: red;
+	text-indent: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 13%;
+	background-size: 5%;
+	margin-top: 10px;
+}
+/*底部*/
+.bg>p{
+	text-align: center;
+	font-size: 1.3rem;
+	color: #666;
+	padding: 21px 0;
+}
