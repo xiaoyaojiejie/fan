@@ -1,0 +1,303 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color:#f5f5f5;
+	font-family: "MicrosoftYaHei Bold";
+}
+.offlineSchool {
+	width: 1224px;
+	margin:30px auto;
+}
+
+/*内容导航*/
+.ostop {
+	width: 100%;
+	height: 102px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.ostop .ul1 li {
+	float: left;
+	margin:24px;
+	font-size: 1.4rem;
+}
+.ostop .ul2 li {
+	float: left;
+	margin:24px;
+	font-size: 1.4rem;
+	margin-top: -8px;
+}
+.ostop .ul1 li.fenlei {
+	position: relative;
+	color: #333;
+	text-indent: 2rem;
+}
+.ostop .ul2 li.quyu {
+	position: relative;
+	color: #333;
+	text-indent: 2rem;
+}
+.ostop .ul1 li.fenlei:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 0;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -797px;
+}
+.ostop .ul2 li.quyu:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 0;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 1px -822px;
+}
+.ostop>ul li a {
+	color: #333;
+}
+.ostop>ul li a:hover {
+	color: #29b572;
+}
+
+/*正文内容*/
+.osleft {
+	width: 916px;
+	height: 916px;
+	background-color: #fff;
+	float: left;
+}
+.osright {
+	width: 296px;
+	height: 490px;
+	background-color: #fff;
+	float: right;
+}
+.osleft>.moren li {
+	position: relative;
+	width: 110px;
+	height: 52px;
+	float: left;
+	line-height: 52px;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #333;
+}
+.osleft>.moren li.os {
+	/*border-top: 4px solid #29b572;*/
+	color: #29b572;
+	box-sizing: border-box;
+}
+.moren li.li2:after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 20px;
+	top: 14px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -844px;
+}
+.osleft {
+	position: relative;
+}
+.osleft .line {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 110px;
+	height: 4px;
+	background-color: #29b572;
+}
+.osleft>.school {
+	width: 100%;
+}
+.school>.one {
+	width: 894px;
+	height: 120px;
+	margin:0 auto;
+	box-sizing: border-box;
+	border: 1px solid #fff;
+}
+.school>.one:hover {
+	border: 1px solid #e0e0e0;
+}
+.school>.one:hover h1 {
+	color: #29b572;
+}
+.oneleft {
+	float: left;
+	width: 163px;
+	height: 90px;
+	margin:15px;
+}
+.oneright {
+	float: left;
+}
+.oneright h1 {
+	font-family: "MicrosoftYaHei Bold";
+	font-size: 1.8rem;
+	color: #333;
+	margin-top: 15px;
+}
+.oneright h1 span {
+	font-size: 1.5rem;
+	color: #666;
+}
+.div1>span {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -937px;
+	margin-right: 4px;
+}
+.div1>span.yellow {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -958px;
+	margin-right: 4px;
+}
+.div1>.p1 {
+	float: left;
+	color: #333;
+}
+.p1>span {
+	font-size: 1.2rem;
+	color: #3faf7a;
+}
+.oneright>.p2 {
+	position: relative;
+	font-size: 1.4rem;
+	color: #999;
+	margin-top: 20px;
+	text-indent: 1.8rem;
+}
+.oneright>.p2:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -626px;
+}
+.ospage {
+	position: relative;
+	width: 560px;
+	height: 36px;
+	margin:60px auto 40px;
+}
+.lastPage,.nextPage {
+	width: 62px;
+	height: 32px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	font-size: 1.3rem;
+	color: #666;
+	outline: none;
+}
+.ospage>.all .first {
+	display: inline-block;
+	vertical-align: top;
+	width: 34px;
+	height: 32px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	font-size: 1.3rem;
+	color: #666;
+	line-height: 32px;
+	text-align: center;
+}
+.all .first:last-child {
+	margin-left: 20px;
+}
+.ospage>.all .second {
+	background-color: #29b572;
+	color: #fff;
+}
+.ospage .slh {
+	position: absolute;
+	right: 122px;
+	top: 8px;
+	margin: 0 10px;
+}
+.rtop {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+.rtop h2 {
+	position: relative;
+	line-height: 50px;
+	font-size: 1.6rem;
+	color: #333;
+	margin-left: 14px;
+	text-indent: 1.8rem;
+}
+.rtop h2:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 20px;
+	height: 20px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -652px;
+}
+.rtop .more {
+	position: relative;
+	left: 260px;
+	top:-32px;
+	font-size: 1.2rem;
+	color: #666;
+}
+.rleft {
+	float: left;
+	margin:12px;
+	width: 110px;
+	height: 60px;
+}
+.rright {
+	float: left;
+	width: 150px;
+	height: 84px;
+}
+.rright p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.rright p.p1 {
+	margin-top: 12px;
+	color: #333;
+	font-size: 1.4rem;
+}
+.rright p.p2 {
+	color: #999;
+	font-size: 1.2rem;
+}
+.rright p.p3 {
+	color: #ea9b65;
+	font-size: 1.6rem;
+	font-family: "STFangsong";
+}
+
+
+
+
+
+
+
+
+
+
+
+

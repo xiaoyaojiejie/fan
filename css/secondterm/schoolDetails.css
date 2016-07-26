@@ -1,0 +1,407 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color:#f5f5f5;
+	font-family: "MicrosoftYaHei Bold";
+}
+.schoolDetails {
+	width: 1224px;
+	/*height: 500px;
+	background-color: cyan;*/
+	margin:30px auto;
+}
+.schtop {
+	width: 100%;
+	height: 256px;
+	margin-bottom: 18px;
+}
+.topLeft {
+	width: 916px;
+	height: 100%;
+	background-color: #fff;
+	display: inline-block;
+}
+.topRight {
+	width: 296px;
+	height: 100%;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 8px;
+	overflow: hidden;
+}
+.topRight>.p1 {
+	position: relative;
+	font-size: 1.6rem;
+	color: #333;
+	margin:24px 18px;
+	text-indent: 1.8rem;
+}
+.topRight>.p1:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 2px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -822px;
+}
+.topRight>.ditu {
+	width: 255px;
+	height: 160px;
+	margin-left: 20px;
+	margin-top: -8px;
+}
+.tupian {
+	width: 339px;
+	height: 206px;
+	margin:24px 20px;
+	display: inline-block;
+}
+.details {
+	width: 520px;
+	height: 206px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 24px;
+}
+.details h1 {
+	font-size: 2.4rem;
+	color: #333;
+}
+.details .dizhi {
+	position: relative;
+	width: 506px;
+	height: 70px;
+	margin-top: 30px;
+	border: 1px solid #e0e0e0;
+}
+.dizhi>.p1 {
+	position: absolute;
+	left: 12px;
+	top: -10px;
+	width: 120px;
+	height: 20px;
+	background-color: #fff;
+	padding-left: 10px;
+}
+.dizhi>.p1 .star {
+	width: 20px;
+	height: 20px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -980px;
+	display: inline-block;
+}
+.dizhi>.p1 .star1 {
+	width: 20px;
+	height: 20px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -1002px;
+	display: inline-block;
+}
+.dizhi>.p2 {
+	position: relative;
+	font-size: 1.4rem;
+	color: #666;
+	line-height: 70px;
+	margin-left: 20px;
+	text-indent: 1.8rem;
+}
+.dizhi>.p2:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 24px;
+	width: 20px;
+	height: 20px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -625px;
+}
+.dizhi>.p3 {
+	position: absolute;
+	left: 12px;
+	top: 56px;
+	font-size: 1.4rem;
+	color: #666;
+	background-color: #fff;
+	padding:0 10px;
+}
+.dizhi>.p3 span {
+	color: #29b572;
+	font-size: 2.2rem;
+}
+.yuyue {
+	width: 130px;
+	height: 38px;
+	color: #ea9b65;
+	font-size: 1.6rem;
+	border: 1px solid #ea9b65;
+	outline: none;
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+
+.shccon {
+	width: 100%;
+	overflow: hidden;
+}
+.conLeft {
+	position: relative;
+	width: 916px;
+	background-color: #fff;
+	display: inline-block;
+	margin-top: 12px;
+}
+.conLeft>ul li {
+	width: 144px;
+	height: 66px;
+	float: left;
+	line-height: 66px;
+	text-align: center;
+}
+.conLeft>ul li a {
+	font-size: 1.6rem;
+	color: #333;
+}
+.conLeft>.line1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 144px;
+	height: 4px;
+	background-color: #29b572;
+}
+.wrap {
+	width: 100%;
+}
+.wrap div {
+	width: 100%;
+}
+
+/*本校课程*/
+.inner {
+	margin-bottom: 56px;
+	/*display: none;*/
+}
+.inner>.ul1 li {
+	position: relative;
+	width: 860px;
+	margin:0 auto;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 24px 0;
+}
+.inner>.ul1 li:last-child {
+	border-bottom: none;
+}
+.liLeft {
+	position: relative;
+	width: 500px;
+	float: left;
+}
+.liLeft .huiyuan {
+	font-size: 1.5rem;
+	color: #333;
+}
+.liLeft .mianfei {
+	position: absolute;
+	right: 20px;
+	top: 6px;
+	font-size: 1.6rem;
+	color: #ea9b65;
+}
+.liLeft .jiazhi {
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	font-size: 1.2rem;
+	color: #999;
+}
+.liLeft .huiyuan>span {
+	display: inline-block;
+	color: #29b572;
+	border: 1px solid #29b572;
+	width: 32px;
+	height: 18px;
+	font-size: 1.2rem;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 10px;
+}
+.liLeft .gongsi {
+	margin-top: 10px;
+	font-size: 1.4rem;
+	color: #999;
+}
+.gongsi>a {
+	margin-right: 30px;
+	display: inline-block;
+}
+.gongsi>a span {
+	color: #29b572;
+}
+.gongsi>a.a1 {
+	position:relative;
+	text-indent: 1.8rem;
+}
+.gongsi>a.a1:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 0;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -606px;
+}
+.gongsi>a.a2 {
+	position:relative;
+	text-indent: 1.8rem;
+}
+.gongsi>a.a2:before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 0;
+	top: 0;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -678px;
+}
+
+/*学校简介*/
+.inner1 {
+	width: 100%;
+	margin-bottom: 74px;
+	display: none;
+}
+.inner1>h2 {
+	font-size: 1.6rem;
+	color: #333;
+	text-align: center;
+	margin-top: 26px;
+}
+.inner1>.lanou,.inner1>.lanou1 {
+	font-size: 1.4rem;
+	color: #333;
+	margin:0 30px;
+	text-indent: 2em;
+	line-height: 30px;
+}
+
+/*官方相册*/
+.inner2 {
+	width: 100%;
+	margin-bottom: 24px;
+	display: none;
+}
+.inner2>.ul2 li {
+	float: left;
+	width: 196px;
+	height: 130px;
+	background-color: cyan;
+	margin-left: 26px;
+}
+.inner2>.ul2 {
+	margin-bottom: 26px;
+}
+
+
+.conRight {
+	width: 296px;
+	height: 490px;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 8px;
+	vertical-align: top;
+}
+.conRight {
+	width: 296px;
+	height: 490px;
+	background-color: #fff;
+	/*float: right;*/
+}
+.rtop {
+	position: relative;
+	width: 100%;
+	height: 50px;
+}
+.rtop h2 {
+	position: relative;
+	line-height: 50px;
+	font-size: 1.6rem;
+	color: #333;
+	margin-left: 14px;
+	text-indent: 1.8rem;
+}
+.rtop h2:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 20px;
+	height: 20px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -652px;
+}
+.rtop .more {
+	position: relative;
+	left: 260px;
+	top:-32px;
+	font-size: 1.2rem;
+	color: #666;
+}
+.rleft {
+	float: left;
+	margin:12px;
+	width: 110px;
+	height: 60px;
+}
+.rright {
+	float: left;
+	width: 150px;
+	height: 84px;
+}
+.rright p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.rright p.p1 {
+	margin-top: 10px;
+	color: #333;
+	font-size: 1.4rem;
+}
+.rright>.p2 .xing {
+	width: 14px;
+	height: 14px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -938px;
+	display: inline-block;
+	margin-top: 4px;
+}
+.rright>.p2 .xing1 {
+	width: 14px;
+	height: 14px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -959px;
+	display: inline-block;
+	margin-top: 4px;
+}
+.rright p.p3 {
+	color: #999;
+	font-size: 1.2rem;
+	margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
