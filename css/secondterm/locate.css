@@ -1,0 +1,787 @@
+@charset "utf-8";
+
+body {
+	background-color: #f5f5f5;
+}
+section {
+	width: 1224px;
+	margin: 0 auto;
+}
+.intro {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #fff;
+}
+.bigpic {
+	margin-right: 30px;
+}
+.bigpic > img{
+	width: 470px;
+	height: 240px;
+}
+.list {
+	width: 470px;
+	height: 60px;
+	margin-top: 10px;
+}
+.list img {
+	width: 110px;
+	height: 60px;
+}
+.list li {
+	float: left;
+	margin-left: 10px;
+}
+.list li:nth-child(1) {
+	margin: 0;
+}
+.intro > div {
+	float: left;
+}
+.text {
+	width: 664px;
+	height: 310px;
+}
+.vip {
+	font-size: 2.4rem;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 23px;
+}
+.locatetext {
+	font-size: 1.4rem;
+	color: #666;
+}
+.locatetext > span:nth-of-type(1) {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 0 -608px;
+	margin-bottom: 5px;
+}
+.locatetext > span:nth-of-type(2) {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 0 -629px;
+}
+.locatetext > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.4rem;
+	color: #666;
+}
+.locatetext > P:nth-of-type(1) {
+	margin-bottom: 5px;
+}
+.locatetext a {
+	font-size: 1.2rem;
+	color: #046ecf;
+	margin-left: 4px;
+}
+.allure {
+	width: 410px;
+	height: 100px;
+}
+.money {
+	height: 55px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background-color: #29b572;
+	margin-top: 20px;
+	color: #fff;
+	line-height: 55px;
+}
+.money > em:nth-child(1) {
+	float: left;
+	font-size: 2.4rem;
+}
+.money > span:nth-child(2) {
+	float: left;
+	font-size: 2.8rem;
+	margin-right: 15px;
+}
+.money > del:nth-child(3) {
+	float: left;
+	font-size: 1.4rem;
+	line-height: 58px;
+}
+.money > span:nth-child(4) {
+	float: right;
+	font-size: 1.6rem;
+	color: #29b572;
+	width: 60px;
+	height: 25px;
+	margin-top: 15px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 2px;
+	background-color: #fff;
+}
+.money > span:nth-child(5) {
+	float: right;
+	font-size: 1.4rem;
+	color: #fff;
+	margin-right: 10px;
+}
+.person {
+	position: relative;
+	width: 410px;
+	height: 45px;
+	border-left: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.person p {
+	position: absolute;
+	top: 0;
+	border-right: 1px solid #e8e8e8;
+	font-size: 1.4rem;
+	color: #999;
+	text-align: center;
+	line-height: 45px;
+	width: 135px;
+}
+.person span {
+	font-size: 1.4rem;
+	color: #3faf7a;
+}
+.person p:nth-child(1) {
+	left: 0;
+}
+.person p:nth-child(2) {
+	left: 136px;
+}
+.person p:nth-child(3) {
+	left: 273px;
+}
+.buynow,.appoitment {
+	float: left;
+}
+.buynow,.appoitment {
+	width: 140px;
+	height: 45px;	
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #ea9b65;
+	margin-top: 27px;
+	font-size: 1.8rem;
+	color: #ea9b65;
+	box-sizing: border-box;
+}
+.buynow {
+	font-weight: bold;
+	margin-right: 10px;
+}
+.noted {
+	background-color: #ea9b65;
+	color: #fff;
+	border: none;
+}
+.appoitment {
+	color: #ea9b65;
+}
+/*正文*/
+.tab2 {
+	position: relative;
+	float: left;
+	width: 915px;
+	/*height: 525px;*/
+	background-color: #fff;
+	margin-top: 30px;
+}
+.tabswitch {
+	width: 915px;
+	height: 66px;
+}
+.tabswitch li{
+	float: left;
+	width: 145px;
+	height: 66px;
+	font-size: 1.6rem;
+	color: #333;
+	text-align: center;
+	line-height: 66px;
+	cursor: pointer;
+}
+.tabswitch .showtime {
+	color: #29b572;
+}
+#upblock {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 145px;
+	height: 5px;
+	background-color: #29b572;
+}
+.detail {
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	display: block;
+}
+.detail div {
+	width: 100%;
+	margin-bottom: 13px;
+	overflow: hidden;
+}
+.detail div span {
+	float: left;
+	width: 70px;
+	font-size: 1.4rem;
+	color: #999;
+	
+}
+.detail div p {
+	/*display: inline-block;*/
+	float: left;
+	width: 760px;
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 24px;
+	margin-left: 25px;
+}
+.detail em {
+	float: right;
+	width: 760px;
+	height: 1px;
+	background-color: #e8e8e8;
+	margin: 12px 0 25px 0;
+}
+/*其他课程*/
+.other {
+	width: 100%;
+	padding: 0 30px 30px;
+	box-sizing: border-box;
+	display: none;
+}
+.linkdle {
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 20px;
+}
+.other li:hover #change{
+	color: #29b572;
+}
+.top1 h2{
+	float: left;
+	font-size: 1.5rem;
+	color: #333333;
+	line-height: 30px;
+}
+.top1 p {
+	float: right;
+	font-size: 2rem;
+	color: #ea9b65;
+	font-weight: bold;
+}
+.top1 p span {
+	font-size: 1.6rem;
+}
+.top2 > span,.top2 p {
+	float: left;
+}
+.top2 > span:nth-child(1),.top2 > span:nth-child(3) {
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 0 -606px;
+}
+.top2 > span:nth-child(3) {
+	background-position: 0 -678px;
+}
+.top2 span:nth-child(2),.top2 span:nth-child(4) {
+	font-size: 1.4rem;
+	color: #999999;
+	margin-right: 30px;
+}
+.top2 span:nth-child(4) {
+	margin-right: 60px;
+}
+.top2 p:nth-child(5),.top2 p:nth-child(6) {
+	font-size: 1.4rem;
+	color: #999999;
+	margin-right: 40px;
+}
+.top2 p:nth-child(5) > span,.top2 p:nth-child(6) > span {
+	color: #3faf7a;
+}
+.top2 p:nth-child(7) {
+	float: right;
+	font-size: 1.2rem;
+	color: #999999;
+}
+/*用户评价*/
+.usereva {
+	width: 100%;
+	padding: 0 30px 30px;
+	box-sizing: border-box;
+	text-align: center;
+	display: none;
+}
+.center {
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.center>div,.center>em,.center>ul {
+	float: left;
+}
+.bigscore > p:nth-child(1) {
+	font-size: 3.4rem;
+	color: #ff5000;
+}
+.bigscore > img {
+	width: 125px;
+	margin-bottom: 10px;
+}
+.bigscore > p:nth-child(3) {
+	font-size: 1.4rem;
+	color: #666666;
+}
+.center > em {
+	margin: 0 50px;
+	width: 1px;
+	height: 90px;
+	background-color: #e8e8e8;
+}
+.evalu > span,.evalu > p ,.evalu > div {
+	float: left;
+}
+.evalu > span:nth-child(1) {
+	font-size: 1.2rem;
+	color: #666666;
+	line-height: 24px;
+	margin-right: 10px;
+}
+.evalu .back {
+	position: relative;
+	width: 130px;
+	height: 10px;
+	background-color: #f5f5f5;
+	margin-top: 7px;
+	overflow: hidden;
+}
+.evalu .colorchart {
+	position: absolute;
+	left: -20%;
+	top: 0;
+	width: 130px;
+	height: 10px;
+	background-color: #ffb200;
+}
+.evalu .colorchart1 {
+	left: -50%;
+}
+.evalu .colorchart2 {
+	left: -80%;
+}
+.countnum {
+	margin-left: 10px;
+	font-size: 1.2rem;
+	color: #666666;
+	line-height: 24px;
+}
+/*大家印象*/
+.impress {
+	width: 855px;
+	margin: 0 auto;
+	padding: 60px 0;
+	border-top: 1px solid #e8e8e8;
+}
+.people span {
+	float: left;
+	font-size: 1.4rem;
+	color: #999999;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 5px;
+}
+.people ul {
+	float: left;
+	width: 790px;
+}
+.ad li {
+	float: left;
+	border: 1px solid #3faf7a;
+	font-size: 1.4rem;
+	color: #3faf7a;
+	text-align: center;
+	line-height: 25px;
+	padding: 0 5px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.ad li:nth-child(9),.ad li:nth-child(10) {
+	background-color: #c2c2c2;
+	color: #fff;
+	border: none;
+	height: 27px;
+	line-height: 27px;
+}
+/*用户评价内容*/
+.evacontent {
+	width: 855px;
+	border: 1px solid #e8e8e8;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.evacontent > p {
+	height: 40px;
+	background-color: #fafafa;
+	font-size: 1.4rem;
+	color: #333333;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 15px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 5px;
+}
+.evacontent .noname {
+	width: 825px;
+	margin: 0 auto;
+}
+.noname li {
+	margin-top: 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.topcontent {
+	height: 18px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.topcontent img,.topcontent span{
+	float: left;
+}
+#star {
+	width: 55px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#username {
+	font-size: 1.2rem;
+	color: #999999;
+}
+#date {
+	float: right;
+	font-size: 1.2rem;
+	color: #999999;
+}
+.realcontent {
+	text-align: justify;
+	font-size: 1.4rem;
+	color: #333333;
+	margin-bottom: 20px;
+}
+.noname li:nth-child(3) {
+	border: 0;
+	margin-bottom: 50px;
+}
+/*页码*/
+.pages {
+	width: 560px;
+	height: 30px;
+	margin: 0 auto;
+}
+.pages a,.pages ul {
+	float: left;
+}
+.pages a,.pages li {
+	height: 30px;
+	font-size: 1.3rem;
+	color: #666666;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid #cccccc;
+}
+.pages ul {
+	margin: 0 5px;
+	width: 371px;
+	height: 30px;
+}
+.pages li {
+	display: inline-block;
+	cursor: pointer;
+}
+.pages li:nth-of-type(10) {
+	border: 0;
+}
+.pages .selected {
+	background-color: #29b572;
+	color: #fff;
+}
+/*热销课程*/
+.hotclass {
+	float: left;
+	width: 295px;
+	height: 490px;
+	background-color: #fff;
+	margin-left: 14px;
+	padding: 20px 15px 40px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+.hot {
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.hot span{
+	float: left;
+}
+.hot span:nth-child(1) {
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 0 -650px;
+}
+.hot span:nth-child(2) {
+	font-size: 1.6rem;
+	color: #333;
+}
+.hot a:nth-child(3) {
+	float: right;
+	font-size: 1.2rem;
+	color: #666;
+}
+.recommend li {
+	margin-bottom: 20px;
+}
+.nono > img,.nono > div {
+	float: left;
+}
+.nono img {
+	width: 110px;
+	height: 60px;
+	margin-right: 10px;
+}
+.nono:hover p:nth-child(1){
+	color: #29b572;
+}
+.textrecom p:nth-child(1){
+	font-size: 1.4rem;
+	color: #333;
+}
+.textrecom p:nth-child(2){
+	font-size: 1.2rem;
+	color: #999;
+}
+.textrecom span:nth-child(3){
+	font-size: 1.2rem;
+	color: #ea9b65;
+}
+.textrecom span:nth-child(4){
+	font-size: 1.6rem;
+	color: #ea9b65;
+	font-weight: bold;
+}
+/*有疑问？*/
+.question {
+	float: left;
+	width: 295px;
+	height: 440px;
+	background-color: #fff;
+	margin-left: 14px;
+	padding: 20px 15px 40px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.question > span:nth-child(1) {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/spirit4.png) no-repeat;
+	background-position: -6px -533px;
+	vertical-align: middle;
+}
+.question > span:nth-child(2) {
+	font-size: 1.4rem;
+	color: #333;
+}
+.sale {
+	margin-top: 20px;
+	line-height: 24px;
+}
+.sale span:nth-child(1) {
+	font-size: 1.4rem;
+	color: #ea9b65;
+}
+.sale span:nth-child(2) {
+	font-size: 1.4rem;
+	color: #333;
+}
+.sell {
+	line-height: 22px;
+}
+.sell span:nth-child(1) {
+	font-size: 1.4rem;
+	color: #29b572;
+}
+.sell span:nth-child(2) {
+	font-size: 1.2rem;
+	color: #666;
+}
+/*预约弹窗*/
+.appoint {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 490px;
+	height: 310px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.consu {
+	height: 30px;
+	line-height: 30px;
+	background-color: #29b572;
+	font-size: 1.4rem;
+	color: #fff;
+	padding: 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.consu span:nth-child(1) {
+	float: left;
+}
+.consu span:nth-child(2) {
+	float: right;
+	width: 17px;
+	height: 17px;
+	background: url(../../img/secondterm/chacha.png) no-repeat;
+	background-position: 0 7.5px;
+}
+.consult {
+	padding: 40px 0 0 40px;
+	
+}
+.consult > p {
+	font-size: 1.2rem;
+	color: #999999;
+	margin-bottom: 20px;
+}
+.consult > label {
+	display: block;
+	font-size: 1.4rem;
+	color: #666666;
+	margin-bottom: 10px;
+}
+.consult > label > input {
+	width: 270px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	outline: none;
+	box-sizing: border-box;
+}
+#wish {
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 28px;
+	color: #666666;
+}
+.dropbox {
+	display: inline-block;
+	width: 270px;
+	height: 30px;
+	border: 1px solid #e0e0e0;
+	line-height: 28px;
+	font-size: 1.4rem;
+	color: #666;
+	padding: 0 10px;
+	box-sizing: border-box;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 240px -564px;
+	cursor: pointer;
+}
+.dropbox-on {
+	width: 270px;
+	height: 150px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-top: 0;
+	margin-left: 73px;
+	display: none;
+}
+
+.dropbox-on li {
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 30px;
+	font-size: 1.4rem;
+	background-color: #fff;	
+}
+.dropbox-on li:hover {
+	cursor: pointer;
+	background-color: #fafafa;
+}
+.consult > a {
+	float: right;
+	width: 100px;
+	height: 40px;
+	font-size: 1.4rem;
+	color: #333333;
+	background-color: #f5f5f5;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #d9d9d9;
+	margin-top: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.consult > a:nth-of-type(2) {
+	color: #fff;
+	background-color: #29b572;
+	border: none;
+}
+.consult > a:nth-of-type(1):hover {
+	background-color: #ebebeb;
+}
+.consult > a:nth-of-type(2):hover {
+	background-color: #029850;
+}
+/*蒙层*/
+.mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
