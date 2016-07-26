@@ -140,7 +140,7 @@ section {
 }
 .detail {
 	width: 90%;
-	padding: 12px 10px;
+	padding: 12px 12px;
 	box-sizing: border-box;
 	height: 150px;
 	margin: 0 auto;
@@ -152,7 +152,8 @@ section {
 	height: 60px;
 }
 .detail li:nth-child(1),.detail li:nth-child(3) {
-	margin-right: 55px;
+	margin-right: 43px;
+	margin-left: 10px;
 }
 .detail a {
 	display: block;
@@ -161,7 +162,7 @@ section {
 }
 .detail span {
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 7px auto;
 	width: 36px;
 	height: 30px;
 	background: url(../../img/secondterm/spirit1.png) no-repeat;
@@ -581,7 +582,7 @@ section {
 aside {
 	position: fixed;
 	bottom: 0;
-	right: 200px;
+/*	right: 200px;*/
 }
 aside ul {
 	width: 60px;

@@ -79,21 +79,50 @@ window.onload = function() {
 	
 	
 //	返回顶部
-	var asideList = document.querySelectorAll("aside ul>li");
-	var weixin = document.getElementById("weixinpublic");
+	var img4 = document.querySelector(".img4");
+	var sooner = 0;
+	var aside = document.querySelector("aside");
+	var section = document.querySelector("section");
 	
-	for (var i = 0;i<asideList.length;i++) {
-		asideList[i].index = i;
-		asideList[i].onclick = function() {
-			if (index == 0) {
-			
+	img4.onclick = function() {
+		var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+		var end = 0;
+		var change = end - scrollTop;
+		var t = 0;
+		var maxT = 30;
+		sooner = setInterval(function() {
+			t++;
+			if (t>=maxT) {
+				clearInterval(sooner);
 			}
-		}
+//			document.body.scrollTop = change/maxT * t + scrollTop + "px";
+//			document.documentElement.scrollTop = change/maxT * t + scrollTop + "px";
+			document.body.scrollTop = Tween.Linear(t,scrollTop,change,maxT);
+			document.documentElement.scrollTop = Tween.Linear(t,scrollTop,change,maxT);
+		},17)
 	}
+
+	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
+
+//合作机构
+//	var comList = document.querySelectorAll(".com > a");
+//	var longList = document.querySelectorAll(".long li");
+//	var longe = document.querySelector(".long");
+//	var clone = longList[0].cloneNode();
+//	longe.appendChild(clone);
+//	var iconPerwidth = longList[0].offsetWidth;
+//	var finder = 0;
+//	var uLeft = longe.offsetLeft;
+//	for (var i =0;i<comList.length;i++) {
+//		comList[i].index = i;
+//		if (index == 0) {
+//			this.onclick = function() {
+//					uLeft = uLeft + iconPerwidth ;
+//			
+//			}
+//	}
+//}
 }
-
-
-
 
 
 
