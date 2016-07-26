@@ -175,14 +175,11 @@ body {
 .wrap {
 	width: 100%;
 }
-.wrap div {
-	width: 100%;
-}
 
 /*本校课程*/
 .inner {
 	margin-bottom: 56px;
-	/*display: none;*/
+	display: none;
 }
 .inner>.ul1 li {
 	position: relative;
@@ -304,6 +301,211 @@ body {
 }
 .inner2>.ul2 {
 	margin-bottom: 26px;
+}
+
+/*用户评价*/
+.inner3 {
+	width: 100%;
+}
+/*用户评价*/
+.usereva {
+	width: 100%;
+	padding: 0 30px 30px;
+	box-sizing: border-box;
+	text-align: center;
+	/*display: none;*/
+}
+.center {
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.center>div,.center>em,.center>ul {
+	float: left;
+}
+.bigscore > p:nth-child(1) {
+	font-size: 3.4rem;
+	color: #ff5000;
+}
+.bigscore > img {
+	width: 125px;
+	margin-bottom: 10px;
+}
+.bigscore > p:nth-child(3) {
+	font-size: 1.4rem;
+	color: #666666;
+}
+.center > em {
+	margin: 0 50px;
+	width: 1px;
+	height: 90px;
+	background-color: #e8e8e8;
+}
+.evalu > span,.evalu > p ,.evalu > div {
+	float: left;
+}
+.evalu > span:nth-child(1) {
+	font-size: 1.2rem;
+	color: #666666;
+	line-height: 24px;
+	margin-right: 10px;
+}
+.evalu .back {
+	position: relative;
+	width: 130px;
+	height: 10px;
+	background-color: #f5f5f5;
+	margin-top: 7px;
+	overflow: hidden;
+}
+.evalu .colorchart {
+	position: absolute;
+	left: -20%;
+	top: 0;
+	width: 130px;
+	height: 10px;
+	background-color: #ffb200;
+}
+.evalu .colorchart1 {
+	left: -50%;
+}
+.evalu .colorchart2 {
+	left: -80%;
+}
+.countnum {
+	margin-left: 10px;
+	font-size: 1.2rem;
+	color: #666666;
+	line-height: 24px;
+}
+/*大家印象*/
+.impress {
+	width: 855px;
+	margin: 0 auto;
+	padding: 60px 0;
+	border-top: 1px solid #e8e8e8;
+}
+.people span {
+	float: left;
+	font-size: 1.4rem;
+	color: #999999;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 5px;
+}
+.people ul {
+	float: left;
+	width: 790px;
+}
+.ad li {
+	float: left;
+	border: 1px solid #3faf7a;
+	font-size: 1.4rem;
+	color: #3faf7a;
+	text-align: center;
+	line-height: 25px;
+	padding: 0 5px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.ad li:nth-child(9),.ad li:nth-child(10) {
+	background-color: #c2c2c2;
+	color: #fff;
+	border: none;
+	height: 27px;
+	line-height: 27px;
+}
+/*用户评价内容*/
+.evacontent {
+	width: 855px;
+	border: 1px solid #e8e8e8;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.evacontent > p {
+	height: 40px;
+	background-color: #fafafa;
+	font-size: 1.4rem;
+	color: #333333;
+	line-height: 40px;
+	text-align: left;
+	text-indent: 15px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 5px;
+}
+.evacontent .noname {
+	width: 825px;
+	margin: 0 auto;
+}
+.noname li {
+	margin-top: 20px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.topcontent {
+	height: 18px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.topcontent img,.topcontent span{
+	float: left;
+}
+#star {
+	width: 55px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#username {
+	font-size: 1.2rem;
+	color: #999999;
+}
+#date {
+	float: right;
+	font-size: 1.2rem;
+	color: #999999;
+}
+.realcontent {
+	text-align: justify;
+	font-size: 1.4rem;
+	color: #333333;
+	margin-bottom: 20px;
+}
+.noname li:nth-child(3) {
+	border: 0;
+	margin-bottom: 50px;
+}
+/*页码*/
+.pages {
+	width: 560px;
+	height: 30px;
+	margin: 0 auto;
+}
+.pages a,.pages ul {
+	float: left;
+}
+.pages a,.pages li {
+	height: 30px;
+	font-size: 1.3rem;
+	color: #666666;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid #cccccc;
+}
+.pages ul {
+	margin: 0 5px;
+	width: 371px;
+	height: 30px;
+}
+.pages li {
+	display: inline-block;
+	cursor: pointer;
+}
+.pages li:nth-of-type(10) {
+	border: 0;
+}
+.pages .selected {
+	background-color: #29b572;
+	color: #fff;
 }
 
 
