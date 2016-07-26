@@ -1,5 +1,5 @@
 $(function(){
-	
+	//时间模拟
 	$(".simulation_modify").on("click",function(){
 		$("#modify").click()
 	})

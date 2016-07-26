@@ -144,6 +144,9 @@
 	border-left: 2px solid #29b572;
 }
 /**************左边菜单栏结束**********************/
+.main_body{
+	margin-bottom: 50px;
+}
 .main_body>div{
 	float: left;
 	display: none;
