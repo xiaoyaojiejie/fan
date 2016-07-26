@@ -1,0 +1,143 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color:#f5f5f5;
+	font-family: "MicrosoftYaHei Bold";
+}
+.userEvaluation {
+	width: 1224px;
+	margin:30px auto;
+}
+header {
+	width: 100%;
+	height: 370px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+/*轻松一小时*/
+header>.left {
+	width: 470px;
+	height: 310px;
+	margin: 30px;
+	float: left;
+}
+.left>ul li {
+	width: 110px;
+	height: 60px;
+	background-color: #d8dce5;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.left>ul li:last-child {
+	margin-right: 0;
+}
+
+/*立即抢购*/
+header>.right {
+	width: 664px;
+	height: 310px;
+	margin-top: 30px;
+	float: left;
+}
+.right>h1 {
+	font-size: 2.4rem;
+	color: #333;
+	margin-top: 10px;
+}
+.right>.p1 {
+	position: relative;
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 26px;
+	text-indent: 1.8rem;
+}
+.right>.p1:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -606px;
+}
+.right>.p1 a {
+	color: #046ecf;
+	font-size: 1.2rem;
+}
+.right>.p2 {
+	position: relative;
+	font-size: 1.4rem;
+	color: #666;
+	text-indent: 1.8rem;
+}
+.right>.p2:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -625px;
+}
+.right>.biaoge {
+	width: 414px;
+	height: 102px;
+	background-color: cyan;
+	margin:26px 0;
+}
+#lbtn {
+	width: 140px;
+	height: 42px;
+	background-color: #ea9b65;
+	color: #fff;
+	font-size: 1.8rem;
+	outline: none;
+	border: none;
+	font-family: "STSong";
+}
+.biaoge>.money {
+	width: 100%;
+	height: 54px;
+	background-color: #3faf7a;
+}
+.money>.s1 {
+	float: left;
+	font-size: 2.8rem;
+	font-family: "STSong";
+	color: #fff;
+	line-height: 54px;
+	margin-left: 18px;
+}
+.money>.s2 {
+	float: left;
+	font-size: 1.4rem;
+	color: #fff;
+	line-height: 70px;
+	margin-left: 30px;
+}
+.money>.s3 {
+	float: right;
+	font-size: 1.6rem;
+	color: #3faf7a;
+	width: 60px;
+	height: 26px;
+	background-color: #fff;
+	margin-top: 14px;
+	margin-right: 20px;
+	line-height: 26px;
+}
+.money>.s4 {
+	float: right;
+	font-size: 1.4rem;
+	color: #fff;
+	line-height: 54px;
+	margin-right: 8px;
+}
+
+
+
+

@@ -16,7 +16,7 @@ body {
 	background-color: #fff;
 	float: left;
 }
-.evaluationRefund_left>div {
+.evaluationRefund_left>a div {
 	width: 100%;
 	height: 42px;
 	font-size: 1.4rem;
@@ -48,7 +48,6 @@ div.color {
 }
 .contentTop ul li {
 	display: inline-block;
-	
 	box-sizing: border-box;
 }
 .contentTop ul li>a {
@@ -70,7 +69,6 @@ div.color {
 	font-size: 1.4rem;
 	color: #999;
 	outline: none;
-	/*margin-right: 28px;*/
 	text-indent: 1.8rem;
 }
 #deleteBtn:before {
@@ -85,23 +83,31 @@ div.color {
 }
 /*******************正文导航end*******************/
 
-/*******************正文内容begin*******************/
-.contentCon {
+/*******************正文内容begin*******************//
+#wrap>div {
 	width: 980px;
 	margin:0 auto;
 	padding-bottom: 58px;
 }
-.contentCon .con {
-	width: 100%;
+#wrap .contentCon1,#wrap .contentCon3,#wrap .contentCon2 {
+	display: none;
+}
+#wrap .contentCon4,#wrap .contentCon,#wrap .contentCon5 {
+	display: none;
+}
+#wrap>div .con{
+	width: 980px;
 	height: 42px;
 	background-color: #fafafa;
 	box-sizing: border-box;
 	border: 1px solid #e8e8e8;
+	margin:0 auto;
 }
-.contentCon .con1 {
-	width: 100%;
+#wrap>div .con1 {
+	width: 980px;
 	box-sizing: border-box;
 	border: 1px solid #e8e8e8;
+	margin:0 auto;
 }
 .con span {
 	display: inline-block;
@@ -110,7 +116,7 @@ div.color {
 	color: #666;
 	font-size: 1.4rem;
 }
-.con .s1 {
+#wrap>div .con .s1 {
 	position: relative;
 	width: 108px;
 	display: inline-block;
@@ -145,20 +151,20 @@ div.color {
 .con span.s3,.con span.s4,.con span.s5,.con span.s6,.con span.s7 {
 	width: 98px;
 }
-.contentCon ul {
+#wrap>div ul {
 	width: 948px;
 	border-bottom: 1px solid #e8e8e8;
 	padding: 30px 0 20px 0;
 	margin:0 auto;
 }
-.contentCon ul li {
+#wrap>div ul li {
 	display: inline-block;
 }
-.contentCon ul li.li1 {
+#wrap>div ul li.li1 {
 	position: relative;
 	width: 108px;
 	height: 66px;
-	margin-left: 24px;
+	margin-left: 28px;
 	vertical-align: middle;
 }
 .dianji {
@@ -179,7 +185,7 @@ div.color {
 	background: url(../../img/secondterm/icon.png) no-repeat;
 	background-position: 0 -90px;
 }
-.contentCon ul li.li2 {
+#wrap>div ul li.li2 {
 	width: 264px;
 	vertical-align: top;
 	margin-left: 6px;
@@ -199,7 +205,7 @@ li.li2 .p2 {
 	color: #333;
 	text-align: center;
 	vertical-align: middle;
-	margin-left: 38px;
+	margin-left: 34px;
 }
  ul li.li4, ul li.li5, ul li.li6,ul li.li7 {
 	width: 98px;
@@ -208,19 +214,230 @@ li.li2 .p2 {
 	text-align: center;
 	vertical-align: middle;
 }
-.contentCon ul:nth-of-type(6) {
+#wrap>div ul:nth-of-type(6) {
 	border-bottom: none;
 }
-#dbtn {
+.fbtn,.tbtn,.pbtn {
 	width: 70px;
 	height: 28px;
 	background-color: #fff;
 	color: #ea9b65;
 	font-size: 1.4rem;
 	border: 1px solid #ea9b65;
+	outline: none;
 }
-
-
+/*退款*/
+.refund,.evaluate {
+	width: 948px;
+	height: 316px;
+	background-color: #fafafa;
+	margin:0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid #e0e0e0;
+	display: none;
+}
+.evaluate {
+	height: 370px;
+}
+.la1 select {
+	width: 218px;
+	height: 30px;
+	border-radius: 0;
+	background-color: #fff;
+	text-indent: 1em;
+	border: 1px solid #e0e0e0;
+}
+.la1:after {
+	content: '';
+	position: absolute;
+	top: 9px;
+	left: 266px;
+	width: 15px;
+	height: 10px;
+	background:url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -572px;
+}
+.la1 {
+	position: relative;
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 28px;
+	margin-left: 28px;
+	display: block;
+}
+.la2 {
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 16px;
+	margin-left: 28px;
+	display: block;
+}
+.la2 .text {
+	width: 218px;
+	height: 30px;
+	background-color: #fff;
+	text-indent: 1em;
+	border: 1px solid #e0e0e0;
+}
+.la1>span,.la2>span {
+	color: red;
+}
+.la3>.s3 {
+	font-size: 1.4rem;
+	color: #666;
+	vertical-align: top;
+}
+.la3 {
+	margin-top: 16px;
+	margin-left: 37px;
+	display: block;
+}
+.txt {
+	width: 540px;
+	height: 102px;
+	resize: none;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	font-size: 1.4rem;
+	color: #333;
+	outline: none;
+}
+.la3 .s4 {
+	color: #666;
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+#btn1 {
+	width: 110px;
+	height: 32px;
+	background-color: #29b572;
+	color: #fff;
+	font-size: 1.4rem;
+	outline: none;
+	border: none;
+	margin-top: 16px;
+	margin-left: 108px;
+}
+/*评价*/
+.evaluate>.p1 {
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 28px;
+	margin-left: 28px;
+}
+.xing {
+	color: red;
+}
+.star {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -1122px;
+	background-size: 18px;	
+}
+.yellowstar {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url(../../img/secondterm/icon.png) no-repeat;
+	background-position: 0 -1148px;
+	background-size: 18px;	
+}
+.xinde {
+	font-size: 1.4rem;
+	color: #666;
+	margin-top: 16px;
+	margin-left: 28px;
+}
+.experience {
+	display: inline-block;
+	width: 560px;
+	height: 84px;
+	border: 1px solid #e0e0e0;
+	vertical-align: top;
+}
+.txt1 {
+	width: 540px;
+	height: 102px;
+	resize: none;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	font-size: 1.4rem;
+	color: #333;
+	outline: none;
+}
+.la4>.s3 {
+	font-size: 1.4rem;
+	color: #666;
+	vertical-align: top;
+}
+.la4 {
+	margin-top: 16px;
+	margin-left: 40px;
+	display: block;
+}
+.la4 .s4 {
+	color: #666;
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+.btn2 {
+	width: 110px;
+	height: 32px;
+	background-color: #29b572;
+	color: #fff;
+	font-size: 1.4rem;
+	outline: none;
+	border: none;
+	margin-top: 16px;
+	margin-left: 84px;
+}
+.top,.bottom {
+	margin-top: 10px;
+	margin-left: 12px;
+}
+.top>.a1,.bottom>.a4 {
+	display: inline-block;
+	padding: 2px 4px;
+	border: 1px solid #98c7b0;
+	color: #98c7b0;
+	font-size: 1.4rem;
+	margin-right: 8px;
+}
+.top .a2 {
+	display: inline-block;
+	padding: 2px 4px;
+	border: 1px solid #33b574;
+	color: #33b574;
+	font-size: 1.4rem;
+	margin-right: 8px;
+}
+.top .a3 {
+	display: inline-block;
+	padding: 2px 4px;
+	background-color: #29b572;
+	color: #fff;
+	font-size: 1.4rem;
+}
+.bottom>.a5,.bottom>.a6 {
+	display: inline-block;
+	padding: 2px 4px;
+	background-color: #c2c2c2;
+	color: #fff;
+	font-size: 1.4rem;
+	margin-right: 8px;
+}
+.bottom>.a7 {
+	display: inline-block;
+	padding: 2px 4px;
+	background-color: #999;
+	color: #fff;
+	font-size: 1.4rem;
+	margin-right: 8px;
+}
 
 
 

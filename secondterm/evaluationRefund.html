@@ -10,8 +10,12 @@
 	<div class="evaluationRefund clearfix">
 		<!-- 左边小块 -->
 		<div class="evaluationRefund_left">
-			<div class="personal">个人中心</div>
-			<div class="myOrders color">我的订单</div><!-- orders订单 -->
+			<a href="../elite/personal_center.html">
+				<div class="personal">个人中心</div>
+			</a>
+			<a href="javascript:void(0);">
+				<div class="myOrders color">我的订单</div><!-- orders订单 -->
+			</a>
 		</div>
 		<!-- 右边大块 -->
 		<div class="evaluationRefund_right">
@@ -42,116 +46,260 @@
 					<button id="deleteBtn">删除订单</button>
 				</div>
 				<!-- 正文内容 -->
-				<div class="contentCon">
-					<div class="con">
-						<div class="s1">
-							<div class="fit"></div>
-							<span class="s11">全选</span>
+				<div id="wrap">
+					<div class="contentCon" style="display: block;">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
 						</div>
-						<span class="s2">订单信息</span>
-						<span class="s3">下单时间</span>
-						<span class="s4">数量</span>
-						<span class="s5">金额</span>
-						<span class="s6">交易状态</span>
-						<span class="s7">操作</span>
+						<div class="con1">
+							<div class="inner notpaid">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">待付款</li>
+									<li class="li7">
+										<a href="enrol.html">
+											<button class="fbtn">付款</button>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="inner paid">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已付款</li>
+									<li class="li7">
+										<button class="tbtn">退款</button>
+									</li>
+								</ul>
+								<div class="refund"><!-- refund退款 -->
+									<label class="la1">
+										<span>*</span> 退款原因：<select name="sel" id="sel">
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+										</select>
+									</label>
+									<label class="la2">
+										<span>*</span> 退款金额：<input type="text" class="text">
+									</label>
+									<label class="la3">
+										<span class="s3">退款说明：</span><textarea name="txt" class="txt" cols="30" rows="10" placeholder="淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视频加 QQ群:387078125淘宝美工设计师必学课程淘宝美"></textarea><span class="s4">还可填写<span class="num">200</span>个字</span>
+									</label>
+									<button id="btn1">提交退款申请</button>
+								</div>
+							</div>
+							<div class="inner pingjia">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">
+										<button class="pbtn">评价</button>
+									</li>
+								</ul>
+								<div class="evaluate"><!-- evaluate评价 -->
+									<p class="p1">
+										<span class="xing">*</span> 评分：
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+									</p>
+									<div class="xinde">
+										<span class="xing">*</span> 心得：
+										<div class="experience">
+											<div class="top">
+												<span class="a1">交通便利(323)</span>
+												<span class="a2">学习气氛浓厚(1200)</span>
+												<span class="a3">学习气氛浓厚(1200)</span>
+											</div>
+											<div class="bottom">
+												<span class="a4">交通便利(323)</span>
+												<span class="a5">学习气氛浓厚(1200)</span>
+												<span class="a6">学习气氛浓厚(1200)</span>
+												<span class="a7">学习气氛浓厚(1200)</span>
+											</div>
+										</div><!-- experience心得 -->
+									</div>
+									<label class="la4">
+										<span class="s3">评价：</span><textarea name="txt" class="txt" cols="30" rows="10" placeholder="淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视频加 QQ群:387078125淘宝美工设计师必学课程淘宝美"></textarea><span class="s4">还可填写<span class="num">200</span>个字</span>
+									</label>
+									<button class="btn2">发表评价</button>
+								</div>
+							</div>
+							<div class="inner finish">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">已评价</li>
+								</ul>
+							</div>
+							<div class="inner refund1">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">申请退款</li>
+									<li class="li7">处理中</li>
+								</ul>
+							</div>
+							<div class="inner finish">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">已退款</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div class="con1">
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">待付款</li>
-							<li class="li7">
-								<button id="dbtn">付款</button>
-							</li>
-						</ul>
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">已付款</li>
-							<li class="li7">
-								<button id="dbtn">退款</button>
-							</li>
-						</ul>
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">已完成</li>
-							<li class="li7">
-								<button id="dbtn">评价</button>
-							</li>
-						</ul>
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">已完成</li>
-							<li class="li7">已评价</li>
-						</ul>
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">申请退款</li>
-							<li class="li7">处理中</li>
-						</ul>
-						<ul>
-							<li class="li1 clearfix">
-								<img src="../img/secondterm/active/pingjia.png">
-								<div class="dianji"></div>
-							</li>
-							<li class="li2">
-								<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
-								<p class="p2">订单号：9374837</p>
-							</li>
-							<li class="li3">2015-02-15</li>
-							<li class="li4">1</li>
-							<li class="li5">￥18900</li>
-							<li class="li6">已完成</li>
-							<li class="li7">已退款</li>
-						</ul>
+					<div class="contentCon1">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
+						</div>
+						<div class="con1">	
+						</div>
+					</div>
+					<div class="contentCon2">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
+						</div>
+						<div class="con1">
+						</div>
+					</div>
+					<div class="contentCon3">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
+						</div>
+						<div class="con1">
+						</div>
+					</div>
+					<div class="contentCon4">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
+						</div>
+						<div class="con1">
+						</div>
+					</div>
+					<div class="contentCon5">
+						<div class="con">
+							<div class="s1">
+								<div class="fit"></div>
+								<span class="s11">全选</span>
+							</div>
+							<span class="s2">订单信息</span>
+							<span class="s3">下单时间</span>
+							<span class="s4">数量</span>
+							<span class="s5">金额</span>
+							<span class="s6">交易状态</span>
+							<span class="s7">操作</span>
+						</div>
+						<div class="con1">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -162,12 +310,26 @@
 	<script type="text/javascript">
 		$(function() {
 			var len = $(".dianji").length;
+			// tab切换（个人中心与我的订单 ）
 			$(".evaluationRefund_left div").on("click",function() {
 				$(this).addClass(" color").siblings().removeClass("color");
 			})
-			$(".contentTop a").on("click",function() {
+			// tab切换（我的订单）
+			$(".contentTop a").click(function() {
+				var index = $(this).parent().index();
 				$(this).addClass("active").parent().siblings().children().removeClass("active");
+				$("#wrap>div").eq(index).show().siblings().hide();
 			})
+			$(".con1").eq(0).find(".inner").each(function(index,item) {
+ 				$(this).attr("data",index);
+ 			})
+
+			$(".contentCon1 .con1").append($(".notpaid").clone());
+			$(".contentCon2 .con1").append($(".paid").clone());
+			$(".contentCon3 .con1").append($(".pingjia").clone());
+			$(".contentCon4 .con1").append($(".finish").clone());
+			$(".contentCon5 .con1").append($(".refund1").clone());
+			// 单选
 			$("li .dianji").on("click",function() {
 				$(this).toggleClass(" dianji1");
 				if(this.className=="dianji"){
@@ -179,6 +341,7 @@
 					$(".fit").addClass("fit1");
 				}
 			})
+			// 全选
 			$(".fit").on("click",function() {
 				$(".fit").toggleClass("fit1");
 				
@@ -194,10 +357,48 @@
 			//删除订单
 			$("#deleteBtn").on("click",function() {
 				$(".dianji1").each(function() {
-					$(this).parents().remove("ul");
+					var dataIndex = $(this).parents(".inner").attr("data");
+					console.log(dataIndex)
+					for(var i = 0; i < $(".inner").length; i++) {
+						if($(".inner").eq(i).attr("data") == dataIndex) {
+		 					$(".inner").eq(i).remove();
+		 				}
+					}
+					
 				})
  			})
+ 
+ 			//退款
+ 			$(".tbtn").on("click",function() {
+ 				$(".refund").toggle();
+ 			})
+
+ 			//评价
+ 			$(".pbtn").on("click",function() {
+ 				$(".evaluate").toggle();
+ 			})
+
+ 			//评分
+ 			$(".star").on("click",function() {
+ 				var num = $(this).index();
+ 				$(".star").removeClass("yellowstar");
+ 				for(var i = 0; i < num; i++) {
+ 					$(".star").eq(i).addClass("yellowstar");
+ 				}
+ 			})
+
 		})
+
+	//字数统计
+	var num = document.querySelectorAll(".num");
+	var txt = document.querySelectorAll(".txt");
+	for(var i = 0; i < num.length; i++) {
+		txt[i].oninput = function() {
+			for(var j = 0; j < txt.length; j++) {
+				num[j].innerHTML = 200 - this.value.length;
+			}
+		}
+	}
 	</script>
 </body>
 </html>
