@@ -8,6 +8,15 @@ window.onload = function() {
 	var pageList = document.querySelectorAll(".pages li");
 	var prev = document.getElementById("prev");
 	var next = document.getElementById("next");
+	var dropbox = document.querySelector(".dropbox");
+	var dropboxList = document.querySelectorAll(".dropbox-on li");
+	var dropboxOn = document.querySelector(".dropbox-on");
+	var close = document.getElementById("close");
+	var appoint = document.querySelector(".appoint");
+	var appointment = document.querySelector(".appointment");
+	var mask = document.querySelector(".mask");
+	var confirm = document.getElementById("confirm");
+	var cancel = document.getElementById("cancel");
 	
 	for (var i = 0; i < uimgs.length; i++) {
 		uimgs[i].index = i;
@@ -35,9 +44,53 @@ window.onload = function() {
 		pageList[i].onclick = function() {
 			for (var j = 0; j < pageList.length; j++) {
 				pageList[j].className = "";
-			}
+				}
 			this.className = "selected";
+			}
 		}
 	}
-}
+	
+	var flag = true;
+	dropbox.onclick = function() {
+		if (flag) {
+			dropbox.style.backgroundPosition = "240px -582px";
+			dropboxOn.style.display = "block";
+			flag = false;
+		}else {
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+		
+	}
+	
+	for (var i = 0; i < dropboxList.length; i++) {
+		dropboxList[i].index = i;
+		dropboxList[i].onclick = function() {
+			dropbox.innerHTML = this.innerHTML;
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+	}
+	
+	close.onclick = function() {
+		appoint.style.display = "none";
+		mask.style.display = "none";
+	}
+	
+	appointment.onclick = function() {
+		appoint.style.display = "block";
+		mask.style.display = "block";
+	}
+	
+	confirm.onclick = function() {
+		appoint.style.display = "none";
+		mask.style.display = "none";
+	}
+	
+	cancel.onclick = function() {
+		appoint.style.display = "none";
+		mask.style.display = "none";
+	}
 }
