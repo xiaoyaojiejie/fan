@@ -218,6 +218,7 @@ tr.tr2 {
 	font-size: 1.8rem;
 	font-family: "STFangsong";
 	font-weight: bold;
+	outline: none;
 }
 .enrol_right>p {
 	margin-right: 14px;

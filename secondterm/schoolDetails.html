@@ -4,9 +4,85 @@
 	<meta charset="UTF-8">
 	<title>School details 学校详情</title>
 	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" href="../css/header-footer.css" />
 	<link rel="stylesheet" type="text/css" href="../css/secondterm/schoolDetails.css">
 </head>
 <body>
+	<div class="mask">
+		<div class="appoint">
+				<p class="consu clearfix">
+					<span>预约咨询</span>
+					<span id="close"></span>
+				</p>
+				<div class="consult">
+					<p>请留下您的联系电话，我们会在第一时间和您取得联系</p>
+					<label for="">
+						您的姓名：
+						<input type="text" id="atext"/>
+					</label>
+					<label for="">
+						您的电话：
+						<input type="tel	" id="atel" />
+					</label>
+					<span id="wish">意向课程：</span>
+					<div class="dropbox">
+						请选择意向课程
+					</div>
+					<ul class="dropbox-on">
+						<li>iOS</li>
+						<li>Android</li>
+						<li>HTML5</li>
+						<li>Unity-3D</li>
+						<li>产品经理</li>
+					</ul>
+					<br />
+					<a id="cancel">取消</a>
+					<a id="confirm">确定</a>
+				</div>
+			</div>
+	</div>
+	<header>
+			<nav>
+				<ul class="tab">
+					<li>
+						<a href="firstpage.html">
+							首页
+						</a>
+					</li>
+					<li>
+						<a href="offline-course.html">
+							线下课程
+						</a>
+					</li>
+					<li>
+						<a href="../elite/course_list.html">
+							在线课程
+						</a>
+					</li>
+					<li>
+						<a href="offlineSchool.html">
+							学校
+						</a>
+					</li>
+					<li>
+						<a href="../elite/novice.html">
+							互联网头条
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<span></span>
+							提问
+						</a>
+					</li>
+				</ul>
+				<div class="sign">
+					<a href="../elite/login_and_registered.html" class="signin">登录</a>
+					<a href="../elite/login_and_registered.html" class="signup">注册</a>
+				</div>
+			</nav>
+	</header>
+
 	<div class="schoolDetails">
 
 		<div class="schtop">
@@ -167,13 +243,13 @@
 
 						</ul>
 					</div>
-
+					<!-- 学校简介 -->
 					<div class="inner1">
 						<h2>蓝鸥科技教育有限公司简介</h2>
 						<p class="lanou">蓝鸥是一家集产、学、研为一体的综合性移动互联网研发培训机构，致力于iOS开发、Unity3D游戏开发、Android开发和HTML5前端开发等软件人才的培养。蓝鸥强大的师资阵容，纯净的教育理念，严格的管理制度，使其成为了美国苹果公司AATC认证官方授权培训中心、Unity官方授权培训中心，也是目前国内仅有的一家”两大官方授权于一身“的移动互联网培训企业。2012年10月18日，刘辉、李静波、崔亚允，中国移动互联网开发行业的三位领军人物，强强联手，倾力打造了蓝鸥。“三巨头”（开发、技术、教学）护航蓝鸥一路向前，经过短短的三年，蓝鸥已拥有在职员工400多人，学员上万人，在全国共拥有8家实训中心、2家中心直属分院和1家项目研发基地，分别是：北京实训中心、上海实训中心、广州实训中心、大连实训中心、郑州实训中心、西安实训中心、武汉实训中心、成都实训中心、北京中心直属分院（石家庄）、大连中心直属分院（哈尔滨）和上海项目研发基地。</p>
 						<p class="lanou1"> 蓝鸥是一家集产、学、研为一体的综合性移动互联网研发培训机构，致力于iOS开发、Unity3D游戏开发、Android开发和HTML5前端开发等软件人才的培养。蓝鸥强大的师资阵容，纯净的教育理念，严格的管理制度，使其成为了美国苹果公司AATC认证官方授权培训中心、Unity官方授权培训中心，也是目前国内仅有的一家”两大官方授权于一身“的移动互联网培训企业。2012年10月18日，刘辉、李静波、崔亚允，中国移动互联网开发行业的三位领军人物，强强联手，倾力打造了蓝鸥。“三巨头”（开发、技术、教学）护航蓝鸥一路向前，经过中国移动互联网开发行业的三位领军人物，强强联手，倾力打造了蓝鸥。</p>
 					</div>
-
+					<!-- 官方相册 -->
 					<div class="inner2">
 						<ul class="ul2 clearfix">
 							<li>
@@ -242,8 +318,112 @@
 							</li>
 						</ul>
 					</div>
-
-					<div class="inner3"></div>
+					<!-- 用户评价 -->
+					<div class="inner3">
+						<div class="usereva">
+						<div class="center clearfix">
+							<div class="bigscore">
+								<p>5.2</p>
+								<img src="../img/secondterm/star.png" alt="" />
+								<p>该课程共<span>56</span>人评论</p>
+							</div>
+							<em></em>
+							<ul class="charts">
+								<li class="evalu clearfix">
+									<span>好评</span>
+									<div class="back">
+										<div class="colorchart"></div>
+									</div>
+									<p class="countnum"><span id="ago">12315</span>人</p>
+								</li>
+								<li class="evalu clearfix">
+									<span>中评</span>
+									<div class="back">
+										<div class="colorchart colorchart1"></div>
+									</div>
+									<p class="countnum"><span id="ago">1532</span>人</p>
+								</li>
+								<li class="evalu clearfix">
+									<span>差评</span>
+									<div class="back">
+										<div class="colorchart colorchart2"></div>
+									</div>
+									<p class="countnum"><span id="ago">800</span>人</p>
+								</li>
+							</ul>
+						</div>
+						<div class="impress">
+							<div class="people clearfix">
+								<span>大家印象:</span>
+								<ul class="ad clearfix">
+									<li>交通便利(323)</li>
+									<li>学习气氛浓厚(1200)</li>
+									<li>交通便利(323)</li>
+									<li>学习气氛浓厚(1200)</li>
+									<li>交通便利(323)</li>
+									<li>学习气氛浓厚(1200)</li>
+									<li>学习气氛浓厚(1200)</li>
+									<li>交通便利(323)</li>
+									<li>学习气氛浓厚(1200)</li>
+									<li>交通便利(323)</li>
+								</ul>
+							</div>
+						</div>
+						<!--用户评价内容-->
+						<div class="evacontent">
+							<p>评价内容(134)</p>
+							<ul class="noname">
+								<li>
+									<div class="topcontent class="clearfix"">
+										<img id="star" src="../img/secondterm/star.png" alt="" />
+										<span id="username">刘峰</span>
+										<span id="date">2015-01-28</span>
+									</div>
+									<p class="realcontent">
+										很满意特别划算 真不错    很详细 有耐心。很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心
+									</p>
+								</li>
+								<li>
+									<div class="topcontent class="clearfix"">
+										<img id="star" src="../img/secondterm/star.png" alt="" />
+										<span id="username">刘峰</span>
+										<span id="date">2015-01-28</span>
+									</div>
+									<p class="realcontent">
+										很满意特别划算 真不错    很详细 有耐心。很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心
+									</p>
+								</li>
+								<li>
+									<div class="topcontent class="clearfix"">
+										<img id="star" src="../img/secondterm/star.png" alt="" />
+										<span id="username">刘峰</span>
+										<span id="date">2015-01-28</span>
+									</div>
+									<p class="realcontent">
+										很满意特别划算 真不错    很详细 有耐心。很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心很满意特别划算 真不错    很详细 有耐心
+									</p>
+								</li>
+							</ul>
+							<div class="pages clearfix">
+								<a id="prev" href="javascript:history.go(-1)">上一页</a>
+								<ul>
+									<li class="selected">1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>...</li>
+									<li>100</li>
+								</ul>
+								<a id="next" href="javascript:history.go(1)">下一页</a>
+							</div>
+						</div>
+					</div>
+					</div>
 				</div>
 			</div>
 			<div class="conRight">
@@ -349,7 +529,135 @@
 		</div>
 	</div>
 
+	<footer>
+			<ul class="friendlink clearfix">
+				<li>
+						友情链接
+				</li>
+				<li>
+					<a href="http://www.immomo.com/">
+						陌陌科技
+					</a>
+				</li>
+				<li>
+					<a href="http://www.chukong-inc.com/">
+						触控科技
+					</a>
+				</li>
+				<li>
+					<a href="http://www.baike.com/">
+						互动百科
+					</a>
+				</li>
+				<li>
+					<a href="http://gz.sofang.com/">
+						搜房网
+					</a>
+				</li>
+				<li>
+					<a href="../elite/link.html">
+						更多
+						<span></span>
+					</a>
+				</li>
+			</ul>
+			<div class="link clearfix">
+				<ul class="lab">
+					<li>
+						我们的实验室
+					</li>	
+					<li>
+						<a href="javascript:void(0);">在线编程</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">奖学制度</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">在线班级</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">课后60分钟考试</a>
+					</li>
+				</ul>
+				<ul class="aboutus">
+					<li>
+						关于我们
+					</li>	
+					<li>
+						<a href="javascript:void(0);">精英吧简介</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">联系我们</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">加入我们</a>
+					</li>
+				</ul>
+				<ul class="lesson">
+					<li>
+						现有课程
+					</li>	
+					<li>
+						<a href="javascript:void(0);">IOS</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">Android</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">unity3D</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">H5</a>
+					</li>
+				</ul>
+				<ul class="help">
+					<li>
+						帮助
+					</li>	
+					<li>
+						<a href="javascript:void(0);">联系客服</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">版权声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">法律声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">服务条款</a>
+					</li>
+				</ul>
+				<ul class="feedback">
+					<li>
+						反馈方式
+					</li>	
+					<li>
+						<a href="javascript:void(0);">电子邮箱：help@xxxxx.com</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">微信反馈：精英吧微信公众号</a>
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_weixin.png" alt="" />
+					</li>
+				</ul>
+				<ul class="app">
+					<li>
+						口袋精英app
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_app.png" alt="" />
+					</li>
+					<li>
+						(扫码下载)
+					</li>
+				</ul>
+			</div>
+			<p class="copyright">蓝鸥科技有限公司©1997-2016 | 北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层</p>
+	</footer>
+
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<!-- <script src="../js/secondterm/locate.js" type="text/javascript" charset="utf-8"></script> -->
 	<script type="text/javascript">
 		$(function() {
 			$(".nav li").click(function() {
@@ -361,7 +669,72 @@
 				})
 				
 			})
+
+			// page 点击事件
+			$(".pages li").on("click",function() {
+				$(this).addClass("selected").siblings().removeClass("selected");
+			})
+			//上一页
+			$("#prev").click(function() {
+				$(".selected").prev().addClass("selected").siblings().removeClass("selected");
+			})
+			//下一页
+			$("#next").click(function() {
+				$(".selected").next().addClass("selected").siblings().removeClass("selected");
+			})
 		})
+
+		var appoint = document.querySelector(".appoint");
+		var yuyue = document.querySelector(".yuyue");
+		var mask = document.querySelector(".mask");
+		var confirm = document.getElementById("confirm");
+		var cancel = document.getElementById("cancel");
+		var close = document.getElementById("close");
+		var dropbox = document.querySelector(".dropbox");
+		var dropboxList = document.querySelectorAll(".dropbox-on li");
+		var dropboxOn = document.querySelector(".dropbox-on");
+		var flag = true;
+	dropbox.onclick = function() {
+		if (flag) {
+			dropbox.style.backgroundPosition = "240px -582px";
+			dropboxOn.style.display = "block";
+			flag = false;
+		}else {
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+		
+	}
+	
+	for (var i = 0; i < dropboxList.length; i++) {
+		dropboxList[i].index = i;
+		dropboxList[i].onclick = function() {
+			dropbox.innerHTML = this.innerHTML;
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+	}
+
+		close.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
+		yuyue.onclick = function() {
+			appoint.style.display = "block";
+			mask.style.display = "block";
+		}
+			
+		confirm.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
+		
+		cancel.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
 	</script>
 </body>
 </html>

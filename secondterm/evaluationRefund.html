@@ -4,9 +4,53 @@
 	<meta charset="UTF-8">
 	<title>evaluationRefund评价退款</title>
 	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" href="../css/header-footer.css" />
 	<link rel="stylesheet" type="text/css" href="../css/secondterm/evaluationRefund.css">
 </head>
 <body>
+	<header>
+			<nav>
+				
+				<ul class="tab">
+					<li>
+						<a href="firstpage.html">
+							首页
+						</a>
+					</li>
+					<li>
+						<a href="offline-course.html">
+							线下课程
+						</a>
+					</li>
+					<li>
+						<a href="../elite/course_list.html">
+							在线课程
+						</a>
+					</li>
+					<li>
+						<a href="offlineSchool.html">
+							学校
+						</a>
+					</li>
+					<li>
+						<a href="../elite/novice.html">
+							互联网头条
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<span></span>
+							提问
+						</a>
+					</li>
+				</ul>
+				<div class="sign">
+					<a href="../elite/login_and_registered.html" class="signin">登录</a>
+					<a href="../elite/login_and_registered.html" class="signup">注册</a>
+				</div>
+			</nav>
+	</header>
+
 	<div class="evaluationRefund clearfix">
 		<!-- 左边小块 -->
 		<div class="evaluationRefund_left">
@@ -47,6 +91,8 @@
 				</div>
 				<!-- 正文内容 -->
 				<div id="wrap">
+
+					<!-- 全部 -->
 					<div class="contentCon" style="display: block;">
 						<div class="con">
 							<div class="s1">
@@ -221,6 +267,8 @@
 							</div>
 						</div>
 					</div>
+
+					<!-- 待付款 -->
 					<div class="contentCon1">
 						<div class="con">
 							<div class="s1">
@@ -234,9 +282,32 @@
 							<span class="s6">交易状态</span>
 							<span class="s7">操作</span>
 						</div>
-						<div class="con1">	
+						<div class="con1">
+						<div class="inner notpaid">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">待付款</li>
+									<li class="li7">
+										<a href="enrol.html">
+											<button class="fbtn">付款</button>
+										</a>
+									</li>
+								</ul>
+							</div>	
 						</div>
 					</div>
+
+					<!-- 已支付 -->
 					<div class="contentCon2">
 						<div class="con">
 							<div class="s1">
@@ -251,8 +322,47 @@
 							<span class="s7">操作</span>
 						</div>
 						<div class="con1">
+						<div class="inner paid">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已付款</li>
+									<li class="li7">
+										<button class="tbtn">退款</button>
+									</li>
+								</ul>
+								<div class="refund"><!-- refund退款 -->
+									<label class="la1">
+										<span>*</span> 退款原因：<select name="sel" id="sel">
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+											<option>tuikuan</option>
+										</select>
+									</label>
+									<label class="la2">
+										<span>*</span> 退款金额：<input type="text" class="text">
+									</label>
+									<label class="la3">
+										<span class="s3">退款说明：</span><textarea name="txt" class="txt" cols="30" rows="10" placeholder="淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视频加 QQ群:387078125淘宝美工设计师必学课程淘宝美"></textarea><span class="s4">还可填写<span class="num">200</span>个字</span>
+									</label>
+									<button id="btn1">提交退款申请</button>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<!-- 待评价 -->
 					<div class="contentCon3">
 						<div class="con">
 							<div class="s1">
@@ -267,8 +377,59 @@
 							<span class="s7">操作</span>
 						</div>
 						<div class="con1">
+						<div class="inner pingjia">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">
+										<button class="pbtn">评价</button>
+									</li>
+								</ul>
+								<div class="evaluate"><!-- evaluate评价 -->
+									<p class="p1">
+										<span class="xing">*</span> 评分：
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+									</p>
+									<div class="xinde">
+										<span class="xing">*</span> 心得：
+										<div class="experience">
+											<div class="top">
+												<span class="a1">交通便利(323)</span>
+												<span class="a2">学习气氛浓厚(1200)</span>
+												<span class="a3">学习气氛浓厚(1200)</span>
+											</div>
+											<div class="bottom">
+												<span class="a4">交通便利(323)</span>
+												<span class="a5">学习气氛浓厚(1200)</span>
+												<span class="a6">学习气氛浓厚(1200)</span>
+												<span class="a7">学习气氛浓厚(1200)</span>
+											</div>
+										</div><!-- experience心得 -->
+									</div>
+									<label class="la4">
+										<span class="s3">评价：</span><textarea name="txt" class="txt" cols="30" rows="10" placeholder="淘宝美工实战案例体验课【特邀客座讲师】淘宝美工设计师必学课程，免费领取学习视频加 QQ群:387078125淘宝美工设计师必学课程淘宝美"></textarea><span class="s4">还可填写<span class="num">200</span>个字</span>
+									</label>
+									<button class="btn2">发表评价</button>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<!-- 已完成 -->
 					<div class="contentCon4">
 						<div class="con">
 							<div class="s1">
@@ -283,8 +444,44 @@
 							<span class="s7">操作</span>
 						</div>
 						<div class="con1">
+							<div class="inner finish">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">已评价</li>
+								</ul>
+							</div>
+							<div class="inner finish">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">已完成</li>
+									<li class="li7">已退款</li>
+								</ul>
+							</div>
 						</div>
 					</div>
+					
+					<!-- 已取消 -->
 					<div class="contentCon5">
 						<div class="con">
 							<div class="s1">
@@ -299,12 +496,157 @@
 							<span class="s7">操作</span>
 						</div>
 						<div class="con1">
+						<div class="inner refund1">
+								<ul>
+									<li class="li1 clearfix">
+										<img src="../img/secondterm/active/pingjia.png">
+										<div class="dianji"></div>
+									</li>
+									<li class="li2">
+										<p class="p1">儿童手工纸 彩色皱纹纸DIY材料 手揉纸 幼儿园环境布置智</p>
+										<p class="p2">订单号：9374837</p>
+									</li>
+									<li class="li3">2015-02-15</li>
+									<li class="li4">1</li>
+									<li class="li5">￥18900</li>
+									<li class="li6">申请退款</li>
+									<li class="li7">处理中</li>
+								</ul>
+							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<footer>
+			<ul class="friendlink clearfix">
+				<li>
+						友情链接
+				</li>
+				<li>
+					<a href="http://www.immomo.com/">
+						陌陌科技
+					</a>
+				</li>
+				<li>
+					<a href="http://www.chukong-inc.com/">
+						触控科技
+					</a>
+				</li>
+				<li>
+					<a href="http://www.baike.com/">
+						互动百科
+					</a>
+				</li>
+				<li>
+					<a href="http://gz.sofang.com/">
+						搜房网
+					</a>
+				</li>
+				<li>
+					<a href="../elite/link.html">
+						更多
+						<span></span>
+					</a>
+				</li>
+			</ul>
+			<div class="link clearfix">
+				<ul class="lab">
+					<li>
+						我们的实验室
+					</li>	
+					<li>
+						<a href="javascript:void(0);">在线编程</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">奖学制度</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">在线班级</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">课后60分钟考试</a>
+					</li>
+				</ul>
+				<ul class="aboutus">
+					<li>
+						关于我们
+					</li>	
+					<li>
+						<a href="javascript:void(0);">精英吧简介</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">联系我们</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">加入我们</a>
+					</li>
+				</ul>
+				<ul class="lesson">
+					<li>
+						现有课程
+					</li>	
+					<li>
+						<a href="javascript:void(0);">IOS</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">Android</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">unity3D</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">H5</a>
+					</li>
+				</ul>
+				<ul class="help">
+					<li>
+						帮助
+					</li>	
+					<li>
+						<a href="javascript:void(0);">联系客服</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">版权声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">法律声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">服务条款</a>
+					</li>
+				</ul>
+				<ul class="feedback">
+					<li>
+						反馈方式
+					</li>	
+					<li>
+						<a href="javascript:void(0);">电子邮箱：help@xxxxx.com</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">微信反馈：精英吧微信公众号</a>
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_weixin.png" alt="" />
+					</li>
+				</ul>
+				<ul class="app">
+					<li>
+						口袋精英app
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_app.png" alt="" />
+					</li>
+					<li>
+						(扫码下载)
+					</li>
+				</ul>
+			</div>
+			<p class="copyright">蓝鸥科技有限公司©1997-2016 | 北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层</p>
+	</footer>
 
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -324,11 +666,11 @@
  				$(this).attr("data",index);
  			})
 
-			$(".contentCon1 .con1").append($(".notpaid").clone());
-			$(".contentCon2 .con1").append($(".paid").clone());
-			$(".contentCon3 .con1").append($(".pingjia").clone());
-			$(".contentCon4 .con1").append($(".finish").clone());
-			$(".contentCon5 .con1").append($(".refund1").clone());
+			// $(".contentCon1 .con1").append($(".notpaid").clone());
+			// $(".contentCon2 .con1").append($(".paid").clone());
+			// $(".contentCon3 .con1").append($(".pingjia").clone());
+			// $(".contentCon4 .con1").append($(".finish").clone());
+			// $(".contentCon5 .con1").append($(".refund1").clone());
 			// 单选
 			$("li .dianji").on("click",function() {
 				$(this).toggleClass(" dianji1");
@@ -337,9 +679,10 @@
 				}
 				if($(".dianji1").length < $(".dianji").length) {
 					$(".fit").removeClass("fit1");
-				}else{
+				}else if($(".dianji1").length == $(".dianji").length){
 					$(".fit").addClass("fit1");
 				}
+				console.log($(".dianji1").length , $(".dianji").length)
 			})
 			// 全选
 			$(".fit").on("click",function() {
