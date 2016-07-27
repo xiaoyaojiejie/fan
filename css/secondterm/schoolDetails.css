@@ -179,7 +179,7 @@ body {
 /*本校课程*/
 .inner {
 	margin-bottom: 56px;
-	display: none;
+	/*display: none;*/
 }
 .inner>.ul1 li {
 	position: relative;
@@ -306,6 +306,7 @@ body {
 /*用户评价*/
 .inner3 {
 	width: 100%;
+	display: none;
 }
 /*用户评价*/
 .usereva {
