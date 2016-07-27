@@ -105,23 +105,14 @@ window.onload = function() {
 	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
 
 //合作机构
-//	var comList = document.querySelectorAll(".com > a");
-//	var longList = document.querySelectorAll(".long li");
-//	var longe = document.querySelector(".long");
-//	var clone = longList[0].cloneNode();
-//	longe.appendChild(clone);
-//	var iconPerwidth = longList[0].offsetWidth;
-//	var finder = 0;
-//	var uLeft = longe.offsetLeft;
-//	for (var i =0;i<comList.length;i++) {
-//		comList[i].index = i;
-//		if (index == 0) {
-//			this.onclick = function() {
-//					uLeft = uLeft + iconPerwidth ;
-//			
-//			}
-//	}
-//}
+	var goleft = document.getElementById("goleft");
+	var goright = document.getElementById("goright");
+	var longe = document.querySelector(".long");
+	var oleft = longe.offsetLeft;
+	
+	goleft.onclick = function() {
+		longe.style.left = -oleft + 165 + "px";
+	}
 }
 
 
