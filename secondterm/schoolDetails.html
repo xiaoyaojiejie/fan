@@ -8,6 +8,39 @@
 	<link rel="stylesheet" type="text/css" href="../css/secondterm/schoolDetails.css">
 </head>
 <body>
+	<div class="mask">
+		<div class="appoint">
+				<p class="consu clearfix">
+					<span>预约咨询</span>
+					<span id="close"></span>
+				</p>
+				<div class="consult">
+					<p>请留下您的联系电话，我们会在第一时间和您取得联系</p>
+					<label for="">
+						您的姓名：
+						<input type="text" id="atext"/>
+					</label>
+					<label for="">
+						您的电话：
+						<input type="tel	" id="atel" />
+					</label>
+					<span id="wish">意向课程：</span>
+					<div class="dropbox">
+						请选择意向课程
+					</div>
+					<ul class="dropbox-on">
+						<li>iOS</li>
+						<li>Android</li>
+						<li>HTML5</li>
+						<li>Unity-3D</li>
+						<li>产品经理</li>
+					</ul>
+					<br />
+					<a id="cancel">取消</a>
+					<a id="confirm">确定</a>
+				</div>
+			</div>
+	</div>
 	<header>
 			<nav>
 				<ul class="tab">
@@ -624,6 +657,7 @@
 	</footer>
 
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<!-- <script src="../js/secondterm/locate.js" type="text/javascript" charset="utf-8"></script> -->
 	<script type="text/javascript">
 		$(function() {
 			$(".nav li").click(function() {
@@ -649,6 +683,58 @@
 				$(".selected").next().addClass("selected").siblings().removeClass("selected");
 			})
 		})
+
+		var appoint = document.querySelector(".appoint");
+		var yuyue = document.querySelector(".yuyue");
+		var mask = document.querySelector(".mask");
+		var confirm = document.getElementById("confirm");
+		var cancel = document.getElementById("cancel");
+		var close = document.getElementById("close");
+		var dropbox = document.querySelector(".dropbox");
+		var dropboxList = document.querySelectorAll(".dropbox-on li");
+		var dropboxOn = document.querySelector(".dropbox-on");
+		var flag = true;
+	dropbox.onclick = function() {
+		if (flag) {
+			dropbox.style.backgroundPosition = "240px -582px";
+			dropboxOn.style.display = "block";
+			flag = false;
+		}else {
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+		
+	}
+	
+	for (var i = 0; i < dropboxList.length; i++) {
+		dropboxList[i].index = i;
+		dropboxList[i].onclick = function() {
+			dropbox.innerHTML = this.innerHTML;
+			dropboxOn.style.display = "none";
+			dropbox.style.backgroundPosition = "240px -564px";
+			flag = true;
+		}
+	}
+
+		close.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
+		yuyue.onclick = function() {
+			appoint.style.display = "block";
+			mask.style.display = "block";
+		}
+			
+		confirm.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
+		
+		cancel.onclick = function() {
+			appoint.style.display = "none";
+			mask.style.display = "none";
+		}
 	</script>
 </body>
 </html>
