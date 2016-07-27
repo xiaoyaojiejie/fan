@@ -2,3 +2,12 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic
 $("#share").on("click",function(){
 	$(".bdsharebuttonbox").toggle();
 })
+
+	$(".subject_details>ul>li>div").on("mouseenter",function(){
+		$(this).children("span").hide();
+		$(this).children("a").show();
+	})
+	$(".subject_details>ul>li>div").on("mouseleave",function(){
+		$(this).children("span").show();
+		$(this).children("a").hide();
+	})
