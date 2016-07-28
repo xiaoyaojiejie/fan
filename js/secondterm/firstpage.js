@@ -81,8 +81,8 @@ window.onload = function() {
 //	返回顶部
 	var img4 = document.querySelector(".img4");
 	var sooner = 0;
-	var aside = document.querySelector("aside");
-	var section = document.querySelector("section");
+	var aside = document.querySelector(".aside");
+	var section = document.querySelector(".section");
 	
 	img4.onclick = function() {
 		var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
