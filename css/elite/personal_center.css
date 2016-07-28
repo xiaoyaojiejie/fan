@@ -2,6 +2,7 @@
 	width: 100%;
 	background-color: #f5f5f5;
 	font-family: "微软雅黑";
+	overflow: hidden;
 }
 /**************个人中心灰色变白按钮公共样式开始**********************/
 .course_btn_box{
@@ -43,7 +44,7 @@
 	height: 175px;
 	background-color: white;
 	margin: 0 auto;
-	/*margin-top: 30px;*/
+	margin-top: 30px;
 }
 .header_and_name{
 	float: left;

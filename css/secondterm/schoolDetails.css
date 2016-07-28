@@ -179,7 +179,7 @@ body {
 /*本校课程*/
 .inner {
 	margin-bottom: 56px;
-	display: none;
+	/*display: none;*/
 }
 .inner>.ul1 li {
 	position: relative;
@@ -202,15 +202,15 @@ body {
 }
 .liLeft .mianfei {
 	position: absolute;
-	right: 20px;
+	right: -358px;
 	top: 6px;
 	font-size: 1.6rem;
 	color: #ea9b65;
 }
 .liLeft .jiazhi {
 	position: absolute;
-	right: 20px;
-	top: 30px;
+	right: -358px;
+	top: 28px;
 	font-size: 1.2rem;
 	color: #999;
 }
@@ -306,6 +306,7 @@ body {
 /*用户评价*/
 .inner3 {
 	width: 100%;
+	display: none;
 }
 /*用户评价*/
 .usereva {
@@ -594,6 +595,142 @@ body {
 	color: #999;
 	font-size: 1.2rem;
 	margin-top: 6px;
+}
+/*预约弹窗*/
+.appoint {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 490px;
+	height: 310px;
+	border-radius: 5px;
+	background-color: #fff;
+	z-index: 1;
+	display: none;
+}
+.consu {
+	height: 30px;
+	line-height: 30px;
+	background-color: #29b572;
+	font-size: 1.4rem;
+	color: #fff;
+	padding: 0 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.consu span:nth-child(1) {
+	float: left;
+}
+.consu span:nth-child(2) {
+	float: right;
+	width: 23px;
+	height: 23px;
+	background: url(../../img/secondterm/chacha.png) no-repeat;
+	background-position: 0 9.5px;
+}
+.consult {
+	padding: 40px 0 0 40px;
+	
+}
+.consult > p {
+	font-size: 1.2rem;
+	color: #999999;
+	margin-bottom: 20px;
+}
+.consult > label {
+	display: block;
+	font-size: 1.4rem;
+	color: #666666;
+	margin-bottom: 10px;
+}
+.consult > label > input {
+	width: 270px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	outline: none;
+	box-sizing: border-box;
+}
+#wish {
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 28px;
+	color: #666666;
+}
+.dropbox {
+	display: inline-block;
+	width: 270px;
+	height: 30px;
+	border: 1px solid #e0e0e0;
+	line-height: 28px;
+	font-size: 1.4rem;
+	color: #666;
+	padding: 0 10px;
+	box-sizing: border-box;
+	background: url(../../img/secondterm/spirit2.png) no-repeat;
+	background-position: 240px -564px;
+	cursor: pointer;
+}
+.dropbox-on {
+	width: 270px;
+	height: 150px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-top: 0;
+	margin-left: 73px;
+	display: none;
+}
+
+.dropbox-on li {
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	line-height: 30px;
+	font-size: 1.4rem;
+	background-color: #fff;	
+}
+.dropbox-on li:hover {
+	cursor: pointer;
+	background-color: #fafafa;
+}
+.consult > a {
+	float: right;
+	width: 100px;
+	height: 40px;
+	font-size: 1.4rem;
+	color: #333333;
+	background-color: #f5f5f5;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #d9d9d9;
+	margin-top: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.consult > a:nth-of-type(2) {
+	color: #fff;
+	background-color: #29b572;
+	border: none;
+}
+.consult > a:nth-of-type(1):hover {
+	background-color: #ebebeb;
+}
+.consult > a:nth-of-type(2):hover {
+	background-color: #029850;
+}
+/*蒙层*/
+.mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+	display: none;
 }
 
 
