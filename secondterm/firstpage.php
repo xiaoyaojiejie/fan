@@ -1,0 +1,563 @@
+<?php
+	header("Content-Type:text/html,charset=utf8");
+	
+	$url = "w.rdc.sae.sina.com.cn:3307";
+	$root = "0ow2oxyx35";
+	$pwd = "0kx5j2xihj3li32y52w4k0k35l51xliihm155k1h";
+	
+	$conn = @mysql_connect($url,$root,$pwd) or die("链接失败");
+	
+	mysql_select_db("app_weishao916");
+	mysql_query("set names uft8");
+	
+	$sql = "select * from lunbo";
+	$result = mysql_query($sql);
+	
+	if(mysql_affected_rows()>0) {
+		while($row = mysql_fetch_assoc($result)) {
+			echo $row["id"];
+		}
+	}
+		
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<link rel="stylesheet" href="../css/base.css" />
+		<link rel="stylesheet" href="../css/header-footer.css" />
+		<link rel="stylesheet" href="../css/secondterm/firstpage.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="javascript:void(0);" id="locate">北京</a>
+				<ul class="selectlocate clearfix">
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/beijing.png" alt="" />
+							<p class="newlocate">北京</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/dalian.png" alt="" />
+							<p class="newlocate">大连</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/zhengzhou.png" alt="" />
+							<p class="newlocate">郑州</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/shanghai.png" alt="" />
+							<p class="newlocate">上海</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/guangzhou.png" alt="" />
+							<p class="newlocate">广州</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/xian.png" alt="" />
+							<p class="newlocate">西安</p>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<div class="mask"></div>
+							<img src="../img/secondterm/wuhan.png" alt="" />
+							<p class="newlocate">武汉</p>
+						</a>
+					</li>
+				</ul>
+				<ul class="tab">
+					<li>
+						<a href="firstpage.html">
+							首页
+						</a>
+					</li>
+					<li>
+						<a href="offline-course.html">
+							线下课程
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							在线课程
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							学校
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							互联网头条
+						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">
+							<span></span>
+							提问
+						</a>
+					</li>
+				</ul>
+				<div class="sign">
+					<a class="signin">登录</a>
+					<a class="signup">注册</a>
+				</div>
+			</nav>
+		</header>
+		<section>
+			<div class="info">
+				<div class="wrapper">
+					<div class="container clearfix">
+						<a href="javascript:void(0);">
+							<img src="../img/secondterm/banner1.png" alt="" />
+						</a>
+						<a href="javascript:void(0);">
+							<img src="../img/secondterm/banner2.png" alt="" />
+						</a>
+						<a href="javascript:void(0);">
+							<img src="../img/secondterm/banner3.png" alt="" />
+						</a>
+					</div>
+					<div id="pagination">
+						<span class="active"></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div class="welcome">
+					<div class="person clearfix">
+						<img src="../img/secondterm/active/user.png" alt="" />
+						<p>Hi,中午好，</p>
+						<p>欢迎来到精英吧。</p>
+						<div class="show">
+							<a href="javascript:void(0);" class="selected">登录</a>
+							<a href="javascript:void(0);">注册</a>
+						</div>
+					</div>
+					<div class="rudiment clearfix">
+						<p>新手入门</p>
+						<p>
+							<a href="javascript:void(0);">
+								了解精英吧
+								<span></span>
+							</a>
+						</p>
+					</div>
+					<ul class="detail">
+						<li>
+							<a class="theory" href="javascript:void(0);">
+								<span class="one"></span>
+								1、理论学习
+							</a>
+						</li>
+						<li>
+							<a class="cattle" href="javascript:void(0);">
+								<span class="two"></span>
+								2、大牛答疑
+							</a>
+						</li>
+						<li>
+							<a class="test" href="javascript:void(0);">
+								<span class="three"></span>
+								3、在线评估
+							</a>
+						</li>
+						<li>
+							<a class="practice" href="javascript:void(0);">
+								<span class="four"></span>
+								4、线下实训
+							</a>
+						</li>
+					</ul>
+					<ul class="allure clearfix">
+						<li>
+							<a href="javascript:void(0);">
+								讲学
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								就业
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0);">
+								圈子
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="advantage">
+				<ul>
+					<li>
+						<span class="first"></span>
+						<div class="tell">
+							<span>课程学习</span>
+							<p>采用在线教学模式，学习理论课程，让你快速完成理论知识的搭建</p>
+						</div>
+					</li>
+					<li>
+						<span class="second"></span>
+						<div class="tell">
+							<span>学习指导</span>
+							<p>不知道该学什么，我们将有在线职业规划师为你进行学习指导</p>
+						</div>
+					</li>
+					<li>
+						<span class = "third"></span>
+						<div class="tell">
+							<span>有问必答</span>
+							<p>利用手机通过算法将你的问题推送给老师，一对一为你实时解答</p>
+						</div>
+					</li>
+					<li>
+						<span class="fourth"></span>
+						<div class="tell">
+							<span>招聘就业</span>
+							<p>我们鼓励学习，学习达标的学员我们向企业推荐</p>
+						</div>
+					</li>
+					<li>
+						<span class="fifth"></span>
+						<div class="tell">
+							<span>带你走进互联网</span>
+							<p>行业专家为你提供最新最前沿的互联网思维和讯息，快速了解互联网</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="online">
+				<p>精英吧在线课程</p>
+				<ul>
+					<li>
+						<a class="ios" href="javascript:void(0);"></a>
+					</li>
+					<li>
+						<a class="android" href="javascript:void(0);"></a>
+					</li>
+					<li>
+						<a class="u3d" href="javascript:void(0);"></a>
+					</li>
+					<li>
+						<a class="h5" href="javascript:void(0);"></a>
+					</li>
+					<li>
+						<a class="more" href="javascript:void(0);"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="offline">
+				<p>精英吧线下课程</p>
+				<a href="offline-course.html"></a>
+			</div>
+			<div class="school">
+				<p>入驻学校</p>
+				<a href="javascript:void(0);"></a>
+			</div>
+			<div class="different">
+				<p>不一样的学习方式</p>
+				<ul class="sli">
+					<li>
+						<span class="back"></span>
+						<div>
+							<p>同学一起学</p>
+							<p>精准的算法，让你在学习的道路上不孤单，和志同道合，能力相当的同学为伴一起在学习的路上打怪升级，刷副本。</p>
+						</div>
+					</li>
+					<li>
+						<span class="front"></span>
+						<div>
+							<p>学习顾问指引</p>
+							<p>贴心的学习顾问，当你遇到困难，学习动力不足，对学习方向和未来迷茫，出手相助。</p>
+						</div>
+					</li>
+					<li>
+						<span class="face"></span>
+						<div>
+							<p>奖学制度</p>
+							<p>每个时代都需要天才，但是也需要勤奋刻苦的人才，对，就是你，你学的好，我们就要奖励你，我们要助推你成为社会的精英。</p>
+						</div>
+					</li>
+					<li>
+						<span class="side"></span>
+						<div>
+							<p>有问必答</p>
+							<p>遇到困难不要怕，上千名认证专家在线支持答疑，只要你提问，我们就回答。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="signstudy">
+				<p>目前我们共有超过<span>30000</span>注册学习用户</p>
+				<span>目前已经有259名学生获得奖学金</span>
+				<div class="well">
+					<ul class="showboard">
+						<li>
+							<img src="../img/secondterm/active/head1.png" alt="" />
+							<div class="sum">
+								<p>账户名称</p>
+								<p>Android基础课</p>
+								<p>综合分数91分</p>
+							</div>
+							<p class="prize">奖学金：</p>
+							<p class="count">3000元</p>
+						</li>
+						<li>
+							<img src="../img/secondterm/active/head2.png" alt="" />
+							<div class="sum">
+								<p>账户名称</p>
+								<p>Android基础课</p>
+								<p>综合分数91分</p>
+							</div>
+							<p class="prize">奖学金：</p>
+							<p class="count">2000元</p>
+						</li>
+						<li>
+							<img src="../img/secondterm/active/head3.png" alt="" />
+							<div class="sum">
+								<p>账户名称</p>
+								<p>Android基础课</p>
+								<p>综合分数91分</p>
+							</div>
+							<p class="prize">奖学金：</p>
+							<p class="count">1000元</p>
+						</li>
+						<li>
+							<img src="../img/secondterm/active/head4.png" alt="" />
+							<div class="sum">
+								<p>账户名称</p>
+								<p>Android基础课</p>
+								<p>综合分数91分</p>
+							</div>
+							<p class="prize">奖学金：</p>
+							<p class="count">800元</p>
+						</li>
+						<li>
+							<img src="../img/secondterm/active/head5.png" alt="" />
+							<div class="sum">
+								<p>账户名称</p>
+								<p>Android基础课</p>
+								<p>综合分数91分</p>
+							</div>
+							<p class="prize">奖学金：</p>
+							<p class="count">500元</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="company">
+					<p>合作机构</p>
+					<div class="com">
+						<a id="goleft" href="javascript:void(0);"></a>
+						<a id="goright" href="javascript:void(0);"></a>
+						<div class="seen">
+							<ul class="long">
+								<li>
+									<a class="icon1" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon2" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon3" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon4" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon5" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon6" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon7" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon8" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon9" href="javascript:void(0);"></a>
+								</li>
+								<li>
+									<a class="icon10" href="javascript:void(0);"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</section>
+		<aside>
+			<ul>
+				<li>
+					<a class="img1" href="javascript:void(0);">
+						公众号
+						<img id="weixinpublic" src="../img/secondterm/erweima_weixin.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a class="img2" href="javascript:void(0);">问卷调查</a>
+				</li>
+				<li>
+					<a class="img3" href="javascript:void(0);">在线留言</a>
+				</li>
+				<li>
+					<a class="img4" href="javascript:void(0);">
+						<img src="../img/secondterm/fanhuidingbu.png"/>
+					</a>
+				</li>
+			</ul>
+			
+		</aside>
+		<footer>
+			<ul class="friendlink clearfix">
+				<li>
+						友情链接
+				</li>
+				<li>
+					<a href="javascript:void(0);">
+						陌陌科技
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">
+						触控科技
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">
+						互动百科
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">
+						搜房网
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">
+						更多
+						<span></span>
+					</a>
+				</li>
+			</ul>
+			<div class="link clearfix">
+				<ul class="lab">
+					<li>
+						我们的实验室
+					</li>	
+					<li>
+						<a href="javascript:void(0);">在线编程</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">奖学制度</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">在线班级</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">课后60分钟考试</a>
+					</li>
+				</ul>
+				<ul class="aboutus">
+					<li>
+						关于我们
+					</li>	
+					<li>
+						<a href="javascript:void(0);">精英吧简介</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">联系我们</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">加入我们</a>
+					</li>
+				</ul>
+				<ul class="lesson">
+					<li>
+						现有课程
+					</li>	
+					<li>
+						<a href="javascript:void(0);">IOS</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">Android</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">unity3D</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">H5</a>
+					</li>
+				</ul>
+				<ul class="help">
+					<li>
+						帮助
+					</li>	
+					<li>
+						<a href="javascript:void(0);">联系客服</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">版权声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">法律声明</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">服务条款</a>
+					</li>
+				</ul>
+				<ul class="feedback">
+					<li>
+						反馈方式
+					</li>	
+					<li>
+						<a href="javascript:void(0);">电子邮箱：help@xxxxx.com</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">微信反馈：精英吧微信公众号</a>
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_weixin.png" alt="" />
+					</li>
+				</ul>
+				<ul class="app">
+					<li>
+						口袋精英app
+					</li>
+					<li>
+						<img src="../img/secondterm/erweima_app.png" alt="" />
+					</li>
+					<li>
+						(扫码下载)
+					</li>
+				</ul>
+			</div>
+			<p class="copyright">蓝鸥科技有限公司©1997-2016 | 北京市海淀区清河毛纺路路南甲36号金五星商业大厦5层</p>
+		</footer>
+		<script src="../js/secondterm/header-footer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/secondterm/tween.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/secondterm/firstpage.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
