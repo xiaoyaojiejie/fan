@@ -16,6 +16,7 @@ body {
 	margin-bottom: 18px;
 }
 .topLeft {
+	float: left;
 	width: 916px;
 	height: 100%;
 	background-color: #fff;
@@ -31,10 +32,10 @@ body {
 }
 .topRight>.p1 {
 	position: relative;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #333;
 	margin:24px 18px;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .topRight>.p1:before {
 	content: '';
@@ -66,7 +67,7 @@ body {
 	margin-top: 24px;
 }
 .details h1 {
-	font-size: 2.4rem;
+	font-size: 24px;
 	color: #333;
 }
 .details .dizhi {
@@ -101,11 +102,11 @@ body {
 }
 .dizhi>.p2 {
 	position: relative;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	line-height: 70px;
 	margin-left: 20px;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .dizhi>.p2:before {
 	content: '';
@@ -121,20 +122,20 @@ body {
 	position: absolute;
 	left: 12px;
 	top: 56px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	background-color: #fff;
 	padding:0 10px;
 }
 .dizhi>.p3 span {
 	color: #29b572;
-	font-size: 2.2rem;
+	font-size: 22px;
 }
 .yuyue {
 	width: 130px;
 	height: 38px;
 	color: #ea9b65;
-	font-size: 1.6rem;
+	font-size: 16px;
 	border: 1px solid #ea9b65;
 	outline: none;
 	margin-top: 30px;
@@ -161,7 +162,7 @@ body {
 	text-align: center;
 }
 .conLeft>ul li a {
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #333;
 }
 .conLeft>.line1 {
@@ -197,21 +198,21 @@ body {
 	float: left;
 }
 .liLeft .huiyuan {
-	font-size: 1.5rem;
+	font-size: 15px;
 	color: #333;
 }
 .liLeft .mianfei {
 	position: absolute;
 	right: -358px;
 	top: 6px;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #ea9b65;
 }
 .liLeft .jiazhi {
 	position: absolute;
 	right: -358px;
 	top: 28px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999;
 }
 .liLeft .huiyuan>span {
@@ -220,14 +221,14 @@ body {
 	border: 1px solid #29b572;
 	width: 32px;
 	height: 18px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	line-height: 18px;
 	text-align: center;
 	margin-left: 10px;
 }
 .liLeft .gongsi {
 	margin-top: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 }
 .gongsi>a {
@@ -239,7 +240,7 @@ body {
 }
 .gongsi>a.a1 {
 	position:relative;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .gongsi>a.a1:before {
 	content: '';
@@ -253,7 +254,7 @@ body {
 }
 .gongsi>a.a2 {
 	position:relative;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .gongsi>a.a2:before {
 	content: '';
@@ -279,10 +280,10 @@ body {
 	margin-top: 26px;
 }
 .inner1>.lanou,.inner1>.lanou1 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	margin:0 30px;
-	text-indent: 2em;
+	text-indent: 20rem;
 	line-height: 30px;
 }
 
@@ -325,7 +326,7 @@ body {
 	float: left;
 }
 .bigscore > p:nth-child(1) {
-	font-size: 3.4rem;
+	font-size: 34px;
 	color: #ff5000;
 }
 .bigscore > img {
@@ -333,7 +334,7 @@ body {
 	margin-bottom: 10px;
 }
 .bigscore > p:nth-child(3) {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666666;
 }
 .center > em {
@@ -346,7 +347,7 @@ body {
 	float: left;
 }
 .evalu > span:nth-child(1) {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666666;
 	line-height: 24px;
 	margin-right: 10px;
@@ -375,7 +376,7 @@ body {
 }
 .countnum {
 	margin-left: 10px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666666;
 	line-height: 24px;
 }
@@ -388,7 +389,7 @@ body {
 }
 .people span {
 	float: left;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999999;
 	height: 25px;
 	line-height: 25px;
@@ -401,7 +402,7 @@ body {
 .ad li {
 	float: left;
 	border: 1px solid #3faf7a;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #3faf7a;
 	text-align: center;
 	line-height: 25px;
@@ -456,17 +457,17 @@ body {
 	margin-top: 5px;
 }
 #username {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 }
 #date {
 	float: right;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 }
 .realcontent {
 	text-align: justify;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	margin-bottom: 20px;
 }
@@ -485,7 +486,7 @@ body {
 }
 .pages a,.pages li {
 	height: 30px;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666666;
 	text-align: center;
 	line-height: 30px;
@@ -532,10 +533,10 @@ body {
 .rtop h2 {
 	position: relative;
 	line-height: 50px;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #333;
 	margin-left: 14px;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .rtop h2:before {
 	content: '';
@@ -551,7 +552,7 @@ body {
 	position: relative;
 	left: 260px;
 	top:-32px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666;
 }
 .rleft {
@@ -573,7 +574,7 @@ body {
 .rright p.p1 {
 	margin-top: 10px;
 	color: #333;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .rright>.p2 .xing {
 	width: 14px;
@@ -593,7 +594,7 @@ body {
 }
 .rright p.p3 {
 	color: #999;
-	font-size: 1.2rem;
+	font-size: 12px;
 	margin-top: 6px;
 }
 /*预约弹窗*/
@@ -615,7 +616,7 @@ body {
 	height: 30px;
 	line-height: 30px;
 	background-color: #29b572;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #fff;
 	padding: 0 10px;
 	width: 100%;
@@ -637,13 +638,13 @@ body {
 	
 }
 .consult > p {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 	margin-bottom: 20px;
 }
 .consult > label {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 14;
 	color: #666666;
 	margin-bottom: 10px;
 }
@@ -657,7 +658,7 @@ body {
 }
 #wish {
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 28px;
 	color: #666666;
 }
@@ -667,7 +668,7 @@ body {
 	height: 30px;
 	border: 1px solid #e0e0e0;
 	line-height: 28px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	padding: 0 10px;
 	box-sizing: border-box;
@@ -691,7 +692,7 @@ body {
 	padding-left: 10px;
 	box-sizing: border-box;
 	line-height: 30px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	background-color: #fff;	
 }
 .dropbox-on li:hover {
@@ -702,7 +703,7 @@ body {
 	float: right;
 	width: 100px;
 	height: 40px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	background-color: #f5f5f5;
 	text-align: center;

@@ -1,30 +1,14 @@
 window.onload = function() {
-	var container = document.querySelector(".container");
-	
-//	var lunbo1 = document.getElementById("lunbo1");
-//	var lunbo2 = document.getElementById("lunbo2");
-//	var lunbo3 = document.getElementById("lunbo3");
-	
+	var container = document.querySelector(".container");	
 	var xhr = new XMLHttpRequest();
-//	var t = location.search;
-//	var reg1 = /\?/g;
-//	t = x.replace(reg1,"");
-//	var t = x;
 	var url = "../secondterm/transfer.php";
 	xhr.open("get",url,true);
-//	xhr.responseType = "json";
 	xhr.send(null);
-//	var SCRIPT_REGEX = /<script.*?>.*?<\/script>&/ig;
-//	xhr.responseText = xhr.responseText.replace(SCRIPT_REGEX,"");
-//	var reg2 = @"<script[^>]*?>.*?</script>";
-//	xhr.responseText = xhr.responseText.replace(reg2,"");
-	
 	xhr.onload = function() {
 		var index = xhr.responseText.indexOf("<script type=");
 		var result = xhr.responseText.substring(0,index);
 		result = JSON.parse(result);
 		console.log(result);
-		
 		for (var t = 0; t < 3; t++) {
 			
 			var content = '<a href="'+result[t].link+'">'+
@@ -33,17 +17,19 @@ window.onload = function() {
 					
 			container.innerHTML += content;
 		}
+		var imglist = document.querySelectorAll(".container img");
+		var a = document.createElement("a");
+		var cloneFirst = imglist[0].cloneNode();
+		a.href = "javascript:void(0);";
+		a.appendChild(cloneFirst);
+		container.appendChild(a);
 	}
-	var imglist = document.querySelectorAll(".container img");
+
 	var spanlist = document.querySelectorAll("#pagination span");
 	var wrapper = document.querySelector(".wrapper");
 //	轮播图
-	var a = document.createElement("a");
-	var cloneFirst = imglist[0].cloneNode();
-	a.href = "javascript:void(0);";
-	a.appendChild(cloneFirst);
-	container.appendChild(a);
-	var perWidth = imglist[0].offsetWidth;
+	
+	var perWidth = 980;
 
 	var clickFlag = true;
 	var timer = 0;
@@ -113,8 +99,9 @@ window.onload = function() {
 //	返回顶部
 	var img4 = document.querySelector(".img4");
 	var sooner = 0;
-	var aside = document.querySelector("aside");
-	var section = document.querySelector("section");
+	var aside = document.querySelector(".aside");
+	var section = document.querySelector(".section");
+
 	
 	img4.onclick = function() {
 		var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
@@ -127,14 +114,12 @@ window.onload = function() {
 			if (t>=maxT) {
 				clearInterval(sooner);
 			}
-//			document.body.scrollTop = change/maxT * t + scrollTop + "px";
-//			document.documentElement.scrollTop = change/maxT * t + scrollTop + "px";
 			document.body.scrollTop = Tween.Linear(t,scrollTop,change,maxT);
 			document.documentElement.scrollTop = Tween.Linear(t,scrollTop,change,maxT);
 		},17)
 	}
 
-//	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
+	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
 
 //合作机构
 	var goleft = document.getElementById("goleft");
@@ -143,7 +128,7 @@ window.onload = function() {
 	var oleft = longe.offsetLeft;
 	
 	goleft.onclick = function() {
-		longe.style.left = -oleft + 165 + "px";
+		longe.style.left = oleft + 165 + "px";
 	}
 	
 

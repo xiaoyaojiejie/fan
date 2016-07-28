@@ -19,23 +19,23 @@ body {
 .ostop .ul1 li {
 	float: left;
 	margin:24px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .ostop .ul2 li {
 	float: left;
 	margin:24px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	margin-top: -8px;
 }
 .ostop .ul1 li.fenlei {
 	position: relative;
 	color: #333;
-	text-indent: 2rem;
+	text-indent: 20px;
 }
 .ostop .ul2 li.quyu {
 	position: relative;
 	color: #333;
-	text-indent: 2rem;
+	text-indent: 20px;
 }
 .ostop .ul1 li.fenlei:before {
 	content: '';
@@ -84,7 +84,7 @@ body {
 	float: left;
 	line-height: 52px;
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 }
 .osleft>.moren li.os {
@@ -140,12 +140,12 @@ body {
 }
 .oneright h1 {
 	font-family: "MicrosoftYaHei Bold";
-	font-size: 1.8rem;
+	font-size: 18px;
 	color: #333;
 	margin-top: 15px;
 }
 .oneright h1 span {
-	font-size: 1.5rem;
+	font-size: 15px;
 	color: #666;
 }
 .div1>span {
@@ -169,15 +169,15 @@ body {
 	color: #333;
 }
 .p1>span {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #3faf7a;
 }
 .oneright>.p2 {
 	position: relative;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 	margin-top: 20px;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .oneright>.p2:before {
 	content: '';
@@ -200,7 +200,7 @@ body {
 	height: 32px;
 	border: 1px solid #ccc;
 	background-color: #fff;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666;
 	outline: none;
 }
@@ -211,7 +211,7 @@ body {
 	height: 32px;
 	border: 1px solid #ccc;
 	background-color: #fff;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666;
 	line-height: 32px;
 	text-align: center;
@@ -237,10 +237,10 @@ body {
 .rtop h2 {
 	position: relative;
 	line-height: 50px;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #333;
 	margin-left: 14px;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 .rtop h2:before {
 	content: '';
@@ -256,7 +256,7 @@ body {
 	position: relative;
 	left: 260px;
 	top:-32px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666;
 }
 .rleft {
@@ -278,15 +278,15 @@ body {
 .rright p.p1 {
 	margin-top: 12px;
 	color: #333;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .rright p.p2 {
 	color: #999;
-	font-size: 1.2rem;
+	font-size: 12px;
 }
 .rright p.p3 {
 	color: #ea9b65;
-	font-size: 1.6rem;
+	font-size: 16px;
 	font-family: "STFangsong";
 }
 
