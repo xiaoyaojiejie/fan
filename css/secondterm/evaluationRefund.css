@@ -7,7 +7,6 @@ body {
 .evaluationRefund {
 	width: 1224px;
 	margin:30px auto;
-	/*background-color: cyan;*/
 }
 /*左边小块*/
 .evaluationRefund_left {
@@ -19,8 +18,8 @@ body {
 .evaluationRefund_left>a div {
 	width: 100%;
 	height: 42px;
-	font-size: 1.4rem;
-	text-indent: 2rem;
+	font-size: 14px;
+	text-indent: 20px;
 	line-height: 42px;
 	color: #333;
 }
@@ -35,7 +34,7 @@ div.color {
 	float: right;
 }
 .evaluationRefund_right h1 {
-	font-size: 2.2rem;
+	font-size: 22px;
 	color: #333;
 }
 /*******************正文导航begin*******************/
@@ -53,7 +52,7 @@ div.color {
 .contentTop ul li>a {
 	display: inline-block;
 	color: #333;
-	font-size: 1.6rem;
+	font-size: 16px;
 	padding: 24px 44px 44px;
 }
 .contentTop ul li a.active {
@@ -66,10 +65,10 @@ div.color {
 	padding: 30px 28px 44px 0;
 	border: none;
 	background-color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 	outline: none;
-	text-indent: 1.8rem;
+	text-indent: 18px;
 }
 #deleteBtn:before {
 	content: '';
@@ -114,13 +113,13 @@ div.color {
 	line-height: 42px;
 	text-align: center;
 	color: #666;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 #wrap>div .con .s1 {
 	position: relative;
 	width: 108px;
 	display: inline-block;
-	text-indent: 1.6rem;
+	text-indent: 16px;
 }
 .fit {
 	position: absolute;
@@ -191,17 +190,17 @@ div.color {
 	margin-left: 6px;
 }
 li.li2 .p1 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 }
 li.li2 .p2 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 	margin-top: 10px;
 }
  ul li.li3 {
 	width: 98px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	text-align: center;
 	vertical-align: middle;
@@ -209,12 +208,12 @@ li.li2 .p2 {
 }
  ul li.li4, ul li.li5, ul li.li6,ul li.li7 {
 	width: 98px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	text-align: center;
 	vertical-align: middle;
 }
-#wrap>div ul:nth-of-type(6) {
+#wrap>div ul.wra6 {
 	border-bottom: none;
 }
 .fbtn,.tbtn,.pbtn {
@@ -222,7 +221,7 @@ li.li2 .p2 {
 	height: 28px;
 	background-color: #fff;
 	color: #ea9b65;
-	font-size: 1.4rem;
+	font-size: 14px;
 	border: 1px solid #ea9b65;
 	outline: none;
 }
@@ -259,14 +258,14 @@ li.li2 .p2 {
 }
 .la1 {
 	position: relative;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	margin-top: 28px;
 	margin-left: 28px;
 	display: block;
 }
 .la2 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	margin-top: 16px;
 	margin-left: 28px;
@@ -283,7 +282,7 @@ li.li2 .p2 {
 	color: red;
 }
 .la3>.s3 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	vertical-align: top;
 }
@@ -299,21 +298,21 @@ li.li2 .p2 {
 	background-color: #fff;
 	border: 1px solid #e0e0e0;
 	padding: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	outline: none;
 }
 .la3 .s4 {
 	color: #666;
 	margin-left: 10px;
-	font-size: 1.2rem;
+	font-size: 12px;
 }
 #btn1 {
 	width: 110px;
 	height: 32px;
 	background-color: #29b572;
 	color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 	outline: none;
 	border: none;
 	margin-top: 16px;
@@ -321,7 +320,7 @@ li.li2 .p2 {
 }
 /*评价*/
 .evaluate>.p1 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	margin-top: 28px;
 	margin-left: 28px;
@@ -334,19 +333,17 @@ li.li2 .p2 {
 	height: 20px;
 	display: inline-block;
 	background: url(../../img/secondterm/icon.png) no-repeat;
-	background-position: 0 -1122px;
-	background-size: 18px;	
+	background-position: 0 -974px;
 }
 .yellowstar {
 	width: 20px;
 	height: 20px;
 	display: inline-block;
 	background: url(../../img/secondterm/icon.png) no-repeat;
-	background-position: 0 -1148px;
-	background-size: 18px;	
+	background-position: 0 -954px;
 }
 .xinde {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	margin-top: 16px;
 	margin-left: 28px;
@@ -365,12 +362,12 @@ li.li2 .p2 {
 	background-color: #fff;
 	border: 1px solid #e0e0e0;
 	padding: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	outline: none;
 }
 .la4>.s3 {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	vertical-align: top;
 }
@@ -382,14 +379,14 @@ li.li2 .p2 {
 .la4 .s4 {
 	color: #666;
 	margin-left: 10px;
-	font-size: 1.2rem;
+	font-size: 12px;
 }
 .btn2 {
 	width: 110px;
 	height: 32px;
 	background-color: #29b572;
 	color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 	outline: none;
 	border: none;
 	margin-top: 16px;
@@ -404,7 +401,7 @@ li.li2 .p2 {
 	padding: 2px 4px;
 	border: 1px solid #98c7b0;
 	color: #98c7b0;
-	font-size: 1.4rem;
+	font-size: 14px;
 	margin-right: 8px;
 }
 .top .a2 {
@@ -412,7 +409,7 @@ li.li2 .p2 {
 	padding: 2px 4px;
 	border: 1px solid #33b574;
 	color: #33b574;
-	font-size: 1.4rem;
+	font-size: 14px;
 	margin-right: 8px;
 }
 .top .a3 {
@@ -420,14 +417,14 @@ li.li2 .p2 {
 	padding: 2px 4px;
 	background-color: #29b572;
 	color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .bottom>.a5,.bottom>.a6 {
 	display: inline-block;
 	padding: 2px 4px;
 	background-color: #c2c2c2;
 	color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 	margin-right: 8px;
 }
 .bottom>.a7 {
@@ -435,7 +432,7 @@ li.li2 .p2 {
 	padding: 2px 4px;
 	background-color: #999;
 	color: #fff;
-	font-size: 1.4rem;
+	font-size: 14px;
 	margin-right: 8px;
 }
 

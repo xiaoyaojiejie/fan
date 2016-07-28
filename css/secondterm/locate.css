@@ -3,7 +3,7 @@
 body {
 	background-color: #f5f5f5;
 }
-section {
+.section {
 	width: 1224px;
 	margin: 0 auto;
 }
@@ -32,7 +32,7 @@ section {
 	float: left;
 	margin-left: 10px;
 }
-.list li:nth-child(1) {
+.list li.lis1 {
 	margin: 0;
 }
 .intro > div {
@@ -43,16 +43,16 @@ section {
 	height: 310px;
 }
 .vip {
-	font-size: 2.4rem;
+	font-size: 24px;
 	color: #333;
 	margin-top: 10px;
 	margin-bottom: 23px;
 }
 .locatetext {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 }
-.locatetext > span:nth-of-type(1) {
+.locatetext > span.loc1 {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
@@ -61,7 +61,7 @@ section {
 	background-position: 0 -608px;
 	margin-bottom: 5px;
 }
-.locatetext > span:nth-of-type(2) {
+.locatetext > span.loc2 {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
@@ -72,14 +72,14 @@ section {
 .locatetext > p {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 }
-.locatetext > P:nth-of-type(1) {
+.locatetext > p.p1 {
 	margin-bottom: 5px;
 }
-.locatetext a {
-	font-size: 1.2rem;
+.locatetext >.p1 a {
+	font-size: 12px;
 	color: #046ecf;
 	margin-left: 4px;
 }
@@ -96,23 +96,23 @@ section {
 	color: #fff;
 	line-height: 55px;
 }
-.money > em:nth-child(1) {
+.money > em.mon1 {
 	float: left;
-	font-size: 2.4rem;
+	font-size: 24px;
 }
-.money > span:nth-child(2) {
+.money > span.mon2 {
 	float: left;
-	font-size: 2.8rem;
+	font-size: 28px;
 	margin-right: 15px;
 }
-.money > del:nth-child(3) {
+.money > del.mon3 {
 	float: left;
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 58px;
 }
-.money > span:nth-child(4) {
+.money > span.mon4 {
 	float: right;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #29b572;
 	width: 60px;
 	height: 25px;
@@ -122,9 +122,9 @@ section {
 	border-radius: 2px;
 	background-color: #fff;
 }
-.money > span:nth-child(5) {
+.money > span.mon5 {
 	float: right;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #fff;
 	margin-right: 10px;
 }
@@ -139,23 +139,23 @@ section {
 	position: absolute;
 	top: 0;
 	border-right: 1px solid #e8e8e8;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 	text-align: center;
 	line-height: 45px;
 	width: 135px;
 }
 .person span {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #3faf7a;
 }
-.person p:nth-child(1) {
+.person p.per1 {
 	left: 0;
 }
-.person p:nth-child(2) {
+.person p.per2 {
 	left: 136px;
 }
-.person p:nth-child(3) {
+.person p.per3 {
 	left: 273px;
 }
 .buynow,.appointment {
@@ -169,7 +169,7 @@ section {
 	line-height: 45px;
 	border: 1px solid #ea9b65;
 	margin-top: 27px;
-	font-size: 1.8rem;
+	font-size: 18px;
 	color: #ea9b65;
 	box-sizing: border-box;
 }
@@ -202,7 +202,7 @@ section {
 	float: left;
 	width: 145px;
 	height: 66px;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: #333;
 	text-align: center;
 	line-height: 66px;
@@ -233,7 +233,7 @@ section {
 .detail div span {
 	float: left;
 	width: 70px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 	
 }
@@ -241,7 +241,7 @@ section {
 	/*display: inline-block;*/
 	float: left;
 	width: 760px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333;
 	line-height: 24px;
 	margin-left: 25px;
@@ -273,50 +273,50 @@ section {
 }
 .top1 h2{
 	float: left;
-	font-size: 1.5rem;
+	font-size: 15px;
 	color: #333333;
 	line-height: 30px;
 }
 .top1 p {
 	float: right;
-	font-size: 2rem;
+	font-size:20px;
 	color: #ea9b65;
 	font-weight: bold;
 }
 .top1 p span {
-	font-size: 1.6rem;
+	font-size: 16px;
 }
 .top2 > span,.top2 p {
 	float: left;
 }
-.top2 > span:nth-child(1),.top2 > span:nth-child(3) {
+.top2 > span.s1,.top2 > span.s3 {
 	width: 20px;
 	height: 20px;
 	background: url(../../img/secondterm/spirit2.png) no-repeat;
 	background-position: 0 -606px;
 }
-.top2 > span:nth-child(3) {
+.top2 > span.s3 {
 	background-position: 0 -678px;
 }
-.top2 span:nth-child(2),.top2 span:nth-child(4) {
-	font-size: 1.4rem;
+.top2 span.s2,.top2 span.s4 {
+	font-size: 14px;
 	color: #999999;
 	margin-right: 30px;
 }
-.top2 span:nth-child(4) {
+.top2 span.s4 {
 	margin-right: 60px;
 }
-.top2 p:nth-child(5),.top2 p:nth-child(6) {
-	font-size: 1.4rem;
+.top2 p.p1,.top2 p.p2 {
+	font-size: 14px;
 	color: #999999;
 	margin-right: 40px;
 }
-.top2 p:nth-child(5) > span,.top2 p:nth-child(6) > span {
+.top2 p.p1 > span,.top2 p.p2 > span {
 	color: #3faf7a;
 }
-.top2 p:nth-child(7) {
+.top2 p.p3 {
 	float: right;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 }
 /*用户评价*/
@@ -335,16 +335,16 @@ section {
 .center>div,.center>em,.center>ul {
 	float: left;
 }
-.bigscore > p:nth-child(1) {
-	font-size: 3.4rem;
+.bigscore > p.big1 {
+	font-size: 34px;
 	color: #ff5000;
 }
 .bigscore > img {
 	width: 125px;
 	margin-bottom: 10px;
 }
-.bigscore > p:nth-child(3) {
-	font-size: 1.4rem;
+.bigscore > p.big3 {
+	font-size: 14px;
 	color: #666666;
 }
 .center > em {
@@ -356,8 +356,8 @@ section {
 .evalu > span,.evalu > p ,.evalu > div {
 	float: left;
 }
-.evalu > span:nth-child(1) {
-	font-size: 1.2rem;
+.evalu > span.evl1 {
+	font-size: 12px;
 	color: #666666;
 	line-height: 24px;
 	margin-right: 10px;
@@ -386,7 +386,7 @@ section {
 }
 .countnum {
 	margin-left: 10px;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666666;
 	line-height: 24px;
 }
@@ -399,7 +399,7 @@ section {
 }
 .people span {
 	float: left;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999999;
 	height: 25px;
 	line-height: 25px;
@@ -412,7 +412,7 @@ section {
 .ad li {
 	float: left;
 	border: 1px solid #3faf7a;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #3faf7a;
 	text-align: center;
 	line-height: 25px;
@@ -420,7 +420,7 @@ section {
 	margin-right: 10px;
 	margin-bottom: 15px;
 }
-.ad li:nth-child(9),.ad li:nth-child(10) {
+.ad li.li9,.ad li.li10 {
 	background-color: #c2c2c2;
 	color: #fff;
 	border: none;
@@ -437,7 +437,7 @@ section {
 .evacontent > p {
 	height: 40px;
 	background-color: #fafafa;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	line-height: 40px;
 	text-align: left;
@@ -467,21 +467,21 @@ section {
 	margin-top: 5px;
 }
 #username {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 }
 #date {
 	float: right;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 }
 .realcontent {
 	text-align: justify;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	margin-bottom: 20px;
 }
-.noname li:nth-child(3) {
+.noname li.non3 {
 	border: 0;
 	margin-bottom: 50px;
 }
@@ -496,11 +496,11 @@ section {
 }
 .pages a,.pages li {
 	height: 30px;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666666;
 	text-align: center;
 	line-height: 30px;
-	padding: 0 10px;
+	padding: 0 8px;
 	border: 1px solid #cccccc;
 }
 .pages ul {
@@ -512,8 +512,8 @@ section {
 	display: inline-block;
 	cursor: pointer;
 }
-.pages li:nth-of-type(10) {
-	border: 0;
+.pages li.ted {
+	border: none;
 }
 .pages .selected {
 	background-color: #29b572;
@@ -537,19 +537,19 @@ section {
 .hot span{
 	float: left;
 }
-.hot span:nth-child(1) {
+.hot span.hot1 {
 	width: 20px;
 	height: 20px;
 	background: url(../../img/secondterm/spirit2.png) no-repeat;
 	background-position: 0 -650px;
 }
-.hot span:nth-child(2) {
-	font-size: 1.6rem;
+.hot span.hot2 {
+	font-size: 16px;
 	color: #333;
 }
-.hot a:nth-child(3) {
+.hot a.hot3 {
 	float: right;
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #666;
 }
 .recommend li {
@@ -563,23 +563,23 @@ section {
 	height: 60px;
 	margin-right: 10px;
 }
-.nono:hover p:nth-child(1){
+.nono:hover p.tex1{
 	color: #29b572;
 }
-.textrecom p:nth-child(1){
-	font-size: 1.4rem;
+.textrecom p.tex1{
+	font-size: 14px;
 	color: #333;
 }
-.textrecom p:nth-child(2){
-	font-size: 1.2rem;
+.textrecom p.tex2{
+	font-size: 12px;
 	color: #999;
 }
-.textrecom span:nth-child(3){
-	font-size: 1.2rem;
+.textrecom span.tex3{
+	font-size: 12px;
 	color: #ea9b65;
 }
-.textrecom span:nth-child(4){
-	font-size: 1.6rem;
+.textrecom span.tex4{
+	font-size: 16px;
 	color: #ea9b65;
 	font-weight: bold;
 }
@@ -595,7 +595,7 @@ section {
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
-.question > span:nth-child(1) {
+.question > span.que1 {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -603,31 +603,31 @@ section {
 	background-position: -6px -533px;
 	vertical-align: middle;
 }
-.question > span:nth-child(2) {
-	font-size: 1.4rem;
+.question > span.que2 {
+	font-size: 14px;
 	color: #333;
 }
 .sale {
 	margin-top: 20px;
 	line-height: 24px;
 }
-.sale span:nth-child(1) {
-	font-size: 1.4rem;
+.sale span.sal1 {
+	font-size: 14px;
 	color: #ea9b65;
 }
-.sale span:nth-child(2) {
-	font-size: 1.4rem;
+.sale span.sal2 {
+	font-size: 14px;
 	color: #333;
 }
 .sell {
 	line-height: 22px;
 }
-.sell span:nth-child(1) {
-	font-size: 1.4rem;
+.sell span.sel1 {
+	font-size: 14px;
 	color: #29b572;
 }
-.sell span:nth-child(2) {
-	font-size: 1.2rem;
+.sell span.sel2 {
+	font-size: 12px;
 	color: #666;
 }
 /*预约弹窗*/
@@ -649,17 +649,17 @@ section {
 	height: 30px;
 	line-height: 30px;
 	background-color: #29b572;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #fff;
 	padding: 0 10px;
 	width: 100%;
 	box-sizing: border-box;
 }
 
-.consu span:nth-child(1) {
+.consu span.con1 {
 	float: left;
 }
-.consu span:nth-child(2) {
+.consu span.con2 {
 	float: right;
 	width: 23px;
 	height: 23px;
@@ -671,13 +671,13 @@ section {
 	
 }
 .consult > p {
-	font-size: 1.2rem;
+	font-size: 12px;
 	color: #999999;
 	margin-bottom: 20px;
 }
 .consult > label {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666666;
 	margin-bottom: 10px;
 }
@@ -691,7 +691,7 @@ section {
 }
 #wish {
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 28px;
 	color: #666666;
 }
@@ -701,7 +701,7 @@ section {
 	height: 30px;
 	border: 1px solid #e0e0e0;
 	line-height: 28px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	padding: 0 10px;
 	box-sizing: border-box;
@@ -725,7 +725,7 @@ section {
 	padding-left: 10px;
 	box-sizing: border-box;
 	line-height: 30px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	background-color: #fff;	
 }
 .dropbox-on li:hover {
@@ -736,7 +736,7 @@ section {
 	float: right;
 	width: 100px;
 	height: 40px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	background-color: #f5f5f5;
 	text-align: center;
@@ -746,15 +746,15 @@ section {
 	margin-right: 10px;
 	cursor: pointer;
 }
-.consult > a:nth-of-type(2) {
+.consult > #confirm {
 	color: #fff;
 	background-color: #29b572;
 	border: none;
 }
-.consult > a:nth-of-type(1):hover {
+.consult > #cancel:hover {
 	background-color: #ebebeb;
 }
-.consult > a:nth-of-type(2):hover {
+.consult > #confirm:hover {
 	background-color: #029850;
 }
 /*蒙层*/
