@@ -1,21 +1,50 @@
 window.onload = function() {
 	var container = document.querySelector(".container");
+	
+//	var lunbo1 = document.getElementById("lunbo1");
+//	var lunbo2 = document.getElementById("lunbo2");
+//	var lunbo3 = document.getElementById("lunbo3");
+	
+	var xhr = new XMLHttpRequest();
+//	var t = location.search;
+//	var reg1 = /\?/g;
+//	t = x.replace(reg1,"");
+//	var t = x;
+	var url = "../secondterm/transfer.php";
+	xhr.open("get",url,true);
+//	xhr.responseType = "json";
+	xhr.send(null);
+//	var SCRIPT_REGEX = /<script.*?>.*?<\/script>&/ig;
+//	xhr.responseText = xhr.responseText.replace(SCRIPT_REGEX,"");
+//	var reg2 = @"<script[^>]*?>.*?</script>";
+//	xhr.responseText = xhr.responseText.replace(reg2,"");
+	
+	xhr.onload = function() {
+		var index = xhr.responseText.indexOf("<script type=");
+		var result = xhr.responseText.substring(0,index);
+		result = JSON.parse(result);
+		console.log(result);
+		
+		for (var t = 0; t < 3; t++) {
+			
+			var content = '<a href="'+result[t].link+'">'+
+							'<img src="'+result[t].img+'" alt="" />'+
+						'</a>';
+					
+			container.innerHTML += content;
+		}
+	}
 	var imglist = document.querySelectorAll(".container img");
 	var spanlist = document.querySelectorAll("#pagination span");
 	var wrapper = document.querySelector(".wrapper");
-	var lunbo1 = document.getElementById("lunbo1");
-	var lunbo2 = document.getElementById("lunbo2");
-	var lunbo3 = document.getElementById("lunbo3");
-	
-	//轮播图
+//	轮播图
 	var a = document.createElement("a");
 	var cloneFirst = imglist[0].cloneNode();
 	a.href = "javascript:void(0);";
 	a.appendChild(cloneFirst);
 	container.appendChild(a);
 	var perWidth = imglist[0].offsetWidth;
-	
-//	轮播图
+
 	var clickFlag = true;
 	var timer = 0;
 	function autoGo() {
@@ -105,7 +134,7 @@ window.onload = function() {
 		},17)
 	}
 
-	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
+//	aside.style.left = section.offsetWidth + section.offsetLeft + 20 + "px";
 
 //合作机构
 	var goleft = document.getElementById("goleft");
@@ -117,19 +146,7 @@ window.onload = function() {
 		longe.style.left = -oleft + 165 + "px";
 	}
 	
-	var xhr = new XMLHttpRequest();
-	var x = location.search;
-	var reg1 = /\?/g;
-	x = x.replace(reg1,"");
-	var t = x;
-	var url = "../secondterm/transfer.php";
-	xhr.open("get",url);
-	xhr.responseType = "json";
-	xhr.send(null);
-	
-//	xhr.onload = function() {
-//		lunbo1.src = 
-//	}
+
 }
 
 
