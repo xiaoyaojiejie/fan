@@ -13,49 +13,49 @@
 	box-sizing: border-box;
 	padding: 15px;
 }
-.subject>div:nth-child(1){
+.unity3D_img{
 	width: 430px;
 	height: 245px;
 	float: left;
 }
-.subject>div:nth-child(1) img{
+.unity3D_img img{
 	height: 100%;
 }
-.subject>div:nth-child(2){
+.subject>.unity3D_time{
 	position: relative;
 	float: left;
 	width: 755px;
 	height: 245px;
 }
-.subject>div:nth-child(2)>p{
+.subject>.unity3D_time>p{
 	font-size: 2.4rem;
 	margin-left: 20px;
 }
-.subject>div:nth-child(2)>a{
+.subject>.unity3D_time>a{
 	position: absolute;
 	right: 0;
 	top: 0;
 	width: 70px;
 }
-.subject>div:nth-child(2)>div:nth-child(2){
+.subject>.unity3D_time>div:nth-child(2){
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	text-align: center;
 }
-.subject>div:nth-child(2)>div>div{
+.subject>.unity3D_time>div>div{
 	width: 130px;
 	float: left;
 }
-.subject>div:nth-child(2)>div>div:nth-child(1){
+.subject>.unity3D_time>div>div:nth-child(1){
 	width: 100px;
 	border-right: 1px solid #e8e8e8;
 }
-.subject>div:nth-child(2)>div>div>p{
+.subject>.unity3D_time>div>div>p{
 	color: #666;
 	font-size: 1.4rem;
 }
-.subject>div:nth-child(2)>div>div>p:nth-child(2){
+.subject>.unity3D_time>div>div>p:nth-child(2){
 	font-size: 2rem;
 }
 .bdsharebuttonbox{
@@ -245,7 +245,7 @@
 	padding: 10px 20px 20px;
 	text-align: center;
 	color: #999;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .studing_details>p{
 	line-height: 25px;
