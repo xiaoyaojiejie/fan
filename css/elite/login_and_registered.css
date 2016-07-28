@@ -4,17 +4,17 @@
 	font-family: "微软雅黑";
 }
 /*8******************头部导航栏开始*@**********/
-nav{
+.nav{
 	width: 100%;
 	height: 90px;
 	background-color: white;
 }
-nav>div{
+.nav>div{
 	width: 1224px;
 	height: 100%;
 	margin: 0 auto;
 }
-nav>div>a{
+.nav>div>a{
 	float: left;
 	width: 215px;
 	height: 100%;
@@ -22,14 +22,14 @@ nav>div>a{
 	background-size: 100% 45px;
 	background-position-y: 50%;
 }
-nav>div>ul{
+.nav>div>ul{
 	float: right;
 }
-nav>div>ul>li{
+.nav>div>ul>li{
 	float: left;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
-nav>div>ul>li>a{
+.nav>div>ul>li>a{
 	display: inline-block;
 	width: 90px;
 	height: 90px;
@@ -38,10 +38,10 @@ nav>div>ul>li>a{
 	line-height: 90px;
 	color: #666;
 }
-nav>div>ul>li>a:hover{
+.nav>div>ul>li>a:hover{
 	color: #29B572;
 }
-nav>div>ul>li:nth-child(5)>a{
+.ask>a{
 	text-align: right;
 }
 /***************头部导航栏结束*****************/
@@ -60,9 +60,11 @@ nav>div>ul>li:nth-child(5)>a{
 .login_box{
 	float: right;
 	width: 325px;
-	background: linear-gradient(top,#e9f3ed,#f5faf2);
+	background-color: #e9f3ed;
 	background:-webkit-linear-gradient(top,#e9f3ed,#f5faf2);
 	background:-moz-linear-gradient(top,#e9f3ed,#f5faf2);
+	background:-ms-linear-gradient(top,#e9f3ed,#f5faf2);
+	background: linear-gradient(top,#e9f3ed,#f5faf2);
 }
 .btn_box{
 	width: 100%;
@@ -76,7 +78,7 @@ nav>div>ul>li:nth-child(5)>a{
 	text-align: center;
 	line-height: 50px;
 	color: black;
-	font-size: 1.6rem;
+	font-size: 16px;
 }
 .btn_box .a_btn_active{
 	border-bottom: 2px solid #29B572;
@@ -91,7 +93,7 @@ nav>div>ul>li:nth-child(5)>a{
 	display: block;
 	width: 100%;
 }
-.login form>div{
+.login_code,.login_password,.login_tel{
 	width: 100%;
 	height: 35px;
 	box-sizing: border-box;
@@ -101,15 +103,15 @@ nav>div>ul>li:nth-child(5)>a{
 	background: url(../../img/elite/login_icon.png) no-repeat;
 	background-color: white;
 }
-.login form>div:nth-of-type(1){
+.login_tel{
 	background-position: 3% -9%;
 	
 }
-.login form>div:nth-of-type(2){
+.login_password{
 	background-position: 3% 70%;
 	
 }
-.login form>div:nth-of-type(3){
+.login_code{
 	width: 100%;
 	height: 35px;
 	border: none;
@@ -118,14 +120,15 @@ nav>div>ul>li:nth-child(5)>a{
 	padding: 0;
 	margin-bottom: 10px;
 }
-.login form>div>input,.login form>div:nth-of-type(3)>div>input{
+.login form>div>input,.login_code>div>input{
 	width: 100%;
 	border: none;
 	border-left: 1px solid #ccc;
-	font-size: 1.4rem;
-	text-indent: 10px;
+	font-size: 14px;
+	box-sizing: border-box;
+	padding-left: 10px;
 }
-.login form>div:nth-of-type(3)>div{
+.login_code>div{
 	float: left;
 	width: 160px;
 	padding:8px 8px 8px 30px;
@@ -134,17 +137,17 @@ nav>div>ul>li:nth-child(5)>a{
 	background-position: 4% 30%;
 	background-color: white;
 }
-.login form>div:nth-of-type(3)>a{
+.login_code>a{
 	float: left;
     width: 70px;
     height: 37px;
     margin-left: 5px;
 }
-.login form>div:nth-of-type(3)>a>img{
+.login_code>a>img{
 	width: 100%;
     height: 100%;
 }
-.login form>div:nth-of-type(3)>span{
+.login_code>span{
 	display: none;
 	float: left;
     width: 70px;
@@ -154,7 +157,7 @@ nav>div>ul>li:nth-child(5)>a{
     line-height: 38px;
     background-color: #ccc;
     color: white;
-    font-size: 1.3rem;
+    font-size: 13px;
 }
 .login form>.checkbox{
 	width: 16px;
@@ -181,7 +184,7 @@ nav>div>ul>li:nth-child(5)>a{
 	height: 40px;
 	border: none;
 	background-color: #29B572;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 50px;	
@@ -191,9 +194,9 @@ nav>div>ul>li:nth-child(5)>a{
 	color: red;
 	text-indent: 20px;
 	margin-top: 10px;
-	background: url(../../img/secondterm/icon.png) no-repeat;
-	background-size: 14px;
-	background-position: 0px -133px;
+	background: url(../../img/elite/warning_icon.png) no-repeat;
+	background-size: 5%;
+	background-position: 0 2px;
 	
 }
 /***************登陆账号结束*****************/
@@ -201,7 +204,7 @@ nav>div>ul>li:nth-child(5)>a{
 .registered{
 	display: none;
 }
-.registered form>div{
+.registered_tel,.registered_code,.registered_password,.registered_repeat_password{
 	width: 100%;
 	height: 35px;
 	box-sizing: border-box;
@@ -211,13 +214,13 @@ nav>div>ul>li:nth-child(5)>a{
 	background: url(../../img/elite/login_icon.png) no-repeat;
 	background-color: white;
 }
-.registered form>div:nth-of-type(1){
+.registered_tel{
 	background-position: 3% -10%;
 }
-.registered form>div:nth-of-type(3){
+.registered_password{
 	background-position: 3% 70%;
 }
-.registered form>div:nth-of-type(4){
+.registered_repeat_password{
 	background-position: 3% 109%;
 }
 .registered form>div>input{
@@ -225,14 +228,14 @@ nav>div>ul>li:nth-child(5)>a{
 	border: none;
 	border-left: 1px solid #ccc;
 	text-indent: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
-.registered form>div:nth-of-type(2){
+.registered_code{
 	background: none;
 	padding: 0;
 	border: 0;
 }
-.registered form>div:nth-of-type(2)>div{
+.registered_code>div{
 	float: left;
 	width: 160px;
 	box-sizing: border-box;
@@ -242,14 +245,14 @@ nav>div>ul>li:nth-child(5)>a{
 	background-color: white;
 	background-position: 4% 30%;
 }
-.registered form>div:nth-of-type(2)>div>input{
+.registered_code>div>input{
 	width: 100%;
 	border: none;
 	border-left: 1px solid #ccc;
 	text-indent: 10px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
-.registered form>div:nth-of-type(2)>a{
+.registered_code>a{
 	display: block;
 	float: right;
 	width: 102px;
@@ -257,18 +260,18 @@ nav>div>ul>li:nth-child(5)>a{
 	border: 1px solid #29B572;
 	line-height: 35px;
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #29B572;
 	background-color: white;
 }
-.registered form>div:nth-of-type(2)>span{
+.registered_code>span{
 	display: none;
 	float: right;
 	width: 102px;
 	height: 35px;
 	line-height: 35px;
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: white;
 	background-color: #ccc;
 }
@@ -295,7 +298,7 @@ nav>div>ul>li:nth-child(5)>a{
 	height: 40px;
 	border: none;
 	background-color: #29B572;
-	font-size: 1.6rem;
+	font-size: 16px;
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 50px;	
@@ -304,7 +307,7 @@ nav>div>ul>li:nth-child(5)>a{
 	display: none;
 	color: red;
 	text-indent: 20px;
-	background: url(../../img/secondterm/icon.png) no-repeat;
+	background: url(../../img/elite/warning_icon.png) no-repeat;
 	background-position: 0 13%;
 	background-size: 5%;
 	margin-top: 10px;
@@ -312,7 +315,7 @@ nav>div>ul>li:nth-child(5)>a{
 /*底部*/
 .bg>p{
 	text-align: center;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666;
 	padding: 21px 0;
 }

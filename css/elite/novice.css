@@ -1,15 +1,14 @@
 .content_bg{
 	width: 100%;
-	height: 990px;
 	background-color: #f5f5f5;
 	overflow: hidden;
 	font-family: "微软雅黑";
 }
 .content{
 	width: 1224px;
-	height: 930px;
 	margin: 0 auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .content .menu{
 	float: left;
@@ -20,7 +19,7 @@
 }
 .content ul li a{
 	width: 170px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: black;
 	box-sizing: border-box;
 	padding-left: 20px;
@@ -34,21 +33,21 @@
 .body_content{
 	float: left;
 	width: 1039px;
-	height: 930px;
 	background-color: white;
+	padding-bottom: 15px;
 }
-.body_content>div{
+.what_is_elite{
 	display: none;
 }
-.body_content>div:nth-child(2){
+.what_is_elite_block{
 	display: block;
 }
 .body_content .what_is_elite{
 	width: 100%;
-	height: 100%;
+	margin-bottom: 15px;
 	box-sizing: border-box;
 	padding: 25px 35px 0;
-	font-size: 1.6rem;
+	font-size: 16px;
 }
 .body_content .what_is_elite div{
 	width: 500px;
@@ -61,24 +60,24 @@
 	line-height: 30px;
 	margin-bottom: 15px;
 }
-.body_content .what_is_elite p:nth-child(1){
-	font-size: 2.6rem;
+#what_is_elite_title{
+	font-size: 26px;
 	line-height: 50px;
 	text-indent: 0px;
 	margin-bottom: 0px;
 }
-.body_content .what_is_elite p:nth-child(2){
-	font-size: 1.3rem;
+#what_is_elite_from{
+	font-size: 13px;
 	color: #999;
 	line-height: 38px;
 	border-bottom: 1px solid #e8e8e8;
 	margin-bottom: 25px;
 	text-indent: 0px;
 }
-.body_content .what_is_elite p:nth-child(2)>span:nth-child(1){
+#what_is_elite_from .timer{
 	display: inline-block;
 	margin-right: 15px;
 }
-.body_content .what_is_elite p:nth-child(5){
+.last_content{
 	margin-bottom:15px ;
 }
