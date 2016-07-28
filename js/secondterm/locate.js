@@ -55,10 +55,14 @@ window.onload = function() {
 		if (flag) {
 			dropbox.style.backgroundPosition = "240px -582px";
 			dropboxOn.style.display = "block";
+			cancel.style.display = "none";
+			confirm.style.display = "none";
 			flag = false;
 		}else {
 			dropboxOn.style.display = "none";
 			dropbox.style.backgroundPosition = "240px -564px";
+			cancel.style.display = "block";
+			confirm.style.display = "block";
 			flag = true;
 		}
 		
@@ -70,6 +74,8 @@ window.onload = function() {
 			dropbox.innerHTML = this.innerHTML;
 			dropboxOn.style.display = "none";
 			dropbox.style.backgroundPosition = "240px -564px";
+			cancel.style.display = "block";
+			confirm.style.display = "block";
 			flag = true;
 		}
 	}

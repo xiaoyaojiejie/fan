@@ -582,7 +582,7 @@ section {
 aside {
 	position: fixed;
 	bottom: 0;
-/*	right: 200px;*/
+	left: 1547px;
 }
 aside ul {
 	width: 60px;

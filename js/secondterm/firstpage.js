@@ -3,6 +3,9 @@ window.onload = function() {
 	var imglist = document.querySelectorAll(".container img");
 	var spanlist = document.querySelectorAll("#pagination span");
 	var wrapper = document.querySelector(".wrapper");
+	var lunbo1 = document.getElementById("lunbo1");
+	var lunbo2 = document.getElementById("lunbo2");
+	var lunbo3 = document.getElementById("lunbo3");
 	
 	//轮播图
 	var a = document.createElement("a");
@@ -113,6 +116,20 @@ window.onload = function() {
 	goleft.onclick = function() {
 		longe.style.left = -oleft + 165 + "px";
 	}
+	
+	var xhr = new XMLHttpRequest();
+	var x = location.search;
+	var reg1 = /\?/g;
+	x = x.replace(reg1,"");
+	var t = x;
+	var url = "../secondterm/transfer.php";
+	xhr.open("get",url);
+	xhr.responseType = "json";
+	xhr.send(null);
+	
+//	xhr.onload = function() {
+//		lunbo1.src = 
+//	}
 }
 
 
