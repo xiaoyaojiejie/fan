@@ -81,7 +81,7 @@
 	float: left;
 	width: 963px;
 }
-.learning_situation>p:nth-child(1){
+.learning_situation_text{
 	font-size: 14px;
 	color: #a9a9a9;
 	line-height: 45px;
@@ -94,7 +94,7 @@
 	float: right;
 	color: #666;
 }
-.learning_situation>ul>li>span:nth-of-type(1){
+#learning_situation_span1{
 	float: left;
 	color: black;
 }
@@ -105,20 +105,20 @@
 	background-color: #ccc;
 	margin: 17px 157px 0 20px;
 }
-.learning_situation>ul>li:nth-child(3)>div{
+#learning_situation_li3>div{
 	margin-left: 13px;
 }
 .learning_situation>ul>li>div>div{
 	height: 4px;
 	background-color: #29b572;
 }
-.learning_situation>ul>li:nth-child(1)>div>div{
+#learning_situation_li1>div>div{
 	width: 45%;
 }
-.learning_situation>ul>li:nth-child(2)>div>div{
+#learning_situation_li2>div>div{
 	width: 20%;
 }
-.learning_situation>ul>li:nth-child(3)>div>div{
+#learning_situation_li3>div>div{
 	width: 100%;
 }
 /**************头像与学习情况结束**********************/
@@ -391,7 +391,7 @@
 	line-height: 40px;
 	text-indent: 15px;
 }
-.ios_homework_title div p:nth-child(1){
+#ios_homework_p1{
 	color: #999;
 	border-bottom: 1px solid #ededed;
 	text-indent: 0;
@@ -414,7 +414,7 @@
 	line-height: 40px;
 	text-indent: 15px;
 }
-.Androad_homework_title div p:nth-child(1){
+#Androad_homework_p1{
 	color: #999;
 	border-bottom: 1px solid #ededed;
 	text-indent: 0;
@@ -521,35 +521,33 @@
 .promo_code>div{
 	border:1px solid;
 	width: 433px;
-	height: 195px;
-	float: left;
 	text-align: center;
 	margin-top: 60px;
 }
-.promo_code>div:nth-child(1){
+.effective_code{
 	color: #29B572;
 	float: left;
 }
-.promo_code>div:nth-child(2){
+.overdue_code{
 	color: #c7c7c7;
 	float: right;
 }
-.promo_code>div>p:nth-child(1){
+.value{
 	font-size: 64px;
 	margin-top: 15px;
 }
-.promo_code>div>p:nth-child(1)>span{
+.value>span{
 	font-size: 18px;
 }
-.promo_code>div>p:nth-child(4){
+.effective_time,.overdue_time{
 	margin-top: 23px;
 	color: white;
 	line-height: 25px;
 }
-.promo_code>div:nth-child(1)>p:nth-child(4){
+.effective_time{
 	background-color: #29B572;
 }
-.promo_code>div:nth-child(2)>p:nth-child(4){
+.overdue_time{
 	background-color: #c7c7c7;
 }
 /**************优惠码结束**********************/
@@ -584,9 +582,9 @@
 .students_information span{
 	font-size: 14px;
 }
-.students_information label:nth-of-type(1) span{
+.label1 span{
 	display: inline-block;
-	text-indent: 24px;
+	text-indent: 28px;
 }
 .students_information>a{
 	width: 130px;

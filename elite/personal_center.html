@@ -61,9 +61,9 @@
 				<div class="learning_situation">
 					<p>学习情况：</p>
 					<ul>
-						<li class="clearfix"><span>网页开发（HTML+CSS+JavaScript 从入门到精通）【职坐标】</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>4分钟/10分钟</span></li>
-						<li class="clearfix"><span>AutoCAD工程制图基础入门与提高</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>2分钟/10分钟</span></li>
-						<li class="clearfix"><span>AutoCAD工程制图基础入门与提高</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>10分钟/10分钟</span></li>
+						<li class="clearfix" id="learning_situation_li1"><span id="learning_situation_span1">网页开发（HTML+CSS+JavaScript 从入门到精通）【职坐标】</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>4分钟/10分钟</span></li>
+						<li class="clearfix" id="learning_situation_li2"><span id="learning_situation_span1">AutoCAD工程制图基础入门与提高</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>2分钟/10分钟</span></li>
+						<li class="clearfix" id="learning_situation_li3"><span id="learning_situation_span1">AutoCAD工程制图基础入门与提高</span><span>当前分数：98分</span><div class="progress_bar_gray"><div class="progress_bar_green"></div></div><span>10分钟/10分钟</span></li>
 					</ul>
 				</div>
 			</div>
@@ -163,7 +163,7 @@
 						<div class="homework_title">
 							<div class="ios_homework_title">
 								<div>
-									<p>ios第一课~第十课</p>
+									<p id="ios_homework_p1">ios第一课~第十课</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
 									<p>Androad项目开发实战：语音播报计算器</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
@@ -174,7 +174,7 @@
 									<p>Androad项目开发实战：语音播报计算器</p>
 								</div>
 								<div>
-									<p>ios第一课~第十课</p>
+									<p id="ios_homework_p1">ios第一课~第十课</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
 									<p>Androad项目开发实战：语音播报计算器</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
@@ -187,7 +187,7 @@
 							</div>
 							<div class="Androad_homework_title">
 								<div>
-									<p>Androad第一课~第十课</p>
+									<p id="Androad_homework_p1">Androad第一课~第十课</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
 									<p>Androad项目开发实战：语音播报计算器</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
@@ -198,7 +198,7 @@
 									<p>Androad项目开发实战：语音播报计算器</p>
 								</div>
 								<div>
-									<p>Androad第一课~第十课</p>
+									<p id="Androad_homework_p1">Androad第一课~第十课</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
 									<p>Androad项目开发实战：语音播报计算器</p>
 									<p>网页开发（HTML+CSS+JavaScript从入门到精通）【职坐标】</p>
@@ -225,17 +225,17 @@
 					<div class="promo_code_box">
 						<p>恭喜你以优异的成绩完成了学科学习，以下是你的奖学金，助你在大神的道路上一臂之力，以资鼓励！</p>
 						<div class="promo_code clearfix">
-							<div>
-								<p>3000.00<span>元</span></p>
+							<div class="effective_code">
+								<p class="value">3000.00<span>元</span></p>
 								<p>来源：ios科目</p>
 								<p>可用范围：可抵扣蓝欧ios就业班学费与报名费</p>
-								<p>有效期：2015年10月30日-2015年1月30日</p>
+								<p class="effective_time">有效期：2015年10月30日-2015年1月30日</p>
 							</div>
-							<div>
-								<p>1000.00<span>元</span></p>
+							<div class="overdue_code">
+								<p class="value">1000.00<span>元</span></p>
 								<p>来源：ios科目</p>
 								<p>可用范围：可抵扣蓝欧ios就业班学费与报名费</p>
-								<p>已失效</p>
+								<p class="overdue_time">已失效</p>
 							</div>
 						</div>
 					</div>
@@ -243,7 +243,7 @@
 					<div class="students">
 						<div class="students_information">
 							<p>在校生信息</p>
-							<label><span>姓名：</span><input type="text" /></label><br />
+							<label class="label1"><span>姓名：</span><input type="text" /></label><br />
 							<label><span>所在学校：</span><input type="text" /></label><br />
 							<label><span>所在系别：</span><input type="text" /></label><br />
 							<label><span>所在专业：</span><input type="text" /></label><br />

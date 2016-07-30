@@ -1,15 +1,15 @@
-.learning_situation>p:nth-child(2){
+.no_learning{
 	color: #999;
 	font-size: 1.4rem;
 	text-align: center;
 	margin-top: 35px;
 }
-.learning_situation>p>span{
+.no_learning span{
 	display: inline-block;
-	width: 16px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	background: url(../../img/elite/icon_center.png) no-repeat;
-	background-size: 350% 100%;
+	/*background-size: 350% 100%;*/
 	background-position: 2%;
 	vertical-align: middle;
 }
@@ -30,7 +30,7 @@
 	margin-bottom: 410px;
 	overflow: hidden;
 }
-.ios_homework_title div p:nth-child(1),.Androad_homework_title div p:nth-child(1){
+.ios_record_homework,.Androad_homework_homework{
 	border: none;
 	margin: 0;
 	line-height: 20px;
