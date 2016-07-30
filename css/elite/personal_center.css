@@ -17,7 +17,7 @@
 	width: 144px;
 	height: 49px;
 	color: #333;
-	font-size: 1.6rem;
+	font-size: 16px;
 	border-bottom: 1px solid #e8e8e8;
 }
 .Androad_course_btn{
@@ -66,7 +66,7 @@
 	display: none;
 }
 .header_and_name>p{
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 26px;
 }
 .simulation_modify{
@@ -82,12 +82,12 @@
 	width: 963px;
 }
 .learning_situation>p:nth-child(1){
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #a9a9a9;
 	line-height: 45px;
 }
 .learning_situation>ul>li{
-	font-size: 1.4rem;
+	font-size: 14px;
 	line-height: 35px;
 }
 .learning_situation>ul>li>span{
@@ -177,7 +177,7 @@
 	width: 144px;
 	height: 44px;
 	color: #333;
-	font-size: 1.6rem;
+	font-size: 16px;
 }
 .learning_curve_top .course_btn_box .course_btn_active{
 	border-top: 5px solid #29B572;
@@ -190,7 +190,7 @@
 	overflow: hidden;
 }
 .learning_curve_top .course_graph>div>p{
-	font-size: 1.6rem;
+	font-size: 16px;
 	text-indent: 30px;
 	margin-top: 50px;
 	margin-bottom: 14px;
@@ -243,7 +243,7 @@
 	height: 375px;
 	background-color: white;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 16px;
 	overflow: hidden;
 }
 .learning_curve_bottom .record div{
@@ -279,7 +279,7 @@
 	width: 144px;
 	height: 49px;
 	color: #333;
-	font-size: 1.6rem;
+	font-size: 16px;
 	border-bottom: 1px solid #e8e8e8;
 }
 .my_class_top .course_btn_box .course_btn_active{
@@ -304,7 +304,7 @@
 	overflow: hidden;
 }
 .my_class_top .histogram_graph>div>p{
-	font-size: 1.6rem;
+	font-size: 16px;
 	text-indent: 30px;
 	margin-top: 32px;
 	margin-bottom: 14px;
@@ -357,7 +357,7 @@
 	height: 375px;
 	background-color: white;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 16px;
 	overflow: hidden;
 }
 .my_class_bottom .record div{
@@ -385,7 +385,7 @@
 	height: 50%;
 	box-sizing: border-box;
 	padding: 20px 0 20px 30px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .ios_homework_title div p{
 	line-height: 40px;
@@ -408,7 +408,7 @@
 	height: 50%;
 	box-sizing: border-box;
 	padding: 20px 0 20px 30px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .Androad_homework_title div p{
 	line-height: 40px;
@@ -436,7 +436,7 @@
 }
 .fill_password>p{
 	margin-left: 120px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 }
 .fill_password input{
@@ -448,27 +448,27 @@
 }
 .password_text{
 	display: inline-block;
-	text-indent: 2.4rem;
-	font-size: 1.4rem;
+	text-indent: 28px;
+	font-size: 14px;
 }
 .new_password_text{
 	display: inline-block;
-	text-indent: 3.5rem;
-	font-size: 1.4rem;
+	text-indent: 42px;
+	font-size: 14px;
 }
 .repeat_password_text{
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .password_prompt{
 	color: #999;
 	margin-left: 5px;
-	font-size: 1.2rem;
+	font-size: 12px;
 }
 .fill_password>a{
 	display: block;
 	width: 135px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: white;
 	line-height: 40px;
 	text-align: center;
@@ -511,7 +511,7 @@
 	color: #999;
 	text-indent: 10px;
 	line-height: 50px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	border-bottom: 1px solid #f2f2f2;
 }
 .promo_code{
@@ -535,11 +535,11 @@
 	float: right;
 }
 .promo_code>div>p:nth-child(1){
-	font-size: 6.4rem;
+	font-size: 64px;
 	margin-top: 15px;
 }
 .promo_code>div>p:nth-child(1)>span{
-	font-size: 1.8rem;
+	font-size: 18px;
 }
 .promo_code>div>p:nth-child(4){
 	margin-top: 23px;
@@ -567,7 +567,7 @@
 	margin-top: 70px;
 }
 .students_information>p{
-	font-size: 2.2rem;
+	font-size: 22px;
 	color: black;
 	margin-bottom: 55px;
 }
@@ -577,21 +577,21 @@
 	border: 1px solid #e0e0e0;
 	margin-bottom: 15px;
 	margin-left: 20px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	box-sizing: border-box;
 	padding-left: 10px;
 }
 .students_information span{
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .students_information label:nth-of-type(1) span{
 	display: inline-block;
-	text-indent: 2.4rem;
+	text-indent: 24px;
 }
 .students_information>a{
 	width: 130px;
 	display: block;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: white;
 	background-color: #29B572;
 	line-height: 40px;

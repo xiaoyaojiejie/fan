@@ -94,7 +94,7 @@
 	line-height: 90px;
 	margin-right: 38px;
 }
-.tab > li:nth-child(6) {
+.tab > .tab6 {
 	margin-right: 0;
 }
 .tab a {
@@ -111,7 +111,7 @@
 	background: url(../img/secondterm/spirit2.png) no-repeat;
 	background-position: 0 -167px;
 }
-.tab > li:nth-child(6)>a:hover span {
+.tab > .tab6>a:hover span {
 	background-position: 0 -459px
 }
 /*登录/注册*/
@@ -155,7 +155,7 @@
 	float: left;
 	margin-left: 40px;
 }
-.friendlink > li:nth-child(1) {
+.friendlink > li.fri1 {
 	margin-left: 0;
 	font-size: 22px;
 	color: #333333;
@@ -164,10 +164,10 @@
 	font-size: 14px;
 	color: #676767;
 }
-.friendlink > li:nth-child(6) {
+.friendlink > li.fri6 {
 	float: right;
 }
-.friendlink > li:nth-child(6) span {
+.friendlink > li.fri6 span {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
@@ -190,12 +190,12 @@
 .link li {
 	line-height: 28px;
 }
-.link li:nth-of-type(1) {
+li.lin1,li.lin2,li.lin3,li.lin4,li.lin5 {
 	font-size: 14px;
 	color: #333;
 	margin-bottom: 30px;
 }
-.link a:nth-of-type(1),.link a:nth-of-type(2),.link a:nth-of-type(3),.link a:nth-of-type(4) {
+.link a {
 	font-size: 13px;
 	color: #676767;
 }
@@ -211,7 +211,7 @@
 	margin-right: 0;
 	text-align: center;
 }
-.app > li:nth-child(1) {
+.app > li.app1 {
 	margin-bottom: 10px;
 }
 /*版权信息*/

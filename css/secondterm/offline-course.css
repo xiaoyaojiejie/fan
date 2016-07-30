@@ -3,7 +3,7 @@
 body {
 	background-color: #f5f5f5;
 }
-section {
+.section {
 	width: 1224px;
 	height: 1120px;
 	margin: 0 auto;
@@ -28,7 +28,7 @@ section {
 .top li,.bottom li {
 	display: inline-block;
 	margin-left: 50px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #333333;
 	cursor: pointer;
 }
@@ -49,19 +49,19 @@ section {
 	background: url(../../img/secondterm/spirit2.png) no-repeat;
 	background-position: 0 -824px;
 }
-.top li:nth-child(1),.bottom li:nth-child(1) {
+#cla1,#bot1 {
 	margin-left: 0;
 	cursor: auto;
 }
-.top li:nth-child(2),.bottom li:nth-child(2) {
+#cla2,#bot2 {
 	margin-left: 25px;
 	text-align: center;
 	line-height: 28px;
 	cursor:auto;
 }
-.top li:nth-child(3),.bottom li:nth-child(3) {
+#cla3,#bot3 {
 	margin-left: 30px;
-	font-size: 1.4rem;
+	font-size: 14px;
 }
 .top .active,.bottom .active {
 	color: #29b572;
@@ -75,7 +75,7 @@ section {
 	
 }
 .validate {
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #666;
 	text-align: center;
 	line-height: 45px;
@@ -118,20 +118,24 @@ section {
 	position: absolute;
 	top: 10px;
 	right: 25px;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #999;
 }
 .video {
 	width: 1174px;
 	margin: 25px auto;
 }
-.video li {
+#wrapperimg {
+	width: 215px;
+	height: 130px;
+}
+.video > li {
 	float: left;
 	margin-left: 18px;
-	margin-bottom: 40px;
 	width: 220px;
+	margin-bottom: 40px;
 }
-.video li:nth-child(1),.video li:nth-child(6),.video li:nth-child(11) {
+.video li.vid1,.video li.vid6,.video li.vid11 {
 	margin-left: 0;
 }
 .video img {
@@ -141,29 +145,39 @@ section {
 .video div {
 	position: relative;
 }
-.video div p:nth-child(1) {
-	font-size: 1.5rem;
+.video div p.loc1 {
+	font-size: 15px;
 	color: #333333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
-.video div p:nth-child(2) {
-	font-size: 1.2rem;
+.video div p.loc2 {
+	font-size: 12px;
 	color: #808080;
 	margin-bottom: 5px;
 }
-.video div span:nth-child(3) {
+.video div span.loc3 {
 	font-family: "arial";
 	font-weight: bold;
-	font-size: 1.4rem;
+	font-size: 14px;
 	color: #ea9b65;
 }
-.video div span:nth-child(4) {
+.video div span.loc4 {
 	font-family: "arial";
 	font-weight: bold;
-	font-size: 2.2rem;
+	font-size: 22px;
 	color: #ea9b65;
 }
-.video div del:nth-child(5),.video div span:nth-child(6) {
-	font-size: 1.2rem;
+.hassold {
+	position: absolute;
+	right: 40px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #999;
+}
+.video div del.loc5,.video div span.loc6 {
+	font-size: 12px;
 	color: #999;
 }
 #sellcount {
@@ -182,11 +196,11 @@ section {
 }
 .pages a,.pages li {
 	height: 30px;
-	font-size: 1.3rem;
+	font-size: 13px;
 	color: #666666;
 	text-align: center;
 	line-height: 30px;
-	padding: 0 10px;
+	padding: 0 8px;
 	border: 1px solid #cccccc;
 }
 .pages ul {
@@ -198,7 +212,7 @@ section {
 	display: inline-block;
 	cursor: pointer;
 }
-.pages li:nth-of-type(10) {
+.pages li.li10 {
 	border: 0;
 }
 .pages .selected {
