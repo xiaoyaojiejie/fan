@@ -579,11 +579,7 @@ body {
 .aside {
 	position: fixed;
 	bottom: 0;
-<<<<<<< HEAD
-	/*right: 100px;*/
-=======
 	left: 1547px;
->>>>>>> b8521ed2b5e9532c2fd2c4c440879b67e76265a9
 }
 .aside ul {
 	width: 60px;
@@ -620,6 +616,9 @@ body {
 	background: url(../../img/secondterm/zaixianliuyan.png) no-repeat;
 	/*background-size: 45%;*/
 	background-position: 50% 20%;
+}
+.img5 {
+	vertical-align: top;
 }
 #weixinpublic {
 	position: absolute;
