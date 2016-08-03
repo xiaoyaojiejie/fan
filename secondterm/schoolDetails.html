@@ -116,7 +116,7 @@
 
 		<div class="shccon">
 			<div class="conLeft">
-				<ul class="nav clearfix">
+				<ul class="conLeft_nav clearfix">
 					<li>
 						<a href="javascript:void(0);">本校课程</a>
 					</li>
@@ -416,7 +416,7 @@
 									<li>7</li>
 									<li>8</li>
 									<li>9</li>
-									<li>...</li>
+									<li id="selected10">...</li>
 									<li>100</li>
 								</ul>
 								<a id="next" href="javascript:history.go(1)">下一页</a>
@@ -660,11 +660,11 @@
 	<!-- <script src="../js/secondterm/locate.js" type="text/javascript" charset="utf-8"></script> -->
 	<script type="text/javascript">
 		$(function() {
-			$(".nav li").click(function() {
+			$(".conLeft_nav>li").click(function() {
 				var index = $(this).index();
 
 				$(".wrap>div").eq(index).show().siblings().hide();
-				$(".line1").css({
+				$(".line1").animate({
 					left:$(this).position().left
 				})
 				

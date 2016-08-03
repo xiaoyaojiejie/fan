@@ -477,7 +477,7 @@ body {
 }
 /*页码*/
 .pages {
-	width: 560px;
+	width: 600px;
 	height: 30px;
 	margin: 0 auto;
 }
@@ -485,7 +485,7 @@ body {
 	float: left;
 }
 .pages a,.pages li {
-	height: 30px;
+	height: 28px;
 	font-size: 13px;
 	color: #666666;
 	text-align: center;
@@ -502,7 +502,7 @@ body {
 	display: inline-block;
 	cursor: pointer;
 }
-.pages li:nth-of-type(10) {
+#selected10 {
 	border: 0;
 }
 .pages .selected {
