@@ -4,6 +4,9 @@
 	font-family: "微软雅黑";
 	overflow: hidden;
 }
+#li_ask{
+	margin-right: 0;	
+}
 /**************个人中心灰色变白按钮公共样式开始**********************/
 .course_btn_box{
 	width: 1037px;
